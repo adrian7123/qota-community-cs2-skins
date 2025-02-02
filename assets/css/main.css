@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: dracula --default;
+}
+
+@theme {
+  --color-counter-terrorist: #304359;
+  --color-terrorist: #554b2b;
+}
