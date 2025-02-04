@@ -1,0 +1,9 @@
+{
+  "extends": [
+    // Solve from `import("@nuxtjs/eslint-config").then(mod => mod.default)`
+    "@nuxtjs"
+  ],
+  "rules": {
+    // ...
+  }
+}

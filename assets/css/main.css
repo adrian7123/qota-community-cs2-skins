@@ -8,3 +8,16 @@
   --color-counter-terrorist: #304359;
   --color-terrorist: #554b2b;
 }
+
+.translation-card {
+  background-color: var(--color-terrorist);
+
+  transition: transform 0.4s;
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.translation-card:hover {
+  transform: scale(1.06);
+  filter: brightness(70%);
+}
