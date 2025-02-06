@@ -1,9 +1,9 @@
 export default defineEventHandler(async (event) => {
   const { steamId } = getQuery(event)
-  const db = useDatabase()
+  // const db = useDatabase()
 
-  // Create users table
-  await db.sql`DROP TABLE IF EXISTS users`
+  // // Create users table
+  // await db.sql`DROP TABLE IF EXISTS users`
 
   if (!steamId) {
     return {
