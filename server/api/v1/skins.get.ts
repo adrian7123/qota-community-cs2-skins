@@ -1,9 +1,9 @@
 export default defineEventHandler(async (event) => {
   const { steamId } = getQuery(event)
-  // const db = useDatabase()
+  const db = useDatabase()
 
-  // // Create users table
-  // await db.sql`DROP TABLE IF EXISTS users`
+  // Create users table
+  const res = await db.sql`SELECT * from wp_player_skins`
 
   if (!steamId) {
     return {
@@ -16,9 +16,6 @@ export default defineEventHandler(async (event) => {
 
   return {
     status: 200,
-    body: {
-      message: `Você solicitou a skin com ID: ${steamId}`,
-      id: steamId
-    }
+    res
   }
 })

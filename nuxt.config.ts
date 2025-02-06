@@ -16,10 +16,13 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
   nitro: {
+    experimental: {
+      database: true
+    },
     database: {
       default: {
         connector: "mysql2",
-        options: { url: import.meta.env.NUXT_APP_DATABASE_URL }
+        options: { uri: import.meta.env.NUXT_APP_DATABASE_URL }
       }
     }
   }
