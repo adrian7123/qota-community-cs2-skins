@@ -1,13 +1,13 @@
 <script lang="ts" setup>
-const route = useRoute();
+const route = useRoute()
 
-const store = useAuthStore();
+const store = useAuthStore()
 
 onBeforeMount(() => {
   if (route.query["openid.mode"] === "id_res") {
-    store.saveUser(route.query);
+    store.saveUser(route.query).then(() => reloadNuxtApp({ path: "/" }))
   }
-});
+})
 </script>
 <template>
   <div class="flex bg-primary h-screen w-screen items-center justify-center">

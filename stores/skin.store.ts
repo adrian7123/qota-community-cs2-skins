@@ -1,18 +1,37 @@
 import axios from "axios"
-import { defineStore } from "pinia"
 import type { Skin } from "~/models/skin.model"
 
 export const useSkinStore = defineStore("useSkinStore", {
   state: () => ({
     skins: [] as Skin[],
-    agents: [] as Skin[]
+    agents: [] as Skin[],
+    musics: [] as Skin[],
+    keychains: [] as Skin[]
   }),
   actions: {
+    initialize(): void {
+      const skins = localStorage.getItem("@skins")
+      const agents = localStorage.getItem("@agents")
+      const musics = localStorage.getItem("@musics")
+      const keychains = localStorage.getItem("@keychains")
+
+      if (skins) this.skins = JSON.parse(skins)
+      if (agents) this.agents = JSON.parse(agents)
+      if (musics) this.musics = JSON.parse(musics)
+      if (keychains) this.keychains = JSON.parse(keychains)
+
+      Promise.all([
+        this.fetchSkins(),
+        this.fetchAgents(),
+        this.fetchMusics(),
+        this.fetchKeychains()
+      ])
+    },
     async fetchSkins(): Promise<Skin[] | undefined> {
       try {
         const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/skins.json")
 
-        this.setSkins(res.data)
+        localStorage.setItem("@skins", JSON.stringify(res.data))
 
         return res.data
       } catch (error) {
@@ -23,34 +42,34 @@ export const useSkinStore = defineStore("useSkinStore", {
       try {
         const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/agents.json")
 
-        this.setAgents(res.data)
+        localStorage.setItem("@agents", JSON.stringify(res.data))
 
         return res.data
       } catch (error) {
         console.error(error)
       }
     },
-    initialize(): void {
-      const skins = localStorage.getItem("@skins")
-      const agents = localStorage.getItem("@agents")
-      if (skins) {
-        this.skins = JSON.parse(skins)
-      }
+    async fetchMusics(): Promise<Skin[] | undefined> {
+      try {
+        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/music_kits.json")
 
-      if (agents) {
-        this.agents = JSON.parse(agents)
-      }
+        localStorage.setItem("@musics", JSON.stringify(res.data))
 
-      this.fetchSkins()
-      this.fetchAgents()
+        return res.data
+      } catch (error) {
+        console.error(error)
+      }
     },
-    setSkins(skins: Skin[]): void {
-      this.skins = skins
-      localStorage.setItem("@skins", JSON.stringify(skins))
-    },
-    setAgents(agents: Skin[]): void {
-      this.agents = agents
-      localStorage.setItem("@agents", JSON.stringify(agents))
+    async fetchKeychains(): Promise<Skin[] | undefined> {
+      try {
+        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/keychains.json")
+
+        localStorage.setItem("@keychains", JSON.stringify(res.data))
+
+        return res.data
+      } catch (error) {
+        console.error(error)
+      }
     }
   }
 })

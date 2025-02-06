@@ -10,7 +10,7 @@
 }
 
 .translation-card {
-  background-color: var(--color-terrorist);
+  background-color: transparent;
 
   transition: transform 0.4s;
 

@@ -1,4 +1,9 @@
+<script lang="ts" setup>
+const global = useGlobalStore()
+</script>
+
 <template>
-  <Header />
+  <MyHeader />
   <NuxtPage />
+  <FullScreenLoader v-if="global.loading" />
 </template>
