@@ -5,12 +5,18 @@ const props = defineProps({
   weapon: Object,
   agent: Boolean,
   knife: Boolean,
-  gloves: Boolean
+  gloves: Boolean,
+  music: Boolean,
+  team: String
 })
 
 const skins = computed(() => {
   if (props.agent) {
-    return store.agents
+    return store.agents.filter((a) => a.team.id === props.team)
+  }
+
+  if (props.music) {
+    return store.musics.filter((a) => !a.name.toLowerCase().includes("stattrak"))
   }
 
   if (props.knife) {
@@ -29,8 +35,6 @@ const skins = computed(() => {
     <div class="flex h-[700px]">
       <div class="flex-1"></div>
       <div class="flex-1">
-        {{ props.weapon }}
-
         <div class="mt-4 grid grid-cols-2 gap-4 max-h-[700px]">
           <div
             v-for="item in skins"

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import type { Skin } from "~/models/skin.model"
-import { type Cs2Weapon } from "~/shared/helpers/cs2.helper"
+import type { Cs2Weapon, Skin } from "~/models/skin.model"
 import InventoryCard from "./InventoryCard.vue"
 
 const props = defineProps({

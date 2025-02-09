@@ -4,7 +4,10 @@ import tailwindcss from "@tailwindcss/vite"
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Qota Community Skins"
+      title: "Qota Community Skins",
+      htmlAttrs: {
+        lang: "pt-br"
+      }
     }
   },
   ssr: true,

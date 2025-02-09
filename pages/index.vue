@@ -12,16 +12,18 @@ const helper = new Cs2Helper()
 const pistols = ref<any>([])
 const mid = ref<any>([])
 const high = ref<any>([])
+const agent = ref<any>([])
 
 const knives = helper.knives()
 const gloves = helper.gloves()
+const music = helper.musics()[0]
 
 onMounted(async () => {
-  const res = await $fetch("/api/v1/skins", {
-    query: {
-      steamId: auth.steamId
-    }
-  })
+  // const res = await $fetch("/api/v1/skins", {
+  //   query: {
+  //     steamId: auth.steamId
+  //   }
+  // })
 
   store.initialize()
 
@@ -30,6 +32,7 @@ onMounted(async () => {
   pistols.value = helper.pistols(team.value ? "ct" : "t")
   mid.value = helper.mid(team.value ? "ct" : "t")
   high.value = helper.rifles(team.value ? "ct" : "t")
+  agent.value = helper.agents(team.value ? "ct" : "t")[0]
 })
 
 watch(team, async (newVal) => {
@@ -42,11 +45,8 @@ watch(team, async (newVal) => {
   pistols.value = helper.pistols(newVal ? "ct" : "t")
   mid.value = helper.mid(newVal ? "ct" : "t")
   high.value = helper.rifles(newVal ? "ct" : "t")
+  agent.value = helper.agents(newVal ? "ct" : "t")[0]
 })
-
-const openModal = (key: string) => {
-  ;(document.getElementById(key) as any)?.showModal()
-}
 
 const skinKnives = computed(() => {
   return store.skins?.filter((k) => k.category?.name === "Knives")
@@ -55,7 +55,9 @@ const skinGloves = computed(() => {
   return store.skins?.filter((k) => k.category?.name === "Gloves")
 })
 const skinAgents = computed(() => {
-  return store.agents?.filter((k) => k.team?.id === "terrorists")
+  return store.agents?.filter(
+    (k) => k.team?.id === (team.value ? "counter-terrorists" : "terrorists")
+  )
 })
 </script>
 
@@ -87,6 +89,18 @@ const skinAgents = computed(() => {
           <div>
             <p class="text-2xl font-bold">Gloves</p>
             <HomeInventoryCard :item="gloves[0]" gloves />
+          </div>
+          <div class="mr-2">
+            <p class="text-2xl font-bold">Agents</p>
+            <HomeInventoryCard
+              :item="agent"
+              agent
+              :team="team ? 'counter-terrorists' : 'terrorists'"
+            />
+          </div>
+          <div>
+            <p class="text-2xl font-bold">Music</p>
+            <HomeInventoryCard :item="music" music />
           </div>
         </div>
       </div>

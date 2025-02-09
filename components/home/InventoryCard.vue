@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import type { Skin } from "~/models/skin.model"
-import type { Cs2Weapon } from "~/shared/helpers/cs2.helper"
+import type { Cs2Weapon, Skin } from "~/models/skin.model"
 
 const props = defineProps({
   item: {
@@ -9,10 +8,17 @@ const props = defineProps({
   },
   agent: Boolean,
   knife: Boolean,
-  gloves: Boolean
+  gloves: Boolean,
+  music: Boolean,
+  team: String
 })
+
+const show = ref(false)
+
 const openModal = (item: any) => {
-  ;(document.getElementById(item) as any)?.showModal()
+  show.value = true
+  const modal = document.getElementById(item) as any
+  modal.showModal()
 }
 </script>
 <template>
@@ -27,10 +33,13 @@ const openModal = (item: any) => {
     </div>
     <dialog :id="item.id" class="modal">
       <HomeInventoryModal
+        v-if="show"
         :weapon="item"
         :agent="props.agent"
         :knife="props.knife"
         :gloves="gloves"
+        :music="music"
+        :team="team"
       />
     </dialog>
   </div>
