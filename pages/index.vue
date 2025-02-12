@@ -18,12 +18,13 @@ const knives = helper.knives()
 const gloves = helper.gloves()
 const music = helper.musics()[0]
 
-onMounted(async () => {
-  // const res = await $fetch("/api/v1/skins", {
-  //   query: {
-  //     steamId: auth.steamId
-  //   }
-  // })
+const knife = onMounted(async () => {
+  global.show()
+  const res = await $fetch("/api/v1/skins", {
+    query: {
+      steamId: auth.steamId
+    }
+  })
 
   store.initialize()
 
@@ -33,6 +34,7 @@ onMounted(async () => {
   mid.value = helper.mid(team.value ? "ct" : "t")
   high.value = helper.rifles(team.value ? "ct" : "t")
   agent.value = helper.agents(team.value ? "ct" : "t")[0]
+  global.hide()
 })
 
 watch(team, async (newVal) => {
@@ -49,15 +51,19 @@ watch(team, async (newVal) => {
 })
 
 const skinKnives = computed(() => {
-  return store.skins?.filter((k) => k.category?.name === "Knives")
+  return store.skins?.filter((k) => k.category?.name === "Knives" && !k.id.includes("vanilla"))
 })
 const skinGloves = computed(() => {
-  return store.skins?.filter((k) => k.category?.name === "Gloves")
+  return store.skins?.filter((k) => k.category?.name === "Gloves" && !k.id.includes("vanilla"))
 })
 const skinAgents = computed(() => {
   return store.agents?.filter(
     (k) => k.team?.id === (team.value ? "counter-terrorists" : "terrorists")
   )
+})
+
+const skinMusics = computed(() => {
+  return store.musics.filter((a) => !a.name.toLowerCase().includes("stattrak"))
 })
 </script>
 
@@ -84,23 +90,28 @@ const skinAgents = computed(() => {
         <div class="col-span-2 grid grid-cols-1 lg:grid-cols-2">
           <div class="mr-2">
             <p class="text-2xl font-bold">Knife</p>
-            <HomeInventoryCard :item="knives[0]" knife />
+            <HomeInventoryCard :item="knives[0]" :items="skinKnives" />
           </div>
           <div>
             <p class="text-2xl font-bold">Gloves</p>
-            <HomeInventoryCard :item="gloves[0]" gloves />
+            <HomeInventoryCard :item="gloves[0]" :items="skinGloves" />
           </div>
           <div class="mr-2">
             <p class="text-2xl font-bold">Agents</p>
-            <HomeInventoryCard
-              :item="agent"
-              agent
-              :team="team ? 'counter-terrorists' : 'terrorists'"
-            />
+            <HomeInventoryCard :item="agent" agent :items="skinAgents" />
           </div>
           <div>
             <p class="text-2xl font-bold">Music</p>
-            <HomeInventoryCard :item="music" music />
+            <HomeInventoryCard :item="music" :items="skinMusics">
+              <template #music>
+                <a
+                  class="text-blue-400 underline text-2xl"
+                  target="_blank"
+                  href="https://stash.clash.gg/music"
+                  >Escutar musicas</a
+                >
+              </template>
+            </HomeInventoryCard>
           </div>
         </div>
       </div>

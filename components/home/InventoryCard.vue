@@ -3,14 +3,11 @@ import type { Cs2Weapon, Skin } from "~/models/skin.model"
 
 const props = defineProps({
   item: {
-    type: Object as () => Cs2Weapon | Skin,
+    type: Object,
     required: true
   },
-  agent: Boolean,
-  knife: Boolean,
-  gloves: Boolean,
-  music: Boolean,
-  team: String
+  items: { type: Object as () => Cs2Weapon[] | Skin[], required: true },
+  selected: Object as () => Cs2Weapon | Skin
 })
 
 const show = ref(false)
@@ -24,7 +21,8 @@ const openModal = (item: any) => {
 <template>
   <div
     :key="props.item.name"
-    class="card translation-card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2 border-b-red-500 border-b-6"
+    :style="item.rarity ? `border-bottom-color: ${item.rarity.color}` : ''"
+    class="card translation-card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2 border-b-6"
     @click="() => openModal(item.id)"
   >
     <img :src="item.image" class="h-28 w-32" />
@@ -32,15 +30,11 @@ const openModal = (item: any) => {
       {{ item.name }}
     </div>
     <dialog :id="item.id" class="modal">
-      <HomeInventoryModal
-        v-if="show"
-        :weapon="item"
-        :agent="props.agent"
-        :knife="props.knife"
-        :gloves="gloves"
-        :music="music"
-        :team="team"
-      />
+      <HomeInventoryModal v-if="show" :weapon="item" :skins="items" :selected="selected">
+        <template #music>
+          <slot name="music" />
+        </template>
+      </HomeInventoryModal>
     </dialog>
   </div>
 </template>

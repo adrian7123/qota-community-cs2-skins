@@ -30,13 +30,15 @@
             </a>
           </li>
           <li><a>Settings</a></li>
-          <li><a>Logout</a></li>
+          <li @click="auth.logout()"><a>Logout</a></li>
         </ul>
       </div>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const auth = useAuthStore()
+</script>
 
 <style></style>

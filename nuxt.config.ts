@@ -2,6 +2,10 @@ import tailwindcss from "@tailwindcss/vite"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devServer: {
+    port: 3004
+  },
+
   app: {
     head: {
       title: "Qota Community Skins",
@@ -16,7 +20,10 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   modules: ["@pinia/nuxt"],
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    preview: {
+      port: 3004
+    }
   },
   nitro: {
     experimental: {
