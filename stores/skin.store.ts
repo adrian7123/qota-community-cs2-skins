@@ -8,6 +8,17 @@ export const useSkinStore = defineStore("useSkinStore", {
     musics: [] as Skin[],
     keychains: [] as Skin[]
   }),
+  getters: {
+    priority(): Record<string, number> {
+      return {
+        ancient: 1,
+        legendary: 2,
+        mythical: 3,
+        rare: 4,
+        uncommon: 5
+      }
+    }
+  },
   actions: {
     initialize(): void {
       const skins = localStorage.getItem("@skins")
@@ -15,10 +26,10 @@ export const useSkinStore = defineStore("useSkinStore", {
       const musics = localStorage.getItem("@musics")
       const keychains = localStorage.getItem("@keychains")
 
-      if (skins) this.skins = JSON.parse(skins)
-      if (agents) this.agents = JSON.parse(agents)
-      if (musics) this.musics = JSON.parse(musics)
-      if (keychains) this.keychains = JSON.parse(keychains)
+      if (skins) this.skins = this.orderByRarity(JSON.parse(skins))
+      if (agents) this.agents = this.orderByRarity(JSON.parse(agents))
+      if (musics) this.musics = this.orderByRarity(JSON.parse(musics))
+      if (keychains) this.keychains = this.orderByRarity(JSON.parse(keychains))
 
       Promise.all([
         this.fetchSkins(),
@@ -26,6 +37,17 @@ export const useSkinStore = defineStore("useSkinStore", {
         this.fetchMusics(),
         this.fetchKeychains()
       ])
+    },
+    orderByRarity(skins: Skin[]): Skin[] {
+      return skins.sort((a, b) => {
+        const aRarity = a.rarity.id
+        const bRarity = b.rarity.id
+
+        const aPriority = Object.keys(this.priority).find((key) => aRarity.includes(key)) ?? ""
+        const bPriority = Object.keys(this.priority).find((key) => bRarity.includes(key)) ?? ""
+
+        return this.priority[aPriority] - this.priority[bPriority]
+      })
     },
     async fetchSkins(): Promise<Skin[] | undefined> {
       try {

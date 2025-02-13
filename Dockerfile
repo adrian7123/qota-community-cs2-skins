@@ -1,4 +1,4 @@
-FROM node:23-alpine AS builder
+FROM node:18-alpine AS builder
 WORKDIR /qota-community-skins
 
 RUN npm install -g pnpm
@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-FROM node:23-alpine
+FROM node:18-alpine
 
 WORKDIR /qota-community-skins
 
