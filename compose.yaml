@@ -1,0 +1,12 @@
+name: qota-community-skins
+
+services:
+  server:
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+      PORT: ${TOKEN:-3004}
+      DATABASE_URL: ${DATABASE_URL}
+    ports:
+      - 3004:3004

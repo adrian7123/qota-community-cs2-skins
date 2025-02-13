@@ -22,9 +22,7 @@
     "pinia": "^2.3.0",
     "tailwindcss": "^4.0.3",
     "vue": "latest",
-    "vue-router": "latest"
-  },
-  "devDependencies": {
+    "vue-router": "latest",
     "@tailwindcss/postcss": "^4.0.3",
     "daisyui": "5.0.0-beta.6"
   }

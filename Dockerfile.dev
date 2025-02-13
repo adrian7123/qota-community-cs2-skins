@@ -1,0 +1,12 @@
+FROM node:23-alpine
+
+WORKDIR /qota-community-skins-dev
+
+RUN npm install -g pnpm
+
+COPY . .
+
+RUN pnpm i
+
+CMD ["pnpm", "dev"]
+

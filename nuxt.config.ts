@@ -3,9 +3,8 @@ import tailwindcss from "@tailwindcss/vite"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devServer: {
-    port: 3004
+    port: import.meta.env.PORT
   },
-
   app: {
     head: {
       title: "Qota Community Skins",
@@ -20,10 +19,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   modules: ["@pinia/nuxt"],
   vite: {
-    plugins: [tailwindcss()],
-    preview: {
-      port: 3004
-    }
+    plugins: [tailwindcss()]
   },
   nitro: {
     experimental: {
@@ -32,7 +28,7 @@ export default defineNuxtConfig({
     database: {
       default: {
         connector: "mysql2",
-        options: { uri: import.meta.env.NUXT_APP_DATABASE_URL }
+        options: { uri: import.meta.env.DATABASE_URL }
       }
     }
   }
