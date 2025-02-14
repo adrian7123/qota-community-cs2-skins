@@ -94,7 +94,7 @@ const selectSkin = (skin: Skin) => {
             class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
             @click="selectSkin(item)"
           >
-            {{ item.weapon }}
+            {{ item.weapon.name }}
             <div class="translation-card flex flex-col items-center justify-center">
               <img :src="item.image" class="h-40 w-40" />
               <div
