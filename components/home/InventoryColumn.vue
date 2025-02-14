@@ -1,12 +1,11 @@
 <script lang="ts" setup>
-import type { Cs2Weapon, Skin } from "~/models/skin.model"
-import InventoryCard from "./InventoryCard.vue"
+import type { Skin } from "~/models/skin.model"
 
 const store = useSkinStore()
 
 const props = defineProps({
   title: String,
-  items: Object as () => Cs2Weapon[] | Skin[]
+  items: Object as () => Skin[]
 })
 
 const skinWeapons = (weaponId: string) => {
@@ -17,10 +16,10 @@ const skinWeapons = (weaponId: string) => {
   <div>
     <div class="flex flex-col">
       <p class="text-2xl font-bold">{{ props.title }}</p>
-      <InventoryCard
+      <HomeInventoryCard
         v-for="item in props.items"
         :key="item.id"
-        :item="item"
+        :weapon="item"
         :items="skinWeapons(item.id)"
         :selected="skinWeapons(item.id)[0]"
       />

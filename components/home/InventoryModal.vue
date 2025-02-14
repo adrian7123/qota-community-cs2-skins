@@ -1,12 +1,13 @@
 <script lang="ts" setup>
-import type { Cs2Weapon, Skin } from "~/models/skin.model"
+import type { Skin } from "~/models/skin.model"
+import { splitName } from "~/shared/helpers/helper"
 
 const store = useSkinStore()
 
 const props = defineProps({
   weapon: Object,
   skins: Object,
-  selected: Object as () => Cs2Weapon | Skin
+  selected: Object as () => Skin
 })
 
 const search = ref("")
@@ -19,16 +20,32 @@ watch(search, (value) => {
 })
 </script>
 <template>
-  <div class="modal-box cursor-auto max-w-6xl min-h-[700px]">
-    <div class="flex h-[700px]">
-      <div class="flex-1 flex flex-col justify-between items-center">
+  <div class="modal-box cursor-auto max-w-6xl min-h-[730px] !p-0 border border-gray-400">
+    <div
+      class="flex h-[730px] overflow-y-hidden p-10"
+      :style="
+        selected?.rarity
+          ? `background:
+                    linear-gradient(0deg, ${selected.rarity.color}20 0%, ${selected.rarity.color}20 100%),
+                    radial-gradient(60% 60% at 40% 50%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
+          : ''
+      "
+    >
+      <div class="flex-1 flex flex-col justify-evenly items-center">
         <div v-if="selected">
           <div
-            class="card flex flex-col items-center w-full border border-gray-400 p-2 mb-2 border-b-6"
+            class="card flex flex-col items-center w-full transition-transform duration-300 hover:scale-110"
           >
-            <img :src="selected?.image" class="h-40 w-40" />
-            <div class="w-full flex justify-center font-semibold text-gray-300">
-              {{ selected?.name }}
+            <span class="text-3xl">
+              {{ splitName(selected.name)[0] }}
+            </span>
+            <img :src="selected?.image" class="" />
+            <div
+              class="w-full flex flex-col items-center justify-center font-semibold text-gray-300"
+            >
+              <span class="text-3xl" :style="`color: ${selected.rarity?.color}`">
+                {{ splitName(selected.name)[1] }}
+              </span>
             </div>
           </div>
           <slot name="music" />
@@ -57,16 +74,28 @@ watch(search, (value) => {
           </div>
         </form>
 
-        <div class="mt-4 p-5 grid grid-cols-2 gap-4 max-h-[700px] scroll-smooth overflow-scroll">
+        <div class="mt-4 p-5 grid grid-cols-2 gap-4 max-h-[90%] scroll-smooth overflow-y-scroll">
           <div
             v-for="item in filteredSkins"
             :key="item.name"
-            :style="item.rarity ? `border-bottom-color: ${item.rarity.color}` : ''"
-            class="card translation-card cursor-pointer flex flex-col items-center w-full border border-gray-400 bg-[#d32ce6] p-2 mb-2 border-b-6"
+            :style="
+              item.rarity
+                ? `background:
+                    linear-gradient(0deg, ${item.rarity.color}20 0%, ${item.rarity.color}20 100%),
+                    radial-gradient(60% 60% at 50% 0%, ${item.rarity.color}cc 0%, ${item.rarity.color}20 100%);`
+                : ''
+            "
+            class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
           >
-            <img :src="item.image" class="h-40 w-40" />
-            <div class="w-full flex justify-center font-semibold text-gray-300">
-              {{ item.name }}
+            <div class="translation-card flex flex-col items-center justify-center">
+              <img :src="item.image" class="h-40 w-40" />
+              <div
+                class="w-full flex flex-col items-center justify-center font-semibold text-gray-300"
+              >
+                <span class="text-sm text-center" :style="`color: ${item.rarity?.color}`">
+                  {{ item.id.includes("agent") ? item.name : splitName(item.name)[1] }}
+                </span>
+              </div>
             </div>
           </div>
         </div>

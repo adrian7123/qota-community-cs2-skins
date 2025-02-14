@@ -1,13 +1,14 @@
 <script lang="ts" setup>
-import type { Cs2Weapon, Skin } from "~/models/skin.model"
+import type { Skin } from "~/models/skin.model"
+import { splitName } from "~/shared/helpers/helper"
 
 const props = defineProps({
-  item: {
-    type: Object,
+  weapon: {
+    type: Object as () => any,
     required: true
   },
-  items: { type: Object as () => Cs2Weapon[] | Skin[], required: true },
-  selected: Object as () => Cs2Weapon | Skin
+  items: { type: Object as () => Skin[], required: true },
+  selected: { type: Object as () => Skin, required: true }
 })
 
 const show = ref(false)
@@ -20,17 +21,32 @@ const openModal = (item: any) => {
 </script>
 <template>
   <div
-    :key="props.item.name"
-    :style="item.rarity ? `border-bottom-color: ${item.rarity.color}` : ''"
-    class="card translation-card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2 border-b-6"
-    @click="() => openModal(item.id)"
+    v-if="selected"
+    :key="selected.name"
+    :style="
+      selected.rarity
+        ? `background:
+                    linear-gradient(0deg, ${selected.rarity.color}20 0%, ${selected.rarity.color}20 100%),
+                    radial-gradient(60% 60% at 50% 0%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
+        : ''
+    "
+    class="card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2"
+    @click="() => openModal(selected.unique)"
   >
-    <img :src="item.image" class="h-28 w-32" />
-    <div class="w-full flex justify-center font-semibold text-gray-300">
-      {{ item.name }}
+    <div class="translation-card">
+      <span class="hidden">{{ (selected.unique = selected.id + Date.now().toString()) }}</span>
+      <img :src="selected.image" class="h-28 w-32" />
+      <div class="w-full flex flex-col items-center justify-center font-semibold text-gray-300">
+        <span class="text-xl">
+          {{ splitName(selected.name)[0] }}
+        </span>
+        <span class="text-sm" :style="`color: ${selected.rarity?.color}`">
+          {{ splitName(selected.name)[1] }}
+        </span>
+      </div>
     </div>
-    <dialog :id="item.id" class="modal">
-      <HomeInventoryModal v-if="show" :weapon="item" :skins="items" :selected="selected">
+    <dialog :id="selected.unique" class="modal">
+      <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" :selected="selected">
         <template #music>
           <slot name="music" />
         </template>

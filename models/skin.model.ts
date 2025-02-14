@@ -1,49 +1,42 @@
-export type Cs2Weapon = {
-  id: string
-  name: string
-  image: string
-  type: string
-  team: string
-  paintIndex?: string
-}
-
 export type Skin = {
   id: string
   name: string
-  description: string
-  weapon: {
+  type: string
+  unique?: string
+  description?: string
+  weapon?: {
     id: string
     weapon_id: number
     name: string
   }
-  category: {
+  category?: {
     id: string
     name: string
   }
-  pattern: {
+  pattern?: {
     id: string
     name: string
   }
-  min_float: number
-  max_float: number
-  rarity: {
+  min_float?: number
+  max_float?: number
+  rarity?: {
     id: string
     name: string
     color: string
   }
-  stattrak: boolean
-  souvenir: boolean
-  paint_index: string
-  wears: Array<{
+  stattrak?: boolean
+  souvenir?: boolean
+  paint_index?: string
+  wears?: Array<{
     id: string
     name: string
   }>
-  collections: Array<{
+  collections?: Array<{
     id: string
     name: string
     image: string
   }>
-  crates: Array<{
+  crates?: Array<{
     id: string
     name: string
     image: string
@@ -52,6 +45,6 @@ export type Skin = {
     id: string
     name: string
   }
-  legacy_model: boolean
+  legacy_model?: boolean
   image: string
 }

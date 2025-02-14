@@ -5,13 +5,13 @@ export class Cs2Helper {
 
   pistols(team: string) {
     return this.weapons.filter(
-      (weapon) => weapon.type === "pistol" && (weapon.team === team || weapon.team === "all")
+      (weapon) => weapon.type === "pistol" && (weapon.team.id === team || weapon.team.id === "both")
     )
   }
 
   rifles(team: string) {
     return this.weapons.filter(
-      (weapon) => weapon.type === "rifle" && (weapon.team === team || weapon.team === "all")
+      (weapon) => weapon.type === "rifle" && (weapon.team.id === team || weapon.team.id === "both")
     )
   }
 
@@ -19,7 +19,7 @@ export class Cs2Helper {
     return this.weapons.filter(
       (weapon) =>
         (weapon.type === "smg" || weapon.type === "shotgun" || weapon.type === "machinegun") &&
-        (weapon.team === team || weapon.team === "all")
+        (weapon.team.id === team || weapon.team.id === "both")
     )
   }
 
@@ -32,7 +32,7 @@ export class Cs2Helper {
   }
 
   agents(team: string) {
-    return this.weapons.filter((weapon) => weapon.type === "agents" && weapon.team === team)
+    return this.weapons.filter((weapon) => weapon.type === "agents" && weapon.team.id === team)
   }
 
   musics(team?: string) {

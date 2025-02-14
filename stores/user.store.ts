@@ -1,8 +1,13 @@
+import type { Skin } from "~/models/skin.model"
+
 export const useUserStore = defineStore("useUserStore", {
   state: () => ({
-    loading: false
+    skins: [] as Skin[]
   }),
   actions: {
-    setSkin(skin: string) {}
+    async fetchSkins(steamId: string) {
+      const skins = await fetch(`/api/skins/${steamId}`).then((res) => res.json())
+      this.skins = skins
+    }
   }
 })

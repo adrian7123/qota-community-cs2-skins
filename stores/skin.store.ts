@@ -6,21 +6,16 @@ export const useSkinStore = defineStore("useSkinStore", {
     skins: [] as Skin[],
     agents: [] as Skin[],
     musics: [] as Skin[],
-    keychains: [] as Skin[]
+    keychains: [] as Skin[],
+    initialized: false
   }),
   getters: {
-    priority(): Record<string, number> {
-      return {
-        ancient: 1,
-        legendary: 2,
-        mythical: 3,
-        rare: 4,
-        uncommon: 5
-      }
+    rarities() {
+      return ["ancient", "legendary", "mythical", "rare", "uncommon"]
     }
   },
   actions: {
-    initialize(): void {
+    async initialize() {
       const skins = localStorage.getItem("@skins")
       const agents = localStorage.getItem("@agents")
       const musics = localStorage.getItem("@musics")
@@ -31,23 +26,32 @@ export const useSkinStore = defineStore("useSkinStore", {
       if (musics) this.musics = this.orderByRarity(JSON.parse(musics))
       if (keychains) this.keychains = this.orderByRarity(JSON.parse(keychains))
 
-      Promise.all([
+      await Promise.all([
         this.fetchSkins(),
         this.fetchAgents(),
         this.fetchMusics(),
         this.fetchKeychains()
       ])
+
+      this.initialized = true
     },
     orderByRarity(skins: Skin[]): Skin[] {
-      return skins.sort((a, b) => {
-        const aRarity = a.rarity.id
-        const bRarity = b.rarity.id
+      let orderedSkins: Skin[] = []
+      let order: any = []
 
-        const aPriority = Object.keys(this.priority).find((key) => aRarity.includes(key)) ?? ""
-        const bPriority = Object.keys(this.priority).find((key) => bRarity.includes(key)) ?? ""
+      skins.forEach((skin) => {
+        const rarityIndex = this.rarities.findIndex((rarity) => skin?.rarity?.id.includes(rarity))
 
-        return this.priority[aPriority] - this.priority[bPriority]
+        if (!order[rarityIndex]?.length) order[rarityIndex] = []
+
+        order[rarityIndex].push(skin)
       })
+
+      order.forEach((orderArr: Skin[]) => {
+        if (orderArr?.length) orderedSkins.push(...orderArr)
+      })
+
+      return orderedSkins
     },
     async fetchSkins(): Promise<Skin[] | undefined> {
       try {
