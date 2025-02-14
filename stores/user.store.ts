@@ -1,13 +1,22 @@
-import type { Skin } from "~/models/skin.model"
+import type { DBSkin } from "~/models/skin.model"
 
 export const useUserStore = defineStore("useUserStore", {
   state: () => ({
-    skins: [] as Skin[]
+    rows: [] as DBSkin[]
   }),
   actions: {
     async fetchSkins(steamId: string) {
-      const skins = await fetch(`/api/skins/${steamId}`).then((res) => res.json())
-      this.skins = skins
+      const res: any = await $fetch("/api/v1/skins", {
+        query: {
+          steamId: steamId
+        }
+      })
+
+      if (res.status === 200) {
+        this.rows = res.rows
+      }
+
+      console.log(this.rows)
     }
   }
 })

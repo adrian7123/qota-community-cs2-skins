@@ -5,6 +5,7 @@ import { slugify } from "~/shared/helpers/helper"
 const store = useSkinStore()
 const auth = useAuthStore()
 const global = useGlobalStore()
+const userStore = useUserStore()
 
 const team = ref(false)
 
@@ -26,13 +27,9 @@ onMounted(async () => {
 
   global.show()
 
-  await store.initialize()
+  userStore.fetchSkins(auth.steamId!)
 
-  const res = await $fetch("/api/v1/skins", {
-    query: {
-      steamId: auth.steamId
-    }
-  })
+  await store.initialize()
 
   pistols.value = helper.pistols(team.value ? "counter-terrorists" : "terrorists")
   mid.value = helper.mid(team.value ? "counter-terrorists" : "terrorists")

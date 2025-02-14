@@ -6,7 +6,7 @@ const store = useSkinStore()
 
 const props = defineProps({
   weapon: Object,
-  skins: Object,
+  skins: Object as () => Skin[],
   selected: Object as () => Skin
 })
 
@@ -27,7 +27,7 @@ watch(search, (value) => {
         selected?.rarity
           ? `background:
                     linear-gradient(0deg, ${selected.rarity.color}20 0%, ${selected.rarity.color}20 100%),
-                    radial-gradient(60% 60% at 40% 50%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
+                    radial-gradient(60% 60% at 20% 50%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
           : ''
       "
     >
@@ -87,6 +87,8 @@ watch(search, (value) => {
             "
             class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
           >
+            {{ item.weapon }}
+            {{ item.id }}
             <div class="translation-card flex flex-col items-center justify-center">
               <img :src="item.image" class="h-40 w-40" />
               <div

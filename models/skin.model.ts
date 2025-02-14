@@ -1,3 +1,21 @@
+export type DBSkin = {
+  steamid: string
+  weapon_defindex: number
+  weapon_keychain: string
+  weapon_nametag?: string
+  weapon_paint_id: number
+  weapon_seed: number
+  weapon_stattrak: number
+  weapon_stattrak_count: number
+  weapon_sticker_0: string
+  weapon_sticker_1: string
+  weapon_sticker_2: string
+  weapon_sticker_3: string
+  weapon_sticker_4: string
+  weapon_team: number
+  weapon_wear: number
+}
+
 export type Skin = {
   id: string
   name: string
