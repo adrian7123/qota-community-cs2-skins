@@ -17,12 +17,12 @@ export const useUserStore = defineStore("useUserStore", {
         return res.rows
       }
     },
-    async selectSkin(steamId: string, skin: Skin) {
+    async selectSkin(steamId: string, skin: Skin, team: number) {
       const body: DBSkin = {
         steamid: steamId,
         weapon_defindex: skin.weapon!.weapon_id,
         weapon_paint_id: Number.parseInt(skin.paint_index ?? "0"),
-        weapon_team: skin.team.id === "terrorists" ? 2 : 3,
+        weapon_team: team,
         weapon_keychain: "0;0;0;0;0;0;0",
         weapon_sticker_0: "0;0;0;0;0;0;0",
         weapon_sticker_1: "0;0;0;0;0;0;0",

@@ -7,14 +7,14 @@ const auth = useAuthStore()
 const global = useGlobalStore()
 const userStore = useUserStore()
 
-const team = ref(false)
-
 const helper = new Cs2Helper()
 
 const pistols = ref<any>([])
 const mid = ref<any>([])
 const high = ref<any>([])
 const agent = ref<any>()
+
+const { team } = storeToRefs(store)
 
 const knives = helper.knives()
 const glove = helper.gloves()[0]

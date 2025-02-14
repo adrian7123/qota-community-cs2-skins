@@ -7,7 +7,8 @@ export const useSkinStore = defineStore("useSkinStore", {
     agents: [] as Skin[],
     musics: [] as Skin[],
     keychains: [] as Skin[],
-    initialized: false
+    initialized: false,
+    team: false
   }),
   getters: {
     rarities() {
@@ -15,6 +16,9 @@ export const useSkinStore = defineStore("useSkinStore", {
     }
   },
   actions: {
+    setTeam(team: boolean) {
+      this.team = team
+    },
     async initialize() {
       const skins = localStorage.getItem("@skins")
       const agents = localStorage.getItem("@agents")

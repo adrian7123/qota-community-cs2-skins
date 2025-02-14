@@ -7,8 +7,7 @@ const userStore = useUserStore()
 
 const props = defineProps({
   title: String,
-  items: Object as () => Skin[],
-  team: Boolean
+  items: Object as () => Skin[]
 })
 
 const skinWeapons = (weaponId: string) => {
@@ -19,16 +18,10 @@ const selected = (weapon: Skin): Skin => {
   const dbSkin = userStore.rows.find((row) => {
     const found = row.weapon_defindex === weapon.weapon?.weapon_id
 
-    const team = row.weapon_team == (props.team ? 3 : 2)
-
-    if (found) {
-      console.log(row, weapon, team, props.team ? 3 : 2)
-    }
+    const team = row.weapon_team == (store.team ? 3 : 2)
 
     return found && team
   })
-
-  console.log(userStore.rows)
 
   if (dbSkin) {
     return (
@@ -41,7 +34,7 @@ const selected = (weapon: Skin): Skin => {
 }
 
 const selectSkin = (skin: Skin) => {
-  userStore.selectSkin(auth.steamId!, skin)
+  userStore.selectSkin(auth.steamId!, skin, store.team ? 3 : 2)
 }
 </script>
 <template>

@@ -61,7 +61,7 @@ export abstract class Constants {
     {
       id: "weapon_elite",
       name: "Dual Berettas | Default",
-      weapon: { id: "", weapon_id: 3, name: "" },
+      weapon: { id: "", weapon_id: 2, name: "" },
       rarity: {
         id: "",
         name: "",
