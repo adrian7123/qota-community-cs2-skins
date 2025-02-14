@@ -18,6 +18,12 @@ const openModal = (item: any) => {
   const modal = document.getElementById(item) as any
   modal.showModal()
 }
+
+const emit = defineEmits(["selectSkin"])
+
+const selectSkin = (skin: Skin) => {
+  emit("selectSkin", skin)
+}
 </script>
 <template>
   <div
@@ -46,7 +52,13 @@ const openModal = (item: any) => {
       </div>
     </div>
     <dialog :id="selected.unique" class="modal">
-      <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" :selected="selected">
+      <HomeInventoryModal
+        v-if="show"
+        :weapon="weapon"
+        :skins="items"
+        :selected="selected"
+        @select-skin="selectSkin"
+      >
         <template #music>
           <slot name="music" />
         </template>

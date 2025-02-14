@@ -12,7 +12,7 @@ export abstract class Constants {
     // Pistolas
     {
       id: "weapon_usp_silencer",
-      name: "USP-S",
+      name: "USP-S | Default",
       weapon: { id: "", weapon_id: 61, name: "" },
       rarity: {
         id: "",
@@ -28,7 +28,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_glock",
-      name: "Glock-18",
+      name: "Glock-18 | Default",
       weapon: { id: "", weapon_id: 4, name: "" },
       rarity: {
         id: "",
@@ -44,7 +44,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_p250",
-      name: "P250",
+      name: "P250 | Default",
       weapon: { id: "", weapon_id: 36, name: "" },
       rarity: {
         id: "",
@@ -60,7 +60,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_elite",
-      name: "Dual Berettas",
+      name: "Dual Berettas | Default",
       weapon: { id: "", weapon_id: 3, name: "" },
       rarity: {
         id: "",
@@ -76,7 +76,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_revolver",
-      name: "R8 Revolver",
+      name: "R8 Revolver | Default",
       weapon: { id: "", weapon_id: 64, name: "" },
       rarity: {
         id: "",
@@ -92,7 +92,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_deagle",
-      name: "Desert Eagle",
+      name: "Desert Eagle | Default",
       weapon: { id: "", weapon_id: 1, name: "" },
       rarity: {
         id: "",
@@ -108,7 +108,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_tec9",
-      name: "Tec-9",
+      name: "Tec-9 | Default",
       weapon: { id: "", weapon_id: 30, name: "" },
       rarity: {
         id: "",
@@ -124,7 +124,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_cz75a",
-      name: "CZ75-Auto",
+      name: "CZ75-Auto | Default",
       weapon: { id: "", weapon_id: 63, name: "" },
       rarity: {
         id: "",
@@ -140,7 +140,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_fiveseven",
-      name: "Five-SeveN",
+      name: "Five-SeveN | Default",
       weapon: { id: "", weapon_id: 3, name: "" },
       rarity: {
         id: "",
@@ -156,7 +156,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_hkp2000",
-      name: "P2000",
+      name: "P2000 | Default",
       weapon: { id: "", weapon_id: 32, name: "" },
       rarity: {
         id: "",
@@ -174,8 +174,8 @@ export abstract class Constants {
     // Rifles
     {
       id: "weapon_ak47",
-      name: "AK-47",
-      weapon: { id: "", weapon_id: 97, name: "" },
+      name: "AK-47 | Default",
+      weapon: { id: "", weapon_id: 7, name: "" },
       rarity: {
         id: "",
         name: "",
@@ -190,7 +190,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_m4a1",
-      name: "M4A4",
+      name: "M4A4 | Default",
       weapon: { id: "", weapon_id: 16, name: "" },
       rarity: {
         id: "",
@@ -206,7 +206,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_m4a1_silencer",
-      name: "M4A1-S",
+      name: "M4A1-S | Default",
       weapon: { id: "", weapon_id: 60, name: "" },
       rarity: {
         id: "",
@@ -222,7 +222,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_awp",
-      name: "AWP",
+      name: "AWP | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -238,7 +238,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_ssg08",
-      name: "SSG 08",
+      name: "SSG 08 | Default",
       weapon: { id: "", weapon_id: 40, name: "" },
       rarity: {
         id: "",
@@ -254,7 +254,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_scar20",
-      name: "SCAR-20",
+      name: "SCAR-20 | Default",
       weapon: { id: "", weapon_id: 38, name: "" },
       rarity: {
         id: "",
@@ -270,7 +270,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_g3sg1",
-      name: "G3SG1",
+      name: "G3SG1 | Default",
       weapon: { id: "", weapon_id: 11, name: "" },
       rarity: {
         id: "",
@@ -286,7 +286,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_aug",
-      name: "AUG",
+      name: "AUG | Default",
       weapon: { id: "", weapon_id: 8, name: "" },
       rarity: {
         id: "",
@@ -302,7 +302,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_sg556",
-      name: "SG 553",
+      name: "SG 553 | Default",
       weapon: { id: "", weapon_id: 39, name: "" },
       rarity: {
         id: "",
@@ -318,7 +318,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_galilar",
-      name: "Galil AR",
+      name: "Galil AR | Default",
       weapon: { id: "", weapon_id: 13, name: "" },
       rarity: {
         id: "",
@@ -334,7 +334,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_famas",
-      name: "FAMAS",
+      name: "FAMAS | Default",
       weapon: { id: "", weapon_id: 10, name: "" },
       rarity: {
         id: "",
@@ -352,7 +352,7 @@ export abstract class Constants {
     // Submetralhadoras
     {
       id: "weapon_mac10",
-      name: "MAC-10",
+      name: "MAC-10 | Default",
       weapon: { id: "", weapon_id: 17, name: "" },
       rarity: {
         id: "",
@@ -368,7 +368,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_mp9",
-      name: "MP9",
+      name: "MP9 | Default",
       weapon: { id: "", weapon_id: 34, name: "" },
       rarity: {
         id: "",
@@ -384,7 +384,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_mp7",
-      name: "MP7",
+      name: "MP7 | Default",
       weapon: { id: "", weapon_id: 33, name: "" },
       rarity: {
         id: "",
@@ -400,7 +400,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_mp5sd",
-      name: "MP5-SD",
+      name: "MP5-SD | Default",
       weapon: { id: "", weapon_id: 23, name: "" },
       rarity: {
         id: "",
@@ -416,7 +416,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_ump45",
-      name: "UMP-45",
+      name: "UMP-45 | Default",
       weapon: { id: "", weapon_id: 24, name: "" },
       rarity: {
         id: "",
@@ -432,7 +432,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_p90",
-      name: "P90",
+      name: "P90 | Default",
       weapon: { id: "", weapon_id: 19, name: "" },
       rarity: {
         id: "",
@@ -448,7 +448,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_bizon",
-      name: "PP-Bizon",
+      name: "PP-Bizon | Default",
       weapon: { id: "", weapon_id: 26, name: "" },
       rarity: {
         id: "",
@@ -466,7 +466,7 @@ export abstract class Constants {
     // Escopetas
     {
       id: "weapon_nova",
-      name: "Nova",
+      name: "Nova | Default",
       weapon: { id: "", weapon_id: 35, name: "" },
       rarity: {
         id: "",
@@ -482,7 +482,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_xm1014",
-      name: "XM1014",
+      name: "XM1014 | Default",
       weapon: { id: "", weapon_id: 25, name: "" },
       rarity: {
         id: "",
@@ -498,7 +498,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_sawedoff",
-      name: "Sawed-Off",
+      name: "Sawed-Off | Default",
       weapon: { id: "", weapon_id: 29, name: "" },
       rarity: {
         id: "",
@@ -514,7 +514,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_mag7",
-      name: "MAG-7",
+      name: "MAG-7 | Default",
       weapon: { id: "", weapon_id: 27, name: "" },
       rarity: {
         id: "",
@@ -532,7 +532,7 @@ export abstract class Constants {
     // Metralhadoras
     {
       id: "weapon_m249",
-      name: "M249",
+      name: "M249 | Default",
       weapon: { id: "", weapon_id: 14, name: "" },
       rarity: {
         id: "",
@@ -548,7 +548,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_negev",
-      name: "Negev",
+      name: "Negev | Default",
       weapon: { id: "", weapon_id: 28, name: "" },
       rarity: {
         id: "",
@@ -566,7 +566,7 @@ export abstract class Constants {
     // Facas
     {
       id: "weapon_knife",
-      name: "Knife",
+      name: "Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -582,7 +582,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_kukri",
-      name: "Kukri",
+      name: "Kukri | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -598,7 +598,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_bayonet",
-      name: "Bayonet",
+      name: "Bayonet | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -614,7 +614,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_butterfly",
-      name: "Butterfly Knife",
+      name: "Butterfly Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -630,7 +630,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_karambit",
-      name: "Karambit",
+      name: "Karambit | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -646,7 +646,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_m9_bayonet",
-      name: "M9 Bayonet",
+      name: "M9 Bayonet | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -662,7 +662,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_tactical",
-      name: "Huntsman Knife",
+      name: "Huntsman Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -678,7 +678,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_falchion",
-      name: "Falchion Knife",
+      name: "Falchion Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -694,7 +694,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_push",
-      name: "Shadow Daggers",
+      name: "Shadow Daggers | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -710,7 +710,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_survival_bowie",
-      name: "Bowie Knife",
+      name: "Bowie Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -726,7 +726,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_ursus",
-      name: "Ursus Knife",
+      name: "Ursus Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -742,7 +742,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_gypsy_jackknife",
-      name: "Navaja Knife",
+      name: "Navaja Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -758,7 +758,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_stiletto",
-      name: "Stiletto Knife",
+      name: "Stiletto Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -774,7 +774,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_widowmaker",
-      name: "Talon Knife",
+      name: "Talon Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -790,7 +790,7 @@ export abstract class Constants {
     },
     {
       id: "weapon_knife_css",
-      name: "Classic Knife",
+      name: "Classic Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -806,7 +806,7 @@ export abstract class Constants {
     },
     {
       id: "default_gloves",
-      name: "Gloves",
+      name: "Gloves | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -824,7 +824,7 @@ export abstract class Constants {
     // agents
     {
       id: "default_agent_tr",
-      name: "Default TR",
+      name: "Agent TR | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -840,7 +840,7 @@ export abstract class Constants {
     },
     {
       id: "default_agent_ct",
-      name: "Default CT",
+      name: "Agent CT | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",
@@ -858,7 +858,7 @@ export abstract class Constants {
     // music
     {
       id: "default_music",
-      name: "Music Default",
+      name: "No Music | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
       rarity: {
         id: "",

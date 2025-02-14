@@ -10,6 +10,8 @@ const props = defineProps({
   selected: Object as () => Skin
 })
 
+const emit = defineEmits(["selectSkin"])
+
 const search = ref("")
 const filteredSkins = ref(props.skins)
 
@@ -18,6 +20,10 @@ watch(search, (value) => {
     skin.name.toLowerCase().includes(value.toLowerCase())
   )
 })
+
+const selectSkin = (skin: Skin) => {
+  emit("selectSkin", skin)
+}
 </script>
 <template>
   <div class="modal-box cursor-auto max-w-6xl min-h-[730px] !p-0 border border-gray-400">
@@ -86,9 +92,9 @@ watch(search, (value) => {
                 : ''
             "
             class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
+            @click="selectSkin(item)"
           >
             {{ item.weapon }}
-            {{ item.id }}
             <div class="translation-card flex flex-col items-center justify-center">
               <img :src="item.image" class="h-40 w-40" />
               <div

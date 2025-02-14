@@ -80,9 +80,9 @@ const skinMusics = computed(() => {
       </p>
 
       <div class="card-body grid grid-cols-1 lg:grid-cols-5 items-start">
-        <HomeInventoryColumn :items="pistols" title="Pistols" />
-        <HomeInventoryColumn :items="mid" title="Mid Tier" />
-        <HomeInventoryColumn :items="high" title="High Tier" />
+        <HomeInventoryColumn :items="pistols" title="Pistols" :team="team" />
+        <HomeInventoryColumn :items="mid" title="Mid Tier" :team="team" />
+        <HomeInventoryColumn :items="high" title="High Tier" :team="team" />
 
         <div class="col-span-2 grid grid-cols-1 lg:grid-cols-2">
           <div class="mr-2">

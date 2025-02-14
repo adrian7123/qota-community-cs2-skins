@@ -1,0 +1,90 @@
+import { DBSkin } from "~/models/skin.model"
+
+export default defineEventHandler(async (event) => {
+  const { steamId } = getQuery(event)
+
+  if (!steamId) {
+    return {
+      status: 400,
+      body: {
+        message: "steamId não informado"
+      }
+    }
+  }
+
+  if (event.method === "POST") {
+    const skin = (await readBody(event)) as DBSkin
+    const rows = await postSkins(steamId as string, skin)
+
+    return {
+      status: 200,
+      rows
+    }
+  }
+
+  if (event.method === "GET") {
+    const rows = await getSkins(steamId as string)
+
+    return {
+      status: 200,
+      rows
+    }
+  }
+})
+
+const getSkins = async (steamId?: string) => {
+  const db = useDatabase()
+  const { rows } = await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${String(steamId)}`
+  return rows
+}
+
+const postSkins = async (steamId: string, skin: DBSkin) => {
+  const db = useDatabase()
+
+  const { rows } = await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${String(
+    steamId
+  )} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
+
+  if (rows?.length != 0) {
+    await db.sql`DELETE FROM wp_player_skins WHERE steamid = ${String(
+      steamId
+    )} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
+  }
+
+  const res = await db.sql`INSERT INTO wp_player_skins (
+    steamid,
+    weapon_defindex,
+    weapon_keychain,
+    weapon_nametag,
+    weapon_paint_id,
+    weapon_seed,
+    weapon_stattrak,
+    weapon_stattrak_count,
+    weapon_sticker_0,
+    weapon_sticker_1,
+    weapon_sticker_2,
+    weapon_sticker_3,
+    weapon_sticker_4,
+    weapon_team,
+    weapon_wear
+  )
+  VALUES (
+    ${steamId},
+    ${skin.weapon_defindex},
+    ${skin.weapon_keychain},
+    ${skin.weapon_nametag},
+    ${skin.weapon_paint_id},
+    ${skin.weapon_seed},
+    ${skin.weapon_stattrak},
+    ${skin.weapon_stattrak_count},
+    ${skin.weapon_sticker_0},
+    ${skin.weapon_sticker_1},
+    ${skin.weapon_sticker_2},
+    ${skin.weapon_sticker_3},
+    ${skin.weapon_sticker_4},
+    ${skin.weapon_team},
+    ${skin.weapon_wear}
+  )`
+
+  return res
+}
