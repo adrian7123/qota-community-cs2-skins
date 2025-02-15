@@ -40,8 +40,8 @@ export const useSkinStore = defineStore("useSkinStore", {
       this.initialized = true
     },
     orderByRarity(skins: Skin[]): Skin[] {
-      let orderedSkins: Skin[] = []
-      let order: any = []
+      const orderedSkins: Skin[] = []
+      const order: any = []
 
       skins.forEach((skin) => {
         const rarityIndex = this.rarities.findIndex((rarity) => skin?.rarity?.id.includes(rarity))

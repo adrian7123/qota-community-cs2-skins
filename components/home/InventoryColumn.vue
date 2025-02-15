@@ -2,8 +2,6 @@
 import type { Skin } from "~/models/skin.model"
 
 const store = useSkinStore()
-const auth = useAuthStore()
-const userStore = useUserStore()
 
 const props = defineProps({
   title: String,

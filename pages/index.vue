@@ -16,7 +16,6 @@ const mid = ref(helper.mid(team.value ? "counter-terrorists" : "terrorists"))
 const high = ref(helper.rifles(team.value ? "counter-terrorists" : "terrorists"))
 const agent = ref(helper.agents(team.value ? "counter-terrorists" : "terrorists")[0])
 
-const knives = helper.knives()
 const glove = helper.gloves()[0]
 const music = helper.musics()[0]
 
@@ -68,7 +67,7 @@ const skinMusics = computed(() => {
     <div class="card w-full h-full rounded-sm p-4">
       <p class="text-4xl font-bold mb-2">
         <label class="toggle w-32">
-          <input type="checkbox" v-model="team" />
+          <input v-model="team" type="checkbox" />
           <img aria-label="enabled" src="/logo_T.png" />
           <img aria-label="disabled" src="/logo_CT.png" />
         </label>
@@ -96,7 +95,7 @@ const skinMusics = computed(() => {
           <div>
             <p class="text-2xl font-bold">Music</p>
             <HomeInventoryCard :weapon="music" :items="skinMusics">
-              <template #music v-if="music.rarity?.id">
+              <template v-if="music.rarity?.id" #music>
                 <a
                   class="text-blue-400 underline text-2xl"
                   target="_blank"
