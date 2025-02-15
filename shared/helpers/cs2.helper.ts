@@ -40,7 +40,9 @@ export class Cs2Helper {
     return this.weapons.filter((weapon) => weapon.type === "musics")
   }
 
-  getSkin(weapon: Skin, dbSkins: DBSkin[], skins: Skin[], team: number): Skin {
+  getSkin(weapon?: Skin, dbSkins?: DBSkin[], skins?: Skin[], team?: number): Skin | undefined {
+    if (!weapon || !dbSkins || !skins || !team) return
+
     const dbSkin = dbSkins.find((skin) => {
       const found = skin.weapon_defindex === weapon.weapon?.weapon_id
 

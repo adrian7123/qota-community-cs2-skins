@@ -9,12 +9,12 @@ const userStore = useUserStore()
 
 const helper = new Cs2Helper()
 
-const pistols = ref<any>([])
-const mid = ref<any>([])
-const high = ref<any>([])
-const agent = ref<any>()
-
 const { team } = storeToRefs(store)
+
+const pistols = ref(helper.pistols(team.value ? "counter-terrorists" : "terrorists"))
+const mid = ref(helper.mid(team.value ? "counter-terrorists" : "terrorists"))
+const high = ref(helper.rifles(team.value ? "counter-terrorists" : "terrorists"))
+const agent = ref(helper.agents(team.value ? "counter-terrorists" : "terrorists")[0])
 
 const knives = helper.knives()
 const glove = helper.gloves()[0]
@@ -27,14 +27,10 @@ onMounted(async () => {
 
   global.show()
 
-  userStore.fetchSkins(auth.steamId!)
+  await userStore.fetchSkins(auth.steamId!)
 
   await store.initialize()
 
-  pistols.value = helper.pistols(team.value ? "counter-terrorists" : "terrorists")
-  mid.value = helper.mid(team.value ? "counter-terrorists" : "terrorists")
-  high.value = helper.rifles(team.value ? "counter-terrorists" : "terrorists")
-  agent.value = helper.agents(team.value ? "counter-terrorists" : "terrorists")[0]
   global.hide()
 })
 
@@ -95,7 +91,7 @@ const skinMusics = computed(() => {
           </div>
           <div class="mr-2">
             <p class="text-2xl font-bold">Agents</p>
-            <HomeInventoryCard :weapon="agent" agent :items="skinAgents" />
+            <HomeInventoryCard :weapon="agent" :items="skinAgents" />
           </div>
           <div>
             <p class="text-2xl font-bold">Music</p>

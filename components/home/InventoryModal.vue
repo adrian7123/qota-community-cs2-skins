@@ -18,7 +18,7 @@ const emit = defineEmits(["selectSkin"])
 
 const search = ref("")
 const filteredSkins = ref(props.skins)
-const selected = ref<Skin | null>(null)
+const selected = ref<Skin>()
 
 onMounted(() => {
   selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.skins!, store.team ? 3 : 2)
@@ -30,9 +30,13 @@ watch(search, (value) => {
   )
 })
 
-const selectSkin = (skin: Skin) => {
-  userStore.selectSkin(auth.steamId!, skin, store.team ? 3 : 2)
+const selectSkin = async (skin: Skin) => {
+  await userStore.selectSkin(auth.steamId!, skin, store.team ? 3 : 2)
   selected.value = skin
+}
+
+const closeModal = () => {
+  const skin = selected.value
   emit("selectSkin", skin)
 }
 </script>
@@ -122,6 +126,6 @@ const selectSkin = (skin: Skin) => {
   </div>
 
   <form method="dialog" class="modal-backdrop">
-    <button>close</button>
+    <button @click="() => closeModal()">close</button>
   </form>
 </template>

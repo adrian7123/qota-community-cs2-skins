@@ -18,7 +18,7 @@ const props = defineProps({
 
 const show = ref(false)
 
-const selected = ref<Skin | null>(null)
+const selected = ref<Skin>()
 
 onMounted(() => {
   selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.items!, store.team ? 3 : 2)
@@ -30,7 +30,8 @@ const openModal = (item: any) => {
   modal.showModal()
 }
 
-const selectSkin = (skin: Skin) => {
+const selectSkin = async (skin: Skin) => {
+  await new Promise((resolve) => setTimeout(resolve, 300))
   selected.value = skin
 }
 </script>
@@ -46,10 +47,9 @@ const selectSkin = (skin: Skin) => {
         : ''
     "
     class="card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2"
-    @click="() => openModal(selected?.unique)"
+    @click="() => openModal(selected?.image)"
   >
     <div class="translation-card">
-      <span class="hidden">{{ (selected.unique = selected.id + Date.now().toString()) }}</span>
       <img :src="selected.image" class="h-28 w-32" />
       <div class="w-full flex flex-col items-center justify-center font-semibold text-gray-300">
         <span class="text-xl">
@@ -60,7 +60,7 @@ const selectSkin = (skin: Skin) => {
         </span>
       </div>
     </div>
-    <dialog :id="selected.unique" class="modal">
+    <dialog :id="selected.image" class="modal">
       <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" @select-skin="selectSkin">
         <template #music>
           <slot name="music" />
