@@ -1,17 +1,28 @@
 <script lang="ts" setup>
 import type { Skin } from "~/models/skin.model"
+import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { splitName } from "~/shared/helpers/helper"
+
+const userStore = useUserStore()
+const store = useSkinStore()
+
+const cs2 = new Cs2Helper()
 
 const props = defineProps({
   weapon: {
     type: Object as () => any,
     required: true
   },
-  items: { type: Object as () => Skin[], required: true },
-  selected: { type: Object as () => Skin, required: true }
+  items: { type: Object as () => Skin[], required: true }
 })
 
 const show = ref(false)
+
+const selected = ref<Skin | null>(null)
+
+onMounted(() => {
+  selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.items!, store.team ? 3 : 2)
+})
 
 const openModal = (item: any) => {
   show.value = true
@@ -19,10 +30,8 @@ const openModal = (item: any) => {
   modal.showModal()
 }
 
-const emit = defineEmits(["selectSkin"])
-
 const selectSkin = (skin: Skin) => {
-  emit("selectSkin", skin)
+  selected.value = skin
 }
 </script>
 <template>
@@ -37,7 +46,7 @@ const selectSkin = (skin: Skin) => {
         : ''
     "
     class="card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2"
-    @click="() => openModal(selected.unique)"
+    @click="() => openModal(selected?.unique)"
   >
     <div class="translation-card">
       <span class="hidden">{{ (selected.unique = selected.id + Date.now().toString()) }}</span>
@@ -52,13 +61,7 @@ const selectSkin = (skin: Skin) => {
       </div>
     </div>
     <dialog :id="selected.unique" class="modal">
-      <HomeInventoryModal
-        v-if="show"
-        :weapon="weapon"
-        :skins="items"
-        :selected="selected"
-        @select-skin="selectSkin"
-      >
+      <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" @select-skin="selectSkin">
         <template #music>
           <slot name="music" />
         </template>

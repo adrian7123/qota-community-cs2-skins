@@ -13,29 +13,6 @@ const props = defineProps({
 const skinWeapons = (weaponId: string) => {
   return store.skins?.filter((k) => k.weapon?.id === weaponId)
 }
-
-const selected = (weapon: Skin): Skin => {
-  const dbSkin = userStore.rows.find((row) => {
-    const found = row.weapon_defindex === weapon.weapon?.weapon_id
-
-    const team = row.weapon_team == (store.team ? 3 : 2)
-
-    return found && team
-  })
-
-  if (dbSkin) {
-    return (
-      store.skins?.find((k) => Number.parseInt(k.paint_index ?? "0") === dbSkin.weapon_paint_id) ??
-      weapon
-    )
-  }
-
-  return weapon
-}
-
-const selectSkin = (skin: Skin) => {
-  userStore.selectSkin(auth.steamId!, skin, store.team ? 3 : 2)
-}
 </script>
 <template>
   <div>
@@ -46,8 +23,6 @@ const selectSkin = (skin: Skin) => {
         :key="item.id"
         :weapon="item"
         :items="skinWeapons(item.id)"
-        :selected="selected(item)"
-        @select-skin="selectSkin"
       />
     </div>
   </div>

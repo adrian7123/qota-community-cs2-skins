@@ -1,19 +1,28 @@
 <script lang="ts" setup>
 import type { Skin } from "~/models/skin.model"
+import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { splitName } from "~/shared/helpers/helper"
 
 const store = useSkinStore()
+const userStore = useUserStore()
+const auth = useAuthStore()
+
+const cs2 = new Cs2Helper()
 
 const props = defineProps({
-  weapon: Object,
-  skins: Object as () => Skin[],
-  selected: Object as () => Skin
+  weapon: Object as () => Skin,
+  skins: Object as () => Skin[]
 })
 
 const emit = defineEmits(["selectSkin"])
 
 const search = ref("")
 const filteredSkins = ref(props.skins)
+const selected = ref<Skin | null>(null)
+
+onMounted(() => {
+  selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.skins!, store.team ? 3 : 2)
+})
 
 watch(search, (value) => {
   filteredSkins.value = props.skins?.filter((skin: any) =>
@@ -22,6 +31,8 @@ watch(search, (value) => {
 })
 
 const selectSkin = (skin: Skin) => {
+  userStore.selectSkin(auth.steamId!, skin, store.team ? 3 : 2)
+  selected.value = skin
   emit("selectSkin", skin)
 }
 </script>
@@ -94,7 +105,6 @@ const selectSkin = (skin: Skin) => {
             class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
             @click="selectSkin(item)"
           >
-            {{ item.weapon }}
             <div class="translation-card flex flex-col items-center justify-center">
               <img :src="item.image" class="h-40 w-40" />
               <div

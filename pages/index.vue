@@ -87,19 +87,19 @@ const skinMusics = computed(() => {
         <div class="col-span-2 grid grid-cols-1 lg:grid-cols-2">
           <div class="mr-2">
             <p class="text-2xl font-bold">Knife</p>
-            <HomeInventoryCard :weapon="knife" :items="skinKnives" :selected="knife" />
+            <HomeInventoryCard :weapon="knife" :items="skinKnives" />
           </div>
           <div>
             <p class="text-2xl font-bold">Gloves</p>
-            <HomeInventoryCard :weapon="glove" :items="skinGloves" :selected="glove" />
+            <HomeInventoryCard :weapon="glove" :items="skinGloves" />
           </div>
           <div class="mr-2">
             <p class="text-2xl font-bold">Agents</p>
-            <HomeInventoryCard :weapon="agent" agent :items="skinAgents" :selected="agent" />
+            <HomeInventoryCard :weapon="agent" agent :items="skinAgents" />
           </div>
           <div>
             <p class="text-2xl font-bold">Music</p>
-            <HomeInventoryCard :weapon="music" :items="skinMusics" :selected="music">
+            <HomeInventoryCard :weapon="music" :items="skinMusics">
               <template #music v-if="music.rarity">
                 <a
                   class="text-blue-400 underline text-2xl"
