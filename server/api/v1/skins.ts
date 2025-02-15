@@ -1,4 +1,4 @@
-import type { DBSkin } from "~/models/skin.model"
+import type { DBSkin } from "~/models/db.model"
 
 export default defineEventHandler(async (event) => {
   const { steamId } = getQuery(event)

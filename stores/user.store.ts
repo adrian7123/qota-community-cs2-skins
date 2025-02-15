@@ -1,10 +1,13 @@
-import type { DBSkin, Skin } from "~/models/skin.model"
+import type { DBSkin } from "~/models/db.model"
+import type { Skin } from "~/models/skin.model"
 
 export const useUserStore = defineStore("useUserStore", {
   state: () => ({
-    dbSkins: [] as DBSkin[]
+    dbSkins: [] as DBSkin[],
+    dbMusics: [] as DBSkin[]
   }),
   actions: {
+    async fetchAll(steamId: string) {},
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
       const res: any = await $fetch("/api/v1/skins", {
         query: {

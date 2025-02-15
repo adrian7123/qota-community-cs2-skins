@@ -31,6 +31,8 @@ const openModal = (item: any) => {
 }
 
 const selectSkin = async (skin: Skin) => {
+  // if (props.weapon.) return
+
   await new Promise((resolve) => setTimeout(resolve, 300))
   selected.value = skin
 }
