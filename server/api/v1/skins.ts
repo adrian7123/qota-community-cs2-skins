@@ -6,9 +6,7 @@ export default defineEventHandler(async (event) => {
   if (!steamId) {
     return {
       status: 400,
-      body: {
-        message: "steamId não informado"
-      }
+      error: "steamId não informado"
     }
   }
 

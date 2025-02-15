@@ -21,7 +21,7 @@ const filteredSkins = ref(props.skins)
 const selected = ref<Skin>()
 
 onMounted(() => {
-  selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.skins!, store.team ? 3 : 2)
+  selected.value = cs2.getSkin(props.weapon!, userStore.dbSkins, props.skins!, store.team ? 3 : 2)
 })
 
 watch(search, (value) => {

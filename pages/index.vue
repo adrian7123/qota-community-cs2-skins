@@ -96,13 +96,14 @@ const skinMusics = computed(() => {
           <div>
             <p class="text-2xl font-bold">Music</p>
             <HomeInventoryCard :weapon="music" :items="skinMusics">
-              <template #music v-if="music.rarity">
+              <template #music v-if="music.rarity?.id">
                 <a
                   class="text-blue-400 underline text-2xl"
                   target="_blank"
                   :href="`https://wiki.cs.money/music-kits/${slugify(music.name)}`"
-                  >Escutar musica</a
                 >
+                  Escutar musica
+                </a>
               </template>
             </HomeInventoryCard>
           </div>

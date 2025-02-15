@@ -10,7 +10,7 @@ const cs2 = new Cs2Helper()
 
 const props = defineProps({
   weapon: {
-    type: Object as () => any,
+    type: Object as () => Skin,
     required: true
   },
   items: { type: Object as () => Skin[], required: true }
@@ -21,7 +21,7 @@ const show = ref(false)
 const selected = ref<Skin>()
 
 onMounted(() => {
-  selected.value = cs2.getSkin(props.weapon!, userStore.rows, props.items!, store.team ? 3 : 2)
+  selected.value = cs2.getSkin(props.weapon!, userStore.dbSkins, props.items!, store.team ? 3 : 2)
 })
 
 const openModal = (item: any) => {

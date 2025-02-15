@@ -2,7 +2,7 @@ import type { DBSkin, Skin } from "~/models/skin.model"
 
 export const useUserStore = defineStore("useUserStore", {
   state: () => ({
-    rows: [] as DBSkin[]
+    dbSkins: [] as DBSkin[]
   }),
   actions: {
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
@@ -13,7 +13,7 @@ export const useUserStore = defineStore("useUserStore", {
       })
 
       if (res.status === 200) {
-        this.rows = res.rows
+        this.dbSkins = res.rows
         return res.rows
       }
     },

@@ -1,9 +1,15 @@
 {
   "extends": [
     // Solve from `import("@nuxtjs/eslint-config").then(mod => mod.default)`
-    "@nuxtjs"
+    "@nuxtjs",
+    "plugin:vue/vue3-recommended"
   ],
   "rules": {
-    // ...
+    "nuxt/prefer-import-meta": "error",
+    "@typescript-eslint/no-type-alias": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "vue/require-default-prop": "off",
+    "vue/html-self-closing": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }
