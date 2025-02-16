@@ -598,10 +598,10 @@ export abstract class Constants {
 
     // Facas
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife",
       name: "Knife | Default",
-      weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
+      weapon: { id: "weapon_awp", weapon_id: 0, name: "AWP" },
       rarity: {
         id: "",
         name: "",
@@ -615,10 +615,10 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_kukri",
       name: "Kukri | Default",
-      weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
+      weapon: { id: "weapon_knife_kukri", weapon_id: 526, name: "Kukri | Default" },
       rarity: {
         id: "",
         name: "",
@@ -632,10 +632,10 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_bayonet",
       name: "Bayonet | Default",
-      weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
+      weapon: { id: "weapon_bayonet", weapon_id: 500, name: "Bayonet | Default" },
       rarity: {
         id: "",
         name: "",
@@ -649,7 +649,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_butterfly",
       name: "Butterfly Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -666,7 +666,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_karambit",
       name: "Karambit | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -683,7 +683,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_m9_bayonet",
       name: "M9 Bayonet | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -700,7 +700,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_tactical",
       name: "Huntsman Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -717,7 +717,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_falchion",
       name: "Falchion Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -734,7 +734,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_push",
       name: "Shadow Daggers | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -751,7 +751,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_survival_bowie",
       name: "Bowie Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -768,7 +768,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_ursus",
       name: "Ursus Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -785,7 +785,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_gypsy_jackknife",
       name: "Navaja Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -802,7 +802,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_stiletto",
       name: "Stiletto Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -819,7 +819,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_widowmaker",
       name: "Talon Knife | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -836,10 +836,10 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Knife,
       id: "weapon_knife_css",
       name: "Classic Knife | Default",
-      weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
+      weapon: { id: "", weapon_id: 9, name: "" },
       rarity: {
         id: "",
         name: "",
@@ -853,7 +853,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Glove,
       id: "default_gloves",
       name: "Gloves | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -872,7 +872,7 @@ export abstract class Constants {
 
     // agents
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Agent,
       id: "default_agent_tr",
       name: "Agent TR | Default",
       weapon: { id: "weapon_awp", weapon_id: 9, name: "AWP" },
@@ -889,7 +889,7 @@ export abstract class Constants {
       }
     },
     {
-      weapon_type: WeaponType.Weapon,
+      weapon_type: WeaponType.Agent,
       id: "default_agent_ct",
       name: "Agent CT | Default",
       rarity: {

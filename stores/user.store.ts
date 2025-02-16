@@ -1,14 +1,31 @@
-import type { DBSkin } from "~/models/db.model"
+import type { DBKnife, DBMusic, DBSkin } from "~/models/db.model"
 import type { Skin } from "~/models/skin.model"
 
 export const useUserStore = defineStore("useUserStore", {
   state: () => ({
     dbSkins: [] as DBSkin[],
-    dbMusics: [] as DBSkin[]
+    dbMusics: [] as DBMusic[],
+    dbKnives: [] as DBKnife[]
   }),
   actions: {
     async fetchAll(steamId: string): Promise<any[]> {
-      return Promise.all([this.fetchSkins(steamId), this.fetchMusics(steamId)])
+      return Promise.all([
+        this.fetchSkins(steamId),
+        this.fetchMusics(steamId),
+        this.fetchKnives(steamId)
+      ])
+    },
+    async fetchKnives(steamId: string): Promise<DBKnife[] | undefined> {
+      const res: any = await $fetch("/api/v1/knives", {
+        query: {
+          steamId: steamId
+        }
+      })
+
+      if (res.status === 200) {
+        this.dbKnives = res.knives
+        return res.knives
+      }
     },
     async fetchMusics(steamId: string): Promise<DBSkin[] | undefined> {
       const res: any = await $fetch("/api/v1/musics", {
@@ -18,8 +35,8 @@ export const useUserStore = defineStore("useUserStore", {
       })
 
       if (res.status === 200) {
-        this.dbMusics = res.rows
-        return res.rows
+        this.dbMusics = res.musics
+        return res.musics
       }
     },
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
@@ -30,8 +47,8 @@ export const useUserStore = defineStore("useUserStore", {
       })
 
       if (res.status === 200) {
-        this.dbSkins = res.rows
-        return res.rows
+        this.dbSkins = res.skins
+        return res.skins
       }
     },
     async selectSkin(steamId: string, skin: Skin, team: number) {

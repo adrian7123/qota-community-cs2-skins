@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Skin } from "~/models/skin.model"
+import { WeaponType, type Skin } from "~/models/skin.model"
 import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { splitName } from "~/shared/helpers/helper"
 
@@ -21,7 +21,28 @@ const show = ref(false)
 const selected = ref<Skin>()
 
 onMounted(() => {
-  selected.value = cs2.getSkin(props.weapon!, userStore.dbSkins, props.items!, store.team ? 3 : 2)
+  switch (props.weapon!.weapon_type) {
+    case WeaponType.Weapon: {
+      selected.value = cs2.getSkin(
+        props.weapon!,
+        userStore.dbSkins,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+    case WeaponType.Knife: {
+      selected.value = cs2.getKnife(
+        props.weapon!,
+        userStore.dbKnives,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+  }
 })
 
 const openModal = (item: any) => {

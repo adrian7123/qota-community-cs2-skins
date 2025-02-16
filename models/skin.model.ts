@@ -1,6 +1,10 @@
 export enum WeaponType {
   Weapon,
-  Music
+  Music,
+  Knife,
+  Glove,
+  Agent,
+  Pin
 }
 
 export type Skin = {

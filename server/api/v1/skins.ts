@@ -12,41 +12,38 @@ export default defineEventHandler(async (event) => {
 
   if (event.method === "POST") {
     const skin = (await readBody(event)) as DBSkin
-    const rows = await postSkins(steamId as string, skin)
+    const skins = await postSkins(steamId as string, skin)
 
     return {
       status: 200,
-      rows
+      skins
     }
   }
 
   if (event.method === "GET") {
-    const rows = await getSkins(steamId as string)
+    const skins = await getSkins(steamId as string)
 
     return {
       status: 200,
-      rows
+      skins
     }
   }
 })
 
 const getSkins = async (steamId?: string) => {
   const db = useDatabase()
-  const { rows } = await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${String(steamId)}`
+  const { rows } = await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${steamId}`
   return rows
 }
 
 const postSkins = async (steamId: string, skin: DBSkin) => {
   const db = useDatabase()
 
-  const { rows } = await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${String(
-    steamId
-  )} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
+  const { rows } =
+    await db.sql`SELECT * FROM wp_player_skins WHERE steamid = ${steamId} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
 
   if (rows?.length != 0) {
-    await db.sql`DELETE FROM wp_player_skins WHERE steamid = ${String(
-      steamId
-    )} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
+    await db.sql`DELETE FROM wp_player_skins WHERE steamid = ${steamId} AND weapon_defindex = ${skin.weapon_defindex} AND weapon_team = ${skin.weapon_team}`
   }
 
   const res = await db.sql`INSERT INTO wp_player_skins (
