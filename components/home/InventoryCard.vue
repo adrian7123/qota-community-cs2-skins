@@ -61,11 +61,7 @@ const selectSkin = async (skin: Skin) => {
       </div>
     </div>
     <dialog :id="selected.image" class="modal">
-      <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" @select-skin="selectSkin">
-        <template #music>
-          <slot name="music" />
-        </template>
-      </HomeInventoryModal>
+      <HomeInventoryModal v-if="show" :weapon="weapon" :skins="items" @select-skin="selectSkin" />
     </dialog>
   </div>
 </template>

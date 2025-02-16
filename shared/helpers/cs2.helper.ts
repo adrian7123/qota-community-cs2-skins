@@ -1,5 +1,5 @@
 import type { DBSkin } from "~/models/db.model"
-import type { Skin } from "~/models/skin.model"
+import { WeaponType, type Skin } from "~/models/skin.model"
 import { Constants } from "../constants"
 
 export class Cs2Helper {
@@ -8,19 +8,21 @@ export class Cs2Helper {
   getSkin(weapon?: Skin, dbSkins?: DBSkin[], skins?: Skin[], team?: number): Skin | undefined {
     if (!weapon || !dbSkins || !skins || !team) return
 
-    const dbSkin = dbSkins.find((skin) => {
-      const found = skin.weapon_defindex === weapon.weapon?.weapon_id
+    if (weapon.weapon_type === WeaponType.Weapon) {
+      const dbSkin = dbSkins.find((skin) => {
+        const found = skin.weapon_defindex === weapon.weapon?.weapon_id
 
-      const hasTeam = skin.weapon_team == team
+        const hasTeam = skin.weapon_team == team
 
-      return found && hasTeam
-    })
+        return found && hasTeam
+      })
 
-    if (dbSkin) {
-      return (
-        skins?.find((k) => Number.parseInt(k.paint_index ?? "0") === dbSkin.weapon_paint_id) ??
-        weapon
-      )
+      if (dbSkin) {
+        return (
+          skins?.find((k) => Number.parseInt(k.paint_index ?? "0") === dbSkin.weapon_paint_id) ??
+          weapon
+        )
+      }
     }
 
     return weapon

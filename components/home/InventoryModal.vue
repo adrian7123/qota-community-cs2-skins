@@ -69,7 +69,15 @@ const closeModal = () => {
               </span>
             </div>
           </div>
-          <slot name="music" />
+          <!-- <template v-if="selected.type === 'musics'">
+            <a
+              class="text-blue-400 underline text-2xl"
+              target="_blank"
+              :href="`https://wiki.cs.money/music-kits/${slugify(selected.name)}`"
+            >
+              Escutar musica
+            </a>
+          </template> -->
         </div>
       </div>
       <div class="flex-1">
