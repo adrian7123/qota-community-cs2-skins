@@ -74,7 +74,7 @@ const skinMusics = computed(() => {
           <img aria-label="enabled" src="/logo_T.png" />
           <img aria-label="disabled" src="/logo_CT.png" />
         </label>
-        {{ team ? "Counter Terrorist" : "Terrorists" }} Loadout
+        {{ team ? "Counter Terrorists" : "Terrorists" }} Loadout
       </p>
 
       <div :key="agentKey" class="card-body grid grid-cols-1 lg:grid-cols-5 items-start">
