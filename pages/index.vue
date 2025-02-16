@@ -77,7 +77,7 @@ const skinMusics = computed(() => {
         {{ team ? "Counter Terrorist" : "Terrorists" }} Loadout
       </p>
 
-      <div class="card-body grid grid-cols-1 lg:grid-cols-5 items-start">
+      <div :key="agentKey" class="card-body grid grid-cols-1 lg:grid-cols-5 items-start">
         <HomeInventoryColumn :items="pistols" title="Pistols" :team="team" />
         <HomeInventoryColumn :items="mid" title="Mid Tier" :team="team" />
         <HomeInventoryColumn :items="high" title="High Tier" :team="team" />
@@ -93,7 +93,7 @@ const skinMusics = computed(() => {
           </div>
           <div class="mr-2">
             <p class="text-2xl font-bold">Agents</p>
-            <HomeInventoryCard :key="agentKey" :weapon="agent" :items="skinAgents" />
+            <HomeInventoryCard :weapon="agent" :items="skinAgents" />
           </div>
           <div>
             <p class="text-2xl font-bold">Music</p>
