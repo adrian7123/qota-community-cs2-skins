@@ -18,7 +18,7 @@ export const useAuthStore = defineStore("useAuthStore", {
   actions: {
     logout() {
       this.user = null
-      localStorage.removeItem("@steamUser")
+      localStorage.clear()
       reloadNuxtApp({
         path: "/"
       })

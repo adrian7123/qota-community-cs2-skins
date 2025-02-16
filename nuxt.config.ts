@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devServer: {
-    port: import.meta.env.PORT
+    port: import.meta.env.PORT ?? 3004
   },
   app: {
     head: {

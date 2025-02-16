@@ -1,9 +1,10 @@
 <script lang="ts" setup>
 const global = useGlobalStore()
+const auth = useAuthStore()
 </script>
 
 <template>
-  <MyHeader />
+  <MyHeader v-if="auth.user" />
   <NuxtPage />
   <FullScreenLoader v-if="global.loading" />
 </template>

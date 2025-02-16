@@ -20,6 +20,13 @@ export const useSkinStore = defineStore("useSkinStore", {
       this.team = team
     },
     async initialize() {
+      await Promise.all([
+        this.fetchSkins(),
+        this.fetchAgents(),
+        this.fetchMusics(),
+        this.fetchKeychains()
+      ])
+
       const skins = localStorage.getItem("@skins")
       const agents = localStorage.getItem("@agents")
       const musics = localStorage.getItem("@musics")
@@ -29,13 +36,6 @@ export const useSkinStore = defineStore("useSkinStore", {
       if (agents) this.agents = this.orderByRarity(JSON.parse(agents))
       if (musics) this.musics = this.orderByRarity(JSON.parse(musics))
       if (keychains) this.keychains = this.orderByRarity(JSON.parse(keychains))
-
-      await Promise.all([
-        this.fetchSkins(),
-        this.fetchAgents(),
-        this.fetchMusics(),
-        this.fetchKeychains()
-      ])
 
       this.initialized = true
     },

@@ -7,7 +7,21 @@ export const useUserStore = defineStore("useUserStore", {
     dbMusics: [] as DBSkin[]
   }),
   actions: {
-    async fetchAll(steamId: string) {},
+    async fetchAll(steamId: string): Promise<any[]> {
+      return Promise.all([this.fetchSkins(steamId), this.fetchMusics(steamId)])
+    },
+    async fetchMusics(steamId: string): Promise<DBSkin[] | undefined> {
+      const res: any = await $fetch("/api/v1/musics", {
+        query: {
+          steamId: steamId
+        }
+      })
+
+      if (res.status === 200) {
+        this.dbMusics = res.rows
+        return res.rows
+      }
+    },
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
       const res: any = await $fetch("/api/v1/skins", {
         query: {

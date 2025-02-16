@@ -16,6 +16,8 @@ const mid = ref(helper.mid(team.value ? "counter-terrorists" : "terrorists"))
 const high = ref(helper.rifles(team.value ? "counter-terrorists" : "terrorists"))
 const agent = ref(helper.agents(team.value ? "counter-terrorists" : "terrorists")[0])
 
+const agentKey = ref(1)
+
 const glove = helper.gloves()[0]
 const music = helper.musics()[0]
 
@@ -37,6 +39,7 @@ watch(team, async (newVal) => {
   pistols.value = []
   mid.value = []
   high.value = []
+  agentKey.value += 19
 
   localStorage.setItem("@team", newVal ? "counter-terrorists" : "terrorists")
 
@@ -90,7 +93,7 @@ const skinMusics = computed(() => {
           </div>
           <div class="mr-2">
             <p class="text-2xl font-bold">Agents</p>
-            <HomeInventoryCard :weapon="agent" :items="skinAgents" />
+            <HomeInventoryCard :key="agentKey" :weapon="agent" :items="skinAgents" />
           </div>
           <div>
             <p class="text-2xl font-bold">Music</p>
@@ -111,3 +114,4 @@ const skinMusics = computed(() => {
     </div>
   </div>
 </template>
+-3,57
