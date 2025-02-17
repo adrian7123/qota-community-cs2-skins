@@ -150,6 +150,11 @@ const closeModal = () => {
               <source
                 :src="`https://wiki.cs.money/audio/${slugify(selected.name)}/mvp-anthem.mp3`"
               />
+              <source
+                :src="`https://wiki.cs.money/audio/music-kit-${slugify(
+                  selected.name
+                )}/mvp-anthem.mp3`"
+              />
               Your browser does not support the audio element.
             </audio>
             <!-- <a
