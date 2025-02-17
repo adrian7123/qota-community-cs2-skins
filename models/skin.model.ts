@@ -10,6 +10,8 @@ export enum WeaponType {
 export type Skin = {
   weapon_type: WeaponType
 
+  model_player?: string
+
   market_hash_name?: string
   exclusive?: boolean
 

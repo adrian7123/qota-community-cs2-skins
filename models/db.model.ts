@@ -33,7 +33,7 @@ export type DBKnife = {
   knife: string
 }
 
-export type DBGloves = {
+export type DBGlove = {
   type: WeaponType.Glove
   steamid: string
   weapon_team: number

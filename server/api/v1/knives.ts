@@ -33,17 +33,30 @@ const postKnife = async (steamId: string, knife: DBKnife) => {
   const db = useDatabase()
 
   const { rows } =
-    await db.sql`SELECT * FROM wp_player_knife WHERE steamid = ${steamId} AND knife = ${knife.knife} AND weapon_team = ${knife.weapon_team}`
+    await db.sql`SELECT * FROM wp_player_knife WHERE steamid = ${steamId} AND weapon_team = ${knife.weapon_team}`
 
   if (rows?.length != 0) {
-    await db.sql`DELETE FROM wp_player_knife WHERE steamid = ${steamId} AND knife = ${knife.knife} AND weapon_team = ${knife.weapon_team}`
+    await db.sql`DELETE FROM wp_player_knife WHERE steamid = ${steamId} AND weapon_team = ${knife.weapon_team}`
   }
+
+  const res = await db.sql`INSERT INTO wp_player_knife (
+    steamid,
+    knife,
+    weapon_team
+  )
+  VALUES (
+    ${steamId},
+    ${knife.knife},
+    ${knife.weapon_team}
+  )`
+
+  return res
 }
 
-const getKnives = async (steamId: string): Promise<DBKnife> => {
+const getKnives = async (steamId: string): Promise<DBKnife[]> => {
   const db = useDatabase()
 
-  const knives = await db.sql`SELECT * FROM wp_player_knife WHERE steamId = ${steamId}`
+  const { rows } = await db.sql`SELECT * FROM wp_player_knife WHERE steamId = ${steamId}`
 
-  return knives as DBKnife
+  return rows as DBKnife[]
 }
