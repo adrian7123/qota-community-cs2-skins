@@ -114,6 +114,22 @@ const closeModal = () => {
 </script>
 <template>
   <div class="modal-box cursor-auto max-w-6xl min-h-[730px] !p-0 border border-gray-400">
+    <form method="dialog">
+      <button
+        class="btn btn-sm btn-circle absolute transition-transform hover:scale-110 right-2 top-2 border-0"
+        :style="
+          selected?.rarity
+            ? `background:
+          linear-gradient(0deg, ${selected.rarity.color}50 100%, ${selected.rarity.color}50 0%),
+          radial-gradient(60% 60% at 20% 50%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
+            : ''
+        "
+        style="font-size: large; font-weight: bold"
+        @click="closeModal()"
+      >
+        x
+      </button>
+    </form>
     <div
       class="flex h-[730px] overflow-y-hidden p-10"
       :style="
@@ -201,7 +217,10 @@ const closeModal = () => {
                     radial-gradient(60% 60% at 50% 0%, ${item.rarity.color}cc 0%, ${item.rarity.color}20 100%);`
                 : ''
             "
-            class="card cursor-pointer flex flex-col items-center justify-center w-full border border-gray-500 p-2 mb-2"
+            class="card cursor-pointer flex flex-col items-center justify-center w-full border p-2 mb-2 transition-colors duration-00"
+            :class="
+              item.id === selected?.id ? 'border-4 border-green-500' : 'border-2 border-gray-500'
+            "
             @click="selectSkin(item)"
           >
             <div class="translation-card flex flex-col items-center justify-center">
