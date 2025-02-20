@@ -28,7 +28,11 @@ export default defineNuxtConfig({
     database: {
       default: {
         connector: "mysql2",
-        options: { uri: import.meta.env.DATABASE_URL }
+        options: {
+          uri: import.meta.env.DATABASE_URL,
+          keepAliveInitialDelay: 10000,
+          enableKeepAlive: true
+        }
       }
     }
   }
