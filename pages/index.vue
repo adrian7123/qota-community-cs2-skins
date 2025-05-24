@@ -28,7 +28,7 @@ onMounted(async () => {
 
   global.show()
 
-  await userStore.fetchSkins(auth.steamId!)
+  await userStore.fetchAll(auth.steamId!)
 
   await store.initialize()
 

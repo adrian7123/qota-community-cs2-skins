@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Skin } from "~/models/skin.model"
+import { WeaponType, type Skin } from "~/models/skin.model"
 import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { splitName } from "~/shared/helpers/helper"
 
@@ -21,7 +21,60 @@ const show = ref(false)
 const selected = ref<Skin>()
 
 onMounted(() => {
-  selected.value = cs2.getSkin(props.weapon!, userStore.dbSkins, props.items!, store.team ? 3 : 2)
+  switch (props.weapon!.weapon_type) {
+    case WeaponType.Weapon: {
+      selected.value = cs2.getSkin(
+        props.weapon!,
+        userStore.dbSkins,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+    case WeaponType.Knife: {
+      selected.value = cs2.getKnife(
+        props.weapon!,
+        userStore.dbKnives,
+        userStore.dbSkins,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+    case WeaponType.Music: {
+      selected.value = cs2.getMusic(
+        props.weapon!,
+        userStore.dbMusics,
+        store.musics,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+    case WeaponType.Glove: {
+      selected.value = cs2.getGlove(
+        props.weapon!,
+        userStore.dbGloves,
+        userStore.dbSkins,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+    case WeaponType.Agent: {
+      selected.value = cs2.getAgent(
+        props.weapon!,
+        userStore.dbAgents,
+        props.items!,
+        store.team ? 3 : 2
+      )
+
+      break
+    }
+  }
 })
 
 const openModal = (item: any) => {
@@ -46,10 +99,10 @@ const selectSkin = async (skin: Skin) => {
                     radial-gradient(60% 60% at 50% 0%, ${selected.rarity.color}cc 0%, ${selected.rarity.color}20 100%);`
         : ''
     "
-    class="card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2"
+    class="min-h-[220px] min-w-[220px] card cursor-pointer flex flex-col items-center w-full border border-gray-400 p-2 mb-2"
     @click="() => openModal(selected?.image)"
   >
-    <div class="translation-card">
+    <div class="translation-card flex flex-col items-center flex-center text-center">
       <img :src="selected.image" class="h-28 w-32" />
       <div class="w-full flex flex-col items-center justify-center font-semibold text-gray-300">
         <span class="text-xl">

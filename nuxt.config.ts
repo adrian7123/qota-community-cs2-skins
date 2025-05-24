@@ -1,4 +1,12 @@
 import tailwindcss from "@tailwindcss/vite"
+import type { ConnectionOptions } from "mysql2"
+
+const databaseConnectionOptions: ConnectionOptions = {
+  uri: import.meta.env.DATABASE_URL,
+  keepAliveInitialDelay: 10000,
+  enableKeepAlive: true,
+  waitForConnections: true
+}
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -28,7 +36,7 @@ export default defineNuxtConfig({
     database: {
       default: {
         connector: "mysql2",
-        options: { uri: import.meta.env.DATABASE_URL }
+        options: databaseConnectionOptions
       }
     }
   }

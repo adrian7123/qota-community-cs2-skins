@@ -1,5 +1,5 @@
 import axios from "axios"
-import type { Skin } from "~/models/skin.model"
+import { WeaponType, type Skin } from "~/models/skin.model"
 
 export const useSkinStore = defineStore("useSkinStore", {
   state: () => ({
@@ -83,9 +83,15 @@ export const useSkinStore = defineStore("useSkinStore", {
       try {
         const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/music_kits.json")
 
-        localStorage.setItem("@musics", JSON.stringify(res.data))
+        const musics = res.data.map((music: Skin) => {
+          music.weapon_type = WeaponType.Music
 
-        return res.data
+          return music
+        })
+
+        localStorage.setItem("@musics", JSON.stringify(musics))
+
+        return musics
       } catch (error) {
         console.error(error)
       }

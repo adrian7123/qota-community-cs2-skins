@@ -1,10 +1,16 @@
 export enum WeaponType {
   Weapon,
-  Music
+  Music,
+  Knife,
+  Glove,
+  Agent,
+  Pin
 }
 
 export type Skin = {
   weapon_type: WeaponType
+
+  model_player?: string
 
   market_hash_name?: string
   exclusive?: boolean

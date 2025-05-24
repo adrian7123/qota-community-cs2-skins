@@ -4,7 +4,7 @@ const auth = useAuthStore()
 </script>
 
 <template>
-  <MyHeader v-if="auth.user" />
+  <MyHeader v-show="auth.user" />
   <NuxtPage />
   <FullScreenLoader v-if="global.loading" />
 </template>
