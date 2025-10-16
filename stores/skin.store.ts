@@ -1,4 +1,3 @@
-import axios from "axios"
 import { WeaponType, type Skin } from "~/models/skin.model"
 
 export const useSkinStore = defineStore("useSkinStore", {
@@ -59,31 +58,31 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchSkins(): Promise<Skin[] | undefined> {
       try {
-        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/skins.json")
+        const data = await $fetch("/api/proxy/skins")
 
-        localStorage.setItem("@skins", JSON.stringify(res.data))
+        localStorage.setItem("@skins", JSON.stringify(data))
 
-        return res.data
+        return data as Skin[]
       } catch (error) {
         console.error(error)
       }
     },
     async fetchAgents(): Promise<Skin[] | undefined> {
       try {
-        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/agents.json")
+        const data = await $fetch("/api/proxy/agents")
 
-        localStorage.setItem("@agents", JSON.stringify(res.data))
+        localStorage.setItem("@agents", JSON.stringify(data))
 
-        return res.data
+        return data as Skin[]
       } catch (error) {
         console.error(error)
       }
     },
     async fetchMusics(): Promise<Skin[] | undefined> {
       try {
-        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/music_kits.json")
+        const data = (await $fetch("/api/proxy/musics")) as Skin[]
 
-        const musics = res.data.map((music: Skin) => {
+        const musics = data.map((music: Skin) => {
           music.weapon_type = WeaponType.Music
 
           return music
@@ -98,11 +97,11 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchKeychains(): Promise<Skin[] | undefined> {
       try {
-        const res = await axios.get("https://bymykel.github.io/CSGO-API/api/en/keychains.json")
+        const data = await $fetch("/api/proxy/keychains")
 
-        localStorage.setItem("@keychains", JSON.stringify(res.data))
+        localStorage.setItem("@keychains", JSON.stringify(data))
 
-        return res.data
+        return data as Skin[]
       } catch (error) {
         console.error(error)
       }
