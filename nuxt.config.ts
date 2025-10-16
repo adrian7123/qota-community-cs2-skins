@@ -3,19 +3,11 @@ import type { ConnectionOptions } from "mysql2"
 
 const databaseConnectionOptions: ConnectionOptions = {
   uri: import.meta.env.DATABASE_URL,
-  // Configurações do pool de conexões
-  acquireTimeout: 60000,
-  timeout: 60000,
-  reconnect: true,
-  // Configurações de keep-alive
   enableKeepAlive: true,
   keepAliveInitialDelay: 0,
-  // Configurações do pool
   connectionLimit: 10,
   maxIdle: 2,
   idleTimeout: 60000,
-  acquireTimeout: 60000,
-  // Configurações para evitar timeout
   supportBigNumbers: true,
   bigNumberStrings: true,
   charset: "utf8mb4"
