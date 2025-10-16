@@ -1,10 +1,8 @@
 FROM node:18-alpine AS builder
 WORKDIR /qota-community-skins
 
-RUN npm install -g pnpm
-
 COPY package.json package-lock.json* ./
-RUN pnpm i --prod
+RUN npm i
 
 COPY . .
 
