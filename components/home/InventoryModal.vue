@@ -2,6 +2,7 @@
 import { WeaponType, type Skin } from "~/models/skin.model"
 import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { slugify, splitName } from "~/shared/helpers/helper"
+import { getImageUrl } from "~/shared/utils/get-image-url"
 
 const store = useSkinStore()
 const userStore = useUserStore()
@@ -149,7 +150,7 @@ const closeModal = () => {
             <span class="text-3xl">
               {{ splitName(selected.name)[0] }}
             </span>
-            <img :src="selected?.image" class="" />
+            <img :src="getImageUrl(selected.image)" class="" />
             <div
               class="w-full flex flex-col items-center justify-center font-semibold text-gray-300"
             >
@@ -225,7 +226,7 @@ const closeModal = () => {
             @click="selectSkin(item)"
           >
             <div class="translation-card flex flex-col items-center justify-center">
-              <img :src="item.image" class="h-40 w-40" />
+              <img :src="getImageUrl(item.image)" class="h-40 w-40" />
               <div
                 class="w-full flex flex-col items-center justify-center font-semibold text-gray-300"
               >

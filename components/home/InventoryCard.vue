@@ -2,6 +2,7 @@
 import { WeaponType, type Skin } from "~/models/skin.model"
 import { Cs2Helper } from "~/shared/helpers/cs2.helper"
 import { splitName } from "~/shared/helpers/helper"
+import { getImageUrl } from "~/shared/utils/get-image-url"
 
 const userStore = useUserStore()
 const store = useSkinStore()
@@ -103,7 +104,7 @@ const selectSkin = async (skin: Skin) => {
     @click="() => openModal(selected?.image)"
   >
     <div class="translation-card flex flex-col items-center flex-center text-center">
-      <img :src="selected.image" class="h-28 w-32" />
+      <img :src="getImageUrl(selected.image)" class="h-28 w-32" />
       <div class="w-full flex flex-col items-center justify-center font-semibold text-gray-300">
         <span class="text-xl">
           {{ splitName(selected.name)[0] }}
