@@ -10,7 +10,7 @@ export const useApi = () => {
   // Cria instância do axios com configurações padrão
   const createAxiosInstance = (): AxiosInstance => {
     const instance = axiosStatic.create({
-      baseURL: import.meta.env.API_URL,
+      baseURL: import.meta.env.VITE_API_URL,
       timeout: 20000,
       params: {
         steamid: authStore.steamId

@@ -73,7 +73,7 @@ export const useUserStore = defineStore("useUserStore", {
     },
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("/skin/skin", {
+      const res: any = await api.get("http://localhost:3004/skin/skin", {
         params: {
           steamId: steamId
         }

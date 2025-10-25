@@ -1,5 +1,11 @@
 import { WeaponType, type Skin } from "~/models/skin.model"
 
+// Importar os arquivos JSON locais
+import agentsData from "~/assets/skins/agents.json"
+import keychainsData from "~/assets/skins/keychains.json"
+import musicData from "~/assets/skins/music_kits.json"
+import skinsData from "~/assets/skins/skins.json"
+
 export const useSkinStore = defineStore("useSkinStore", {
   state: () => ({
     skins: [] as Skin[],
@@ -19,22 +25,40 @@ export const useSkinStore = defineStore("useSkinStore", {
       this.team = team
     },
     async initialize() {
-      await Promise.all([
-        this.fetchSkins(),
-        this.fetchAgents(),
-        this.fetchMusics(),
-        this.fetchKeychains()
-      ])
+      // Carregar e processar skins
+      const processedSkins = (skinsData as any[]).map((skin: any) => ({
+        ...skin,
+        weapon_type: WeaponType.Weapon,
+        type: skin.category?.name || "Weapon",
+        team: skin.team || { id: "any", name: "Any" }
+      }))
+      this.skins = this.orderByRarity(processedSkins as Skin[])
 
-      const skins = localStorage.getItem("@skins")
-      const agents = localStorage.getItem("@agents")
-      const musics = localStorage.getItem("@musics")
-      const keychains = localStorage.getItem("@keychains")
+      // Carregar e processar agentes
+      const processedAgents = (agentsData as any[]).map((agent: any) => ({
+        ...agent,
+        weapon_type: WeaponType.Agent,
+        type: "Agent"
+      }))
+      this.agents = this.orderByRarity(processedAgents as Skin[])
 
-      if (skins) this.skins = this.orderByRarity(JSON.parse(skins))
-      if (agents) this.agents = this.orderByRarity(JSON.parse(agents))
-      if (musics) this.musics = this.orderByRarity(JSON.parse(musics))
-      if (keychains) this.keychains = this.orderByRarity(JSON.parse(keychains))
+      // Processar música kits
+      const processedMusics = (musicData as any[]).map((music: any) => ({
+        ...music,
+        weapon_type: WeaponType.Music,
+        type: "Music Kit",
+        team: { id: "any", name: "Any" }
+      }))
+      this.musics = this.orderByRarity(processedMusics as Skin[])
+
+      // Carregar e processar keychains
+      const processedKeychains = (keychainsData as any[]).map((keychain: any) => ({
+        ...keychain,
+        weapon_type: WeaponType.Pin,
+        type: "Keychain",
+        team: { id: "any", name: "Any" }
+      }))
+      this.keychains = this.orderByRarity(processedKeychains as Skin[])
 
       this.initialized = true
     },
@@ -55,64 +79,6 @@ export const useSkinStore = defineStore("useSkinStore", {
       })
 
       return orderedSkins
-    },
-    async fetchSkins(): Promise<Skin[] | undefined> {
-      try {
-        const api = useApi()
-        const response = await api.get("/skin/skin")
-        const data = response.data
-
-        localStorage.setItem("@skins", JSON.stringify(data))
-
-        return data as Skin[]
-      } catch (error) {
-        console.error(error)
-      }
-    },
-    async fetchAgents(): Promise<Skin[] | undefined> {
-      try {
-        const api = useApi()
-        const response = await api.get("/skin/agent")
-        const data = response.data
-
-        localStorage.setItem("@agents", JSON.stringify(data))
-
-        return data as Skin[]
-      } catch (error) {
-        console.error(error)
-      }
-    },
-    async fetchMusics(): Promise<Skin[] | undefined> {
-      try {
-        const api = useApi()
-        const response = await api.get("/skin/music")
-        const data = response.data as Skin[]
-
-        const musics = data.map((music: Skin) => {
-          music.weapon_type = WeaponType.Music
-
-          return music
-        })
-
-        localStorage.setItem("@musics", JSON.stringify(musics))
-
-        return musics
-      } catch (error) {
-        console.error(error)
-      }
-    },
-    async fetchKeychains(): Promise<Skin[] | undefined> {
-      try {
-        const api = useApi()
-        const response = await api.get("/skin/keychains")
-        const data = response.data
-
-        localStorage.setItem("@keychains", JSON.stringify(data))
-
-        return data as Skin[]
-      } catch (error) {
-        console.error(error)
-      }
     }
   }
 })
