@@ -40,6 +40,7 @@ export const useSkinStore = defineStore("useSkinStore", {
         weapon_type: WeaponType.Agent,
         type: "Agent"
       }))
+
       this.agents = this.orderByRarity(processedAgents as Skin[])
 
       // Processar música kits

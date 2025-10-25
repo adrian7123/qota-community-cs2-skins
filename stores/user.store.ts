@@ -10,82 +10,54 @@ export const useUserStore = defineStore("useUserStore", {
     dbAgents: [] as DBAgent[]
   }),
   actions: {
-    async fetchAll(steamId: string): Promise<any[]> {
+    async fetchAll(): Promise<any[]> {
       return Promise.all([
-        this.fetchSkins(steamId),
-        this.fetchMusics(steamId),
-        this.fetchKnives(steamId),
-        this.fetchGloves(steamId),
-        this.fetchAgents(steamId)
+        this.fetchSkins(),
+        this.fetchMusics(),
+        this.fetchKnives(),
+        this.fetchGloves(),
+        this.fetchAgents()
       ])
     },
-    async fetchAgents(steamId: string): Promise<DBAgent[] | undefined> {
+    async fetchAgents(): Promise<DBAgent[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("/skin/agent", {
-        params: {
-          steamId: steamId
-        }
-      })
+      const res: any = await api.get("/skin/agent")
 
-      if (res.data.status === 200) {
-        this.dbAgents = res.data.agents
-        return res.data.agents
-      }
+      this.dbAgents = res.data
+      return res.data
     },
-    async fetchGloves(steamId: string): Promise<DBKnife[] | undefined> {
+    async fetchGloves(): Promise<DBKnife[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("/skin/glove", {
-        params: {
-          steamId: steamId
-        }
-      })
+      const res: any = await api.get("/skin/glove")
 
-      if (res.data.status === 200) {
-        this.dbGloves = res.data.gloves
-        return res.data.gloves
-      }
+      this.dbGloves = res.data
+      return res.data
     },
-    async fetchKnives(steamId: string): Promise<DBKnife[] | undefined> {
+    async fetchKnives(): Promise<DBKnife[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("/skin/knife", {
-        params: {
-          steamId: steamId
-        }
-      })
+      const res: any = await api.get("/skin/knife")
 
-      if (res.data.status === 200) {
-        this.dbKnives = res.data.knives
-        return res.data.knives
-      }
+      this.dbKnives = res.data
+      return res.data
     },
-    async fetchMusics(steamId: string): Promise<DBSkin[] | undefined> {
+    async fetchMusics(): Promise<DBSkin[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("/skin/music", {
-        params: {
-          steamId: steamId
-        }
-      })
+      const res: any = await api.get("/skin/music")
 
-      if (res.data.status === 200) {
-        this.dbMusics = res.data.musics
-        return res.data.musics
-      }
+      this.dbMusics = res.data
+      return res.data
     },
-    async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
+    async fetchSkins(): Promise<DBSkin[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("http://localhost:3004/skin/skin", {
-        params: {
-          steamId: steamId
-        }
-      })
+      const res: any = await api.get("http://localhost:3004/skin/skin")
 
-      if (res.data.status === 200) {
-        this.dbSkins = res.data.skins
-        return res.data.skins
-      }
+      this.dbSkins = res.data
+      return res.data
     },
     async selectAgent(steamId: string, agent: Skin, team: number) {
-      const body: any = {}
+      const body: any = {
+        steamid: steamId
+      }
 
       if (team === 3) {
         body.agent_ct = agent.model_player?.replace("characters/models/", "").replace(".vmdl", "")
@@ -94,13 +66,9 @@ export const useUserStore = defineStore("useUserStore", {
       }
 
       const api = useApi()
-      await api.post("/skin/agent", body, {
-        params: {
-          steamId: steamId
-        }
-      })
+      await api.post("/skin/agent", body)
 
-      await this.fetchAll(steamId)
+      await this.fetchAll()
     },
     async selectGlove(steamId: string, glove: Skin, team: number) {
       const body: DBGlove = {
@@ -111,13 +79,9 @@ export const useUserStore = defineStore("useUserStore", {
       }
 
       const api = useApi()
-      await api.post("/skin/glove", body, {
-        params: {
-          steamId: steamId
-        }
-      })
+      await api.post("/skin/glove", body)
 
-      await this.fetchAll(steamId)
+      await this.fetchAll()
     },
     async selectMusic(steamId: string, music: Skin, team: number) {
       const body: DBMusic = {
@@ -128,13 +92,9 @@ export const useUserStore = defineStore("useUserStore", {
       }
 
       const api = useApi()
-      await api.post("/skin/music", body, {
-        params: {
-          steamId: steamId
-        }
-      })
+      await api.post("/skin/music", body)
 
-      await this.fetchAll(steamId)
+      await this.fetchAll()
     },
     async selectKnife(steamId: string, knife: Skin, team: number) {
       const body: DBKnife = {
@@ -145,13 +105,9 @@ export const useUserStore = defineStore("useUserStore", {
       }
 
       const api = useApi()
-      await api.post("/skin/knife", body, {
-        params: {
-          steamId: steamId
-        }
-      })
+      await api.post("/skin/knife", body)
 
-      await this.fetchAll(steamId)
+      await this.fetchAll()
     },
     async selectSkin(steamId: string, skin: Skin, team: number) {
       const body: DBSkin = {
@@ -172,13 +128,9 @@ export const useUserStore = defineStore("useUserStore", {
       }
 
       const api = useApi()
-      await api.post("/skin/skin", body, {
-        params: {
-          steamId: steamId
-        }
-      })
+      await api.post("/skin/skin", body)
 
-      await this.fetchAll(steamId)
+      await this.fetchAll()
     }
   }
 })

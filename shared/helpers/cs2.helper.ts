@@ -8,6 +8,8 @@ export class Cs2Helper {
   getAgent(weapon?: Skin, dbAgents?: DBAgent[], skins?: Skin[], team?: number): Skin | undefined {
     if (!weapon || !dbAgents || !skins || !team) return
 
+    console.log("Getting agent for team:", dbAgents)
+
     let skin: Skin | undefined
 
     dbAgents.forEach((dbAgent) => {

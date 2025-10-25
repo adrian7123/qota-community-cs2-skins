@@ -28,7 +28,7 @@ onMounted(async () => {
 
   global.show()
 
-  await userStore.fetchAll(auth.steamId!)
+  await userStore.fetchAll()
 
   await store.initialize()
 

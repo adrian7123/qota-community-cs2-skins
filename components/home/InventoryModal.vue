@@ -21,6 +21,7 @@ const filteredSkins = ref(props.skins)
 const selected = ref<Skin>()
 
 onMounted(() => {
+  console.log("Props skins:", props.weapon)
   switch (props.weapon!.weapon_type) {
     case WeaponType.Weapon: {
       selected.value = cs2.getSkin(
