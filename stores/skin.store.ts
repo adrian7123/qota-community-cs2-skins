@@ -58,7 +58,9 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchSkins(): Promise<Skin[] | undefined> {
       try {
-        const data = await $fetch("/api/proxy/skins")
+        const api = useApi()
+        const response = await api.get("/skin/skin")
+        const data = response.data
 
         localStorage.setItem("@skins", JSON.stringify(data))
 
@@ -69,7 +71,9 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchAgents(): Promise<Skin[] | undefined> {
       try {
-        const data = await $fetch("/api/proxy/agents")
+        const api = useApi()
+        const response = await api.get("/skin/agent")
+        const data = response.data
 
         localStorage.setItem("@agents", JSON.stringify(data))
 
@@ -80,7 +84,9 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchMusics(): Promise<Skin[] | undefined> {
       try {
-        const data = (await $fetch("/api/proxy/musics")) as Skin[]
+        const api = useApi()
+        const response = await api.get("/skin/music")
+        const data = response.data as Skin[]
 
         const musics = data.map((music: Skin) => {
           music.weapon_type = WeaponType.Music
@@ -97,7 +103,9 @@ export const useSkinStore = defineStore("useSkinStore", {
     },
     async fetchKeychains(): Promise<Skin[] | undefined> {
       try {
-        const data = await $fetch("/api/proxy/keychains")
+        const api = useApi()
+        const response = await api.get("/skin/keychains")
+        const data = response.data
 
         localStorage.setItem("@keychains", JSON.stringify(data))
 

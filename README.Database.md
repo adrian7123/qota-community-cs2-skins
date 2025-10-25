@@ -45,11 +45,11 @@ Criado o arquivo `shared/utils/database.ts` com um sistema que:
 
 Todos os endpoints da API foram atualizados para usar o novo sistema:
 
-- `server/api/v1/agents.ts`
-- `server/api/v1/skins.ts`
-- `server/api/v1/knives.ts`
-- `server/api/v1/gloves.ts`
-- `server/api/v1/musics.ts`
+- `server/skin/agents.ts`
+- `server/skin/skins.ts`
+- `server/skin/knives.ts`
+- `server/skin/glove.ts`
+- `server/skin/musics.ts`
 
 ### 4. Tratamento de Erros Melhorado
 

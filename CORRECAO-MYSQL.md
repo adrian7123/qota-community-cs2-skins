@@ -22,11 +22,11 @@ O erro `Can't add new command when connection is in closed state` acontecia quan
 
 ### 3. **APIs Refatoradas**
 
-- ✅ `server/api/v1/agents.ts`
-- ✅ `server/api/v1/skins.ts`
-- ✅ `server/api/v1/knives.ts`
-- ✅ `server/api/v1/gloves.ts`
-- ✅ `server/api/v1/musics.ts`
+- ✅ `server/skin/agents.ts`
+- ✅ `server/skin/skins.ts`
+- ✅ `server/skin/knives.ts`
+- ✅ `server/skin/glove.ts`
+- ✅ `server/skin/musics.ts`
 
 ### 4. **Monitoramento e Testes**
 
@@ -44,7 +44,7 @@ O erro `Can't add new command when connection is in closed state` acontecia quan
 npm run dev
 
 # Teste uma API
-curl http://localhost:3004/api/v1/agents?steamId=76561199085019611
+curl http://localhost:3004/skin/agents?steamId=76561199085019611
 ```
 
 ### 2. **Teste de Conexão Completo**

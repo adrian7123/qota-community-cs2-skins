@@ -20,63 +20,68 @@ export const useUserStore = defineStore("useUserStore", {
       ])
     },
     async fetchAgents(steamId: string): Promise<DBAgent[] | undefined> {
-      const res: any = await $fetch("/api/v1/agents", {
-        query: {
+      const api = useApi()
+      const res: any = await api.get("/skin/agent", {
+        params: {
           steamId: steamId
         }
       })
 
-      if (res.status === 200) {
-        this.dbAgents = res.agents
-        return res.agents
+      if (res.data.status === 200) {
+        this.dbAgents = res.data.agents
+        return res.data.agents
       }
     },
     async fetchGloves(steamId: string): Promise<DBKnife[] | undefined> {
-      const res: any = await $fetch("/api/v1/gloves", {
-        query: {
+      const api = useApi()
+      const res: any = await api.get("/skin/glove", {
+        params: {
           steamId: steamId
         }
       })
 
-      if (res.status === 200) {
-        this.dbGloves = res.gloves
-        return res.gloves
+      if (res.data.status === 200) {
+        this.dbGloves = res.data.gloves
+        return res.data.gloves
       }
     },
     async fetchKnives(steamId: string): Promise<DBKnife[] | undefined> {
-      const res: any = await $fetch("/api/v1/knives", {
-        query: {
+      const api = useApi()
+      const res: any = await api.get("/skin/knife", {
+        params: {
           steamId: steamId
         }
       })
 
-      if (res.status === 200) {
-        this.dbKnives = res.knives
-        return res.knives
+      if (res.data.status === 200) {
+        this.dbKnives = res.data.knives
+        return res.data.knives
       }
     },
     async fetchMusics(steamId: string): Promise<DBSkin[] | undefined> {
-      const res: any = await $fetch("/api/v1/musics", {
-        query: {
+      const api = useApi()
+      const res: any = await api.get("/skin/music", {
+        params: {
           steamId: steamId
         }
       })
 
-      if (res.status === 200) {
-        this.dbMusics = res.musics
-        return res.musics
+      if (res.data.status === 200) {
+        this.dbMusics = res.data.musics
+        return res.data.musics
       }
     },
     async fetchSkins(steamId: string): Promise<DBSkin[] | undefined> {
-      const res: any = await $fetch("/api/v1/skins", {
-        query: {
+      const api = useApi()
+      const res: any = await api.get("/skin/skin", {
+        params: {
           steamId: steamId
         }
       })
 
-      if (res.status === 200) {
-        this.dbSkins = res.skins
-        return res.skins
+      if (res.data.status === 200) {
+        this.dbSkins = res.data.skins
+        return res.data.skins
       }
     },
     async selectAgent(steamId: string, agent: Skin, team: number) {
@@ -88,12 +93,11 @@ export const useUserStore = defineStore("useUserStore", {
         body.agent_t = agent.model_player?.replace("characters/models/", "").replace(".vmdl", "")
       }
 
-      await $fetch("/api/v1/agents", {
-        method: "POST",
-        query: {
+      const api = useApi()
+      await api.post("/skin/agent", body, {
+        params: {
           steamId: steamId
-        },
-        body
+        }
       })
 
       await this.fetchAll(steamId)
@@ -106,12 +110,11 @@ export const useUserStore = defineStore("useUserStore", {
         type: WeaponType.Glove
       }
 
-      await $fetch("/api/v1/gloves", {
-        method: "POST",
-        query: {
+      const api = useApi()
+      await api.post("/skin/glove", body, {
+        params: {
           steamId: steamId
-        },
-        body
+        }
       })
 
       await this.fetchAll(steamId)
@@ -124,12 +127,11 @@ export const useUserStore = defineStore("useUserStore", {
         type: WeaponType.Music
       }
 
-      await $fetch("/api/v1/musics", {
-        method: "POST",
-        query: {
+      const api = useApi()
+      await api.post("/skin/music", body, {
+        params: {
           steamId: steamId
-        },
-        body
+        }
       })
 
       await this.fetchAll(steamId)
@@ -142,12 +144,11 @@ export const useUserStore = defineStore("useUserStore", {
         type: WeaponType.Knife
       }
 
-      await $fetch("/api/v1/knives", {
-        method: "POST",
-        query: {
+      const api = useApi()
+      await api.post("/skin/knife", body, {
+        params: {
           steamId: steamId
-        },
-        body
+        }
       })
 
       await this.fetchAll(steamId)
@@ -170,12 +171,11 @@ export const useUserStore = defineStore("useUserStore", {
         weapon_stattrak_count: 0
       }
 
-      await $fetch("/api/v1/skins", {
-        method: "POST",
-        query: {
+      const api = useApi()
+      await api.post("/skin/skin", body, {
+        params: {
           steamId: steamId
-        },
-        body
+        }
       })
 
       await this.fetchAll(steamId)
