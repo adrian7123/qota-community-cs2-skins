@@ -1,9 +1,7 @@
 <script lang="ts" setup>
 import { Cs2Helper } from "~/shared/helpers/cs2.helper"
-import { slugify } from "~/shared/helpers/helper"
 
 const store = useSkinStore()
-const auth = useAuthStore()
 const global = useGlobalStore()
 const userStore = useUserStore()
 

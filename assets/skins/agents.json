@@ -1,8 +1,8 @@
 [
  {
   "id": "agent-4613",
-  "name": "Darryl Sangrento Sem Grana | Os Profissionais",
-  "description": "Antes de virar líder da quadrilha \\\"Os Profissionais\\\", Sr. Darryl Sangrento era simplesmente chamado de \\\"Darryl Sangrento\\\" — ainda assim, o psicopata da vizinhança em todos os sentidos da palavra. Não é um australiano de verdade segundo os australianos. \\n\\n<i>Eu vou deslumbrá-los um pouco.</i>",
+  "name": "Bloody Darryl The Strapped | The Professionals",
+  "description": "Before he was leader of the heist gang 'The Professionals' Sir Bloody Darryl was more simply called, Bloody Darryl. Still your friendly neighborhood psychopath in every sense of the word. Not actually Australian according to Australians. \\n\\n<i>I'm just gonna give them a bit of Razzle Dazzle.</i>",
   "def_index": "4613",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -12,13 +12,13 @@
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Bloody Darryl The Strapped | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWlKAhtLhqHXDilxgm4z7dztesJH2SbgApCMchFrQNsRSxw4XhYeK0swbYlcsbmucxTysR",
@@ -30,24 +30,24 @@
  },
  {
   "id": "agent-4619",
-  "name": "Chumbinho \\\"Azulão\\\" | NSWC SEAL",
-  "description": "Conhecido como o \\\"sommelier de armas\\\" da Equipe SEAL 6, Chumbinho testou e analisou praticamente todas as armas militares disponíveis para uso. A ST6 depende dos conhecimentos dele sobre armas mais exóticas para se sobressair em operações terrestres. Visto por estas bandas, ele exibe o clássico uniforme NUE Tipo 1, também conhecido como \\\"Azulão\\\".\\n\\n<i>Elas conversam comigo. As armas... Elas têm sentimentos.</i>",
+  "name": "'Blueberries' Buckshot | NSWC SEAL",
+  "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\\n\\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \\n\\n<i>They talk to me. The guns. They have feelings.</i>",
   "def_index": "4619",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "'Blueberries' Buckshot | NSWC SEAL",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPrdXWLElL5ytbBsTXrqzUxzsWmHzN-gI3-TbwQmC5pzQLELsUbrx9bmP_SiuVJe8Pfo4Q",
@@ -59,8 +59,8 @@
  },
  {
   "id": "agent-4680",
-  "name": "McCoy (\\\"Duas Vezes\\\") | Cavalaria do TACP",
-  "description": "McCoy foi apelidado de \\\"Duas Vezes\\\" por completar o treinamento de campo do TACP duas vezes. Registros oficiais justificam isso devido a uma confusão de agendamentos, mas os seus colegas relataram dificuldade em evitar uma terceira vez.\\n\\nCom uma resistência física e psicológica sobrenatural, McCoy costuma ser o último de pé ao final de qualquer conflito — seja ele físico ou verbal. O lenço amarelo é uma homenagem a quando serviu na 1ª Divisão de Cavalaria.\\n\\n<i>Sim. Ainda estou aqui.</i>",
+  "name": "'Two Times' McCoy | TACP Cavalry",
+  "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike.\\n\\nHis yellow scarf is a tribute to his time with 1st Cavalry Division.\\n\\n<i>Yep. Still here.</i>",
   "def_index": "4680",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -70,13 +70,13 @@
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "'Two Times' McCoy | TACP Cavalry",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPzdCGbJxb1zs-JvGCrql0h3tm7cyov_JS-XblImDcAhQe8OtBK4k4bgZPSiuVIHzmbjrQ",
@@ -88,24 +88,24 @@
  },
  {
   "id": "agent-4711",
-  "name": "Comte. Mae \\\"Frio Mortal\\\" Jamison | SWAT",
-  "description": "A Comandante \\\"Frio Mortal\\\" Jamison já viu de tudo um pouco. Cética e irônica no meio de combates mortais, outros poderiam confundi-la por suas atitudes indiferentes diante do caos... mas não se deixe enganar. \\\"Frio Mortal\\\" não deixa nada passar, especialmente inimigos com AK-47, subalternos que a chamam de \\\"senhora\\\" e oportunidades de fazer oficiais de elite sorrir sob pressão.\\n\\n<i>Você vai ver só.</i>",
+  "name": "Cmdr. Mae 'Dead Cold' Jamison | SWAT",
+  "description": "Cmdr. 'Dead Cold' Jamison has just about seen it all. Skeptical and wry in the midst of deadly combat, others could mistake her for being nonchalant about the chaos at hand. They would be wrong. Nothing gets past Dead Cold, not bad guys with AK-47s, junior officers that call her 'Ma'am,' or an opportunity to make elite officers smirk under pressure.\\n\\n<i>You're gonna find out.</i>",
   "def_index": "4711",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Cmdr. Mae 'Dead Cold' Jamison | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSWQDGVlbx34-Q8HC3nk012tWzTzY79JHiQOgYpW8B3EeYN40HtxtzlNuz8p1uJLMIs6sE",
@@ -117,8 +117,8 @@
  },
  {
   "id": "agent-4712",
-  "name": "Primeiro-tenente Farlow | SWAT",
-  "description": "Muito inteligente e cheia de boas maneiras, a Primeiro-tenente Farlow é uma das mais amadas e respeitadas oficiais da SWAT. Uma ótima estrategista em situações de sequestro e barricadas, Farlow rapidamente galgou os degraus da SWAT. Não se deixe enganar pela sua natureza exageradamente alegre: ela sabe dar cabo de inimigos em um piscar de olhos e sem pensar duas vezes.\\n\\n<i>Eles estão fazendo o que ali? Tomando milk-shake?</i>",
+  "name": "1st Lieutenant Farlow | SWAT",
+  "description": "Smart as a whip and relentlessly polite, 1st Lieutenant Farlow is one of the most beloved and respected officers in SWAT. A master tactician in hostage and barricade situations, Farlow quickly climbed the SWAT ranks. Don't be fooled by her overwhelmingly cheerful nature--she can dispatch bad guys in the blink of an eye and not think twice about it.\\n\\n<i>What are they doing over there? Drinking milkshakes?</i>",
   "def_index": "4712",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -128,13 +128,13 @@
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "1st Lieutenant Farlow | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSVQGLFx7h0tbU6GHG1lERz62WEm9j6cimebgB0WZd4Ee4Ks0a-lNbjZrj8p1uJLRQDiME",
@@ -146,24 +146,24 @@
  },
  {
   "id": "agent-4713",
-  "name": "John \\\"Sepulcura\\\" Kask | SWAT",
-  "description": "John \\\"Sepulcura\\\" Kask é uma das melhores unidades táticas de defesa da SWAT, além de ser paramédico militar. Ele também arrasa na guitarra, às vezes no meio da operação. Segundo ele, isso anima a equipe tanto quanto o seu desfibrilador automático externo, que ele tem sempre à mão em caso de emergências.\\n\\n<i>Eu te trago de volta à vida, mas não posso te obrigar a vivê-la.</i>",
+  "name": "John 'Van Healen' Kask | SWAT",
+  "description": "John 'Van Healen' Kask is one of SWATs best tactical defence units and on-site military paramedics. He also shreds a mean guitar—sometimes mid-operation. He says it helps get his teammates' blood pumping just as effectively as an AED, which he keeps ready in case of emergency. \\n\\n<i>I can bring you back to life, but I can't make you live.</i>",
   "def_index": "4713",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "John 'Van Healen' Kask | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSUQDLIle0jtOM-SXm2xBkjsW_dyImhc3iWOgcmAsR0TLVe4BjrkIWzN-P8p1uJ4p5BSY8",
@@ -175,24 +175,24 @@
  },
  {
   "id": "agent-4714",
-  "name": "Especialista em Risco Biológico | SWAT",
-  "description": "Os especialistas em risco biológico da SWAT são treinados para lidar com as piores situações de guerra biológica. Terroristas que planejam atacar civis inocentes com armas biológicas não querem lidar com estes caras.\\n\\n<i>Tacita Sed Mortiferum</i>",
+  "name": "Bio-Haz Specialist | SWAT",
+  "description": "The SWAT's Biological Hazard Specialists are trained to handle worst case bio warfare situations. Terrorists planning to unleash a bio hazard attack upon unsuspecting civilians do not want to deal with these guys.\\n\\n<i>Tacita Sed Mortiferum.</i>",
   "def_index": "4714",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Bio-Haz Specialist | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSbQDPGkO0i4bE4THq1xRh3sjuEz9muJX7EZlIiC8RyQbIPsBPtk9fmNrj8p1uJwRLd8H0",
@@ -204,24 +204,24 @@
  },
  {
   "id": "agent-4715",
-  "name": "Sargento Bombinha | SWAT",
-  "description": "Tyler Bobson ganhou essa alcunha após tornar-se a a primeira escolha da SWAT para operações de Descarte de Artilharia Explosiva. Com uma capacidade impressionante de localizar os dispositivos explosivos improvisados (IEDs) mais bem escondidos, a audição do \\\"Bombinha\\\" só é comparável à do nobre morcego-vampiro — mas o apelido relacionado não pegou.\\n\\n<i>Sim, eu escutei.</i>",
+  "name": "Sergeant Bombson | SWAT",
+  "description": "Tyler Bobson earned his moniker after becoming SWAT's go-to officer for efficient Explosive Ordnance Disposal. With his uncanny ability to locate even the most well hidden IEDs, Bombson's keen hearing is outclassed only by the noble Greater Wax Moth.\\n\\n<i>Yeah, I heard that.</i>",
   "def_index": "4715",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Sergeant Bombson | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSaQD6Umbp15-RtHX21kxl-sG-Gy9f6ci2XPA8lDMAiTbJc5BfuwNXgYbn8p1uJ3rbO8bk",
@@ -233,24 +233,24 @@
  },
  {
   "id": "agent-4716",
-  "name": "Especialista em Risco Químico | SWAT",
-  "description": "Os especialistas em risco químico da SWAT são capazes de sobreviver e ter êxito em operações em ambientes tóxicos por horas a fio. Quando os outros fogem, eles caem dentro.\\n\\n<i>Lar, doce lar.</i>",
+  "name": "Chem-Haz Specialist | SWAT",
+  "description": "The SWAT Chemical Hazard Specialists are able to survive and succeed in toxic environment operations for hours at a time. Where others run away, they run in.\\n\\n<i>Feels like home.</i>",
   "def_index": "4716",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Chem-Haz Specialist | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSZQGKRmOpyseJsF3rkzR4ht2_TwtugcH7DbAQgW5VyFLIDuxnqmtPiNb78p1uJZinYneA",
@@ -262,8 +262,8 @@
  },
  {
   "id": "agent-4718",
-  "name": "Rezan, o Camisa Vermelha | Sabre",
-  "description": "Um granadeiro experiente e celebrado autor de \\\"A Alegria da Preparação\\\", Rezan, o Camisa Vermelha, é o chefe de operações autointitulado da Sabre.\\n\\nCom o tempo, Rezan aprendeu a controlar o seu temperamento explosivo — agora, ele carrega a sua fúria nas mangas.\\n\\n<i>Eu tenho orgulho do meu trabalho.</i>",
+  "name": "Rezan the Redshirt | Sabre",
+  "description": "An expert grenadier and the once-celebrated author of The Joy of Preparedness, Rezan the Redshirt is Sabre's self-appointed Head of Operations.\\n\\nOver time, Rezan has learned to control his fiery temper—now he wears his explosive rage on his sleeves.\\n\\n<i>I take great pride in my work.</i>",
   "def_index": "4718",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -273,13 +273,13 @@
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Rezan the Redshirt | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HBSnClrkg5eBoGSvikU915G_dyo2vcimTOFAoX8cmR7MDsBS_m4G2Zui2-UWA3FkeyBmz",
@@ -291,24 +291,24 @@
  },
  {
   "id": "agent-4726",
-  "name": "Sr. Darryl Sangrento de Miami | Os Profissionais",
-  "description": "O líder dos Profissionais pode ser descrito como arrogante, brincalhão e indiferente até demais em relação ao sofrimento dos outros. Ele diria que não passa de um rapaz — daqueles que gosta de se divertir aos fins de semana com a milícia armada da região. Darryl minimiza a gravidade de qualquer situação difícil que enfrenta — mesmo se ele for o último homem de pé, todo baleado e com apenas segundos faltando para arrombar o cofre. A máscara branca de hóquei e a camisa florida eram moda quando trabalhava como traficante de drogas. \\n\\n<i>Penteei o cabelo pra trás e coloquei os óculos de sol.</i>",
+  "name": "Sir Bloody Miami Darryl | The Professionals",
+  "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis white hockey mask and floral shirt were popular choices during his Vice phase. \\n\\n<i>Got my hair combed back and my sunglasses on.</i>",
   "def_index": "4726",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Sir Bloody Miami Darryl | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWj-gn47Q-GH7qxkhwsWjWyN6pJynGZld0CJR3QOdbtRa4lIGxY7_g7wfAy9USZdxTISw",
@@ -320,8 +320,8 @@
  },
  {
   "id": "agent-4727",
-  "name": "Voltzmann Quebra-Cofres | Os Profissionais",
-  "description": "Estranha, peculiar, desequilibrada.... Estas são algumas palavras que descrevem a quebra-cofres e líder técnica dos Profissionais. Quando ela não está murmurando para si sobre as hipóteses incorretas inerentes ao paradoxo da maximização de lucros, a Quebra-Cofres age como uma \\\"especialista em arrecadação\\\" de moralidade questionável, mas altamente eficaz. Ela adora caminhadas curtas na rua, o som de abraçadeiras sendo apertadas e testes de protótipos de explosivos sob grande pressão. \\n\\n<i>Quero que tudo se exploda... com bombas, é claro.</i>",
+  "name": "Safecracker Voltzmann | The Professionals",
+  "description": "Weird, quirky, unhinged; a few words that describe The Professionals' safecracker and technical mastermind. When she is not mumbling to herself about the flawed assumptions inherent within the profit maximization paradox, Safecracker serves as a morally questionable but highly efficient 'fundraising expert.' She enjoys short walks on pavement, the sound of cable ties being fastened, and testing explosive prototypes under immense pressure.\\n\\n<i>Don't blow it. DO blow the bomb though, okay? We do want that.</i>",
   "def_index": "4727",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -331,13 +331,13 @@
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Safecracker Voltzmann | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WXj7536LVoFivmkEghsWXQmd37IniRPwUoCMFwEeAItxCwkdXvNr624wXAy9USEc8H9qQ",
@@ -349,24 +349,24 @@
  },
  {
   "id": "agent-4728",
-  "name": "Kevinho | Os Profissionais",
-  "description": "O Profissional que faz com que armas pesadas pareçam ser leves, Kevinho é o \\\"irmãozinho\\\" de fala mansa do Sr. Darryl Sangrento. Atuando como guarda-costas do seu irmão mais velho desde os 5 anos, Kevinho aprendeu a resolver qualquer \\\"problema pessoal\\\" antes que viessem a acontecer. O Sr. Darryl o colocou no cargo de gerente de Recursos Humanos de toda a organização dos Profissionais.  \\n\\n<i>Faremos o trabalho, de uma forma ou de outra.</i>",
+  "name": "Little Kev | The Professionals",
+  "description": "The Professional who makes heavy weapons look weightless, Little Kev is the soft spoken 'little' brother of Sir Bloody Darryl. His older brother's bodyguard since age 5, Little Kev developed a knack for quelling 'people problems' before they arise. Sir Darryl assigned him Human Resources Manager for the entire Professionals organization.  \\n\\n<i>We're getting this done either way.</i>",
   "def_index": "4728",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Little Kev | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WYj74g6LVvGyznlB8itm7XyY2od3LBOA4jWcByEe4J40S_kYfmYurm41fAy9USidzQq1U",
@@ -378,24 +378,24 @@
  },
  {
   "id": "agent-4730",
-  "name": "Sally Sumiço | Os Profissionais",
-  "description": "Pequena o suficiente para se esconder em plena vista, mas barulhenta o bastante para assustar até o maior dos inimigos, Sally Sumiço é a primeira escolha dos Profissionais para os mais apertados Projetos de Aquisição de Recursos. Uma talentosa tecelã do caos controlado, Sally Sumiço tem as habilidades de improvisação necessárias para virar o jogo em qualquer situação de risco durante assaltos e situações que envolvam reféns.\\n\\n<i>Cadê a Sally que estava aqui? Sumiu!</i>",
+  "name": "Getaway Sally | The Professionals",
+  "description": "Small enough to hide in plain sight but loud enough to frighten the biggest enemies, Getaway Sally is The Professionals' first pick for tight quarter Wealth Acquisition Projects.  A talented weaver of controlled chaos, Getaway Sally has the improvisational skills to turn the tables on any dire heist and hostage situations. \\n\\n<i>Now you don't see me, and now you still don't.</i>",
   "def_index": "4730",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Getaway Sally | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3Waj-0h4LM5H3jjzR9-4zmHzIuucXOWaAEkCsR5FrFcsEG5wNGzNeng71TAy9UScc7Ksy8",
@@ -407,8 +407,8 @@
  },
  {
   "id": "agent-4732",
-  "name": "Número K | Os Profissionais",
-  "description": "No formulário de inscrição para a vaga de \\\"Especialista de Aquisição de Recursos\\\" dos Profissionais, o Número K preencheu cada campo numérico com a letra \\\"K\\\", mas o seu talento com armas de fogo o tornou mais do que qualificado para o cargo. O Número K não é de falar da sua vida particular — nenhum dos seus colegas viu o seu rosto —, tornando-o um dos gerentes de roubos mais temidos dentre os Profissionais.\\n\\n<i>Não faça a contagem regressiva, só diga \\\"já\\\"!</i>",
+  "name": "Number K | The Professionals",
+  "description": "In his 'Wealth Acquisition Specialist' application form, Number K wrote the letter 'K' in every number field, but his talent with handguns made him more than qualified for the position. Number K keeps the details of his life private—none of his colleagues have seen his face—making him one of The Professionals' most feared heist managers.\\n\\n<i>Don't count us down. Just say go.</i>",
   "def_index": "4732",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -418,13 +418,13 @@
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Number K | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WZj7wuseM-GnG2lh4h5m2EmderdX7DaA9zW8N2QuBbtBG-mty2N-i0tADAy9USaSI87As",
@@ -436,24 +436,24 @@
  },
  {
   "id": "agent-4733",
-  "name": "Sr. Darryl Sangrento Silencioso | Os Profissionais",
-  "description": "O líder dos Profissionais pode ser descrito como arrogante, brincalhão e indiferente até demais em relação ao sofrimento dos outros. Ele diria que não passa de um rapaz — daqueles que gosta de se divertir aos fins de semana com a milícia armada da região. Darryl minimiza a gravidade de qualquer situação difícil que enfrenta — mesmo se ele for o último homem de pé, todo baleado e com apenas segundos faltando para arrombar o cofre. A máscara de \\\"voto de silêncio\\\" foi a resposta de Darryl para as queixas feitas na organização por causa da sua logorreia. \\n\\n<i>...</i>",
+  "name": "Sir Bloody Silent Darryl | The Professionals",
+  "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis 'Vow of Silence' mask was Darryl's response to organizational complaints about his logorrhea. \\n\\n<i>...</i>",
   "def_index": "4733",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Sir Bloody Silent Darryl | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWkKAv5OVoGyjilkR14mzcmdz4JHiXaQQiDZAkTO5euxW-loC1Zbm25wSPlcsbmmtPiU71",
@@ -465,24 +465,24 @@
  },
  {
   "id": "agent-4734",
-  "name": "Sr. Darryl Sangrento Caveirinha | Os Profissionais",
-  "description": "O líder dos Profissionais pode ser descrito como arrogante, brincalhão e indiferente até demais em relação ao sofrimento dos outros. Ele diria que não passa de um rapaz — daqueles que gosta de se divertir aos fins de semana com a milícia armada da região. Darryl minimiza a gravidade de qualquer situação difícil que enfrenta — mesmo se ele for o último homem de pé, todo baleado e com apenas segundos faltando para arrombar o cofre. A máscara preta foi pintada com uma caveira branca, que servia para intimidar as vítimas quando Os Profissionais estavam começando. \\n\\n<i>E aí, vamos terminar isso ou não?!</i>",
+  "name": "Sir Bloody Skullhead Darryl | The Professionals",
+  "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis black mask has been painted with a white skull, a useful bit of intimidation back when The Professionals were just getting started. \\n\\n<i>Are we gonna bloody finish this thing or what?!</i>",
   "def_index": "4734",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Sir Bloody Skullhead Darryl | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWk6Ajs7FtHni2lh5_smmDnNj8I3yVOFJyW5J5FLRYtxO6l9GxZu7h4AeIlcsbmjPHDP8B",
@@ -494,24 +494,24 @@
  },
  {
   "id": "agent-4735",
-  "name": "Sr. Darryl Sangrento Real | Os Profissionais",
-  "description": "O líder dos Profissionais pode ser descrito como arrogante, brincalhão e indiferente até demais em relação ao sofrimento dos outros. Ele diria que não passa de um rapaz — daqueles que gosta de se divertir aos fins de semana com a milícia armada da região. Darryl minimiza a gravidade de qualquer situação difícil que enfrenta — mesmo se ele for o último homem de pé, todo baleado e com apenas segundos faltando para arrombar o cofre. A máscara dourada com um estêncil de coroa comemora a primeira ida dos Profissionais a Mônaco. \\n\\n<i>Você sabe como chamam um cheesebúrguer em Mônaco?</i>",
+  "name": "Sir Bloody Darryl Royale | The Professionals",
+  "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis gold mask with a crown stencil commemorates The Professionals' first visit to Monaco. \\n\\n<i>Do you know what they call a cheeseburger in Monaco?</i>",
   "def_index": "4735",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Sir Bloody Darryl Royale | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWkqAg6ec5THznk05-4jvXntz7JHjBOwYkDZAhQrZfskXuw9HiN-m3tAfclcsbmmRuIYiQ",
@@ -523,24 +523,24 @@
  },
  {
   "id": "agent-4736",
-  "name": "Sr. Darryl Sangrento Falastrão | Os Profissionais",
-  "description": "O líder dos Profissionais pode ser descrito como arrogante, brincalhão e indiferente até demais em relação ao sofrimento dos outros. Ele diria que não passa de um rapaz — daqueles que gosta de se divertir aos fins de semana com a milícia armada da região. Darryl minimiza a gravidade de qualquer situação difícil que enfrenta — mesmo se ele for o último homem de pé, todo baleado e com apenas segundos faltando para arrombar o cofre. A máscara foi pintada com maquiagem de palhaço, perfeita para roubar doce de crianças ricas mimadas. \\n\\n<i>... Do tipo triste por dentro, eu acho.</i>",
+  "name": "Sir Bloody Loudmouth Darryl | The Professionals",
+  "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis mask has been painted with clown makeup, perfect for taking candy from rich spoiled babies. \\n\\n<i>...The crying on the inside kind, I guess.</i>",
   "def_index": "4736",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Sir Bloody Loudmouth Darryl | The Professionals",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYby8iRe_OGnZ6psLM-FD3WWlaAlsrk9G3C1xkl-5T_Vyo6odSmWPFRzC5FyEONfuhK9lYG2Nem04gPclcsbmsgBcrK7",
@@ -552,24 +552,24 @@
  },
  {
   "id": "agent-4749",
-  "name": "Médico Primeiro-Tenente | Gendarmerie Nationale",
-  "description": "Os médicos da Gendarmaria Nacional têm a merecida reputação de realizar intervenções salvadoras usando qualquer coisa à disposição — passando por desfibriladores automáticos, medicina silvestre e fogo de supressão, os médicos da Gendarmaria protegem de um jeito ou de outro. \\n\\n<i>É melhor prevenir do que remediar.</i>",
+  "name": "Sous-Lieutenant Medic | Gendarmerie Nationale",
+  "description": "Medics of the Gendarmerie National have a well-deserved reputation for providing life saving interventions using anything at their disposal. From improvised AEDs to jungle medicine to precise covering fire, the medics of the Gendarm have your back—no matter what. \\n\\n<i> It is better to prevent than to heal.</i>",
   "def_index": "4749",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Sous-Lieutenant Medic | Gendarmerie Nationale",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nn-Cxf7uCjbbZkJc-FD3WZwOBisa9qTnjhxBwk5D-Ano79cXnGbgYmDJJ2FO4MtxK-l9HnZb_h5Qba3d5N02yg2UOShGfb",
@@ -581,8 +581,8 @@
  },
  {
   "id": "agent-4750",
-  "name": "Capitão de Risco | Gendarmerie Nationale",
-  "description": "Como líder das operações de risco biológico e químico em áreas populosas, o Capitão de Risco da Gendarmaria exerce um papel crucial dentro da organização. Reconhecido por orquestrar o resgate bem-sucedido de toda uma ocupação civil no aeroporto doméstico durante o infame ataque com gás sarin de 1997, o Capitão de Risco é o que há de melhor em prontidão e compostura.    \\n\\n<i>Lembre-se de respirar.</i>",
+  "name": "Chem-Haz Capitaine | Gendarmerie Nationale",
+  "description": "As leader for Chemical and BioHazard combat operations in populated areas, the Gendarmerie Chem-Haz Capitaine plays a crucial role within the organization. Celebrated for orchestrating the successful rescue of an entire domestic airport's civilian occupancy in the infamous sarin gas attack of 1997, the Chem-Haz Capitaine is the epitome of preparedness and composure.    \\n\\n<i>Don't forget to breathe.</i>",
   "def_index": "4750",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -592,13 +592,13 @@
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Chem-Haz Capitaine | Gendarmerie Nationale",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nn-Cxf7uCjbbZkJc-FD3WZwOBisq9tGnnhkxt0sTjcwtyrcnqXO1AgDZJyQbEMsxbqwIayZrnhswHfg4gU02yg2bd7mpZ0",
@@ -610,24 +610,24 @@
  },
  {
   "id": "agent-4751",
-  "name": "Chefe de Esquadra Rouchard | Gendarmerie Nationale",
-  "description": "Nascida em uma antiga família aristocrática, Rouchard alistou-se na Gendarmaria Nacional assim que pôde, para evitar uma matrícula compulsória no famoso internato suíço para jovens mulheres. Como Aspirante na Gendarmaria, Rouchard impressionou os seus superiores com as suas habilidades em estratégias ofensivas, negociações com reféns e, acima de tudo, briga de facas. Agora, várias patentes depois, é mais conhecida pelo apelido de \\\"Le Couteau\\\" (A Faca) — embora alguns possam dizer que é por causa do seu temperamento por vezes afiado. Hoje em dia, Rouchard é chamada quando ninguém mais sabe o que fazer.\\n\\n<i>É só um arranhãozinho.</i>",
+  "name": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+  "description": "Born into an old aristocratic family, Rouchard enlisted in the Gendarmerie Nationale at her first opportunity as a way to avoid compulsory enrollment at a notorious Swiss finishing school for young women. As Aspirant in the Gendarmerie, Rouchard quickly impressed her senior ranks by excelling in offensive strategy and hostage negotiations, but most of all, blade-based combat. Several promotions later she is best known by her moniker 'Le Couteau' (The Knife), although some would say this is because she can be a bit blunt at times. Today, Rouchard gets called in when no one else knows what to do. \\n\\n<i>It is but a scratch.</i>",
   "def_index": "4751",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nn-Cxf7uCjbbZkJc-FD3WZwOBis69vSijgx01-4WvUytireS2SalVyDpoiR-MN4Rfsw4HnMem2tgbc3d5B02yg2bQY5H89",
@@ -639,24 +639,24 @@
  },
  {
   "id": "agent-4752",
-  "name": "Aspirante | Gendarmerie Nationale",
-  "description": "Aspirantes da Gendarmaria são cadetes altamente treinados da polícia militar, responsáveis por ajudar em operações de combate rurais. Dizer que a maioria anseia por ação é eufemismo.  \\n\\n<i>É a vida.</i>",
+  "name": "Aspirant | Gendarmerie Nationale",
+  "description": "Aspirants of the Gendarmerie are highly trained military police cadets responsible for assisting in rural combat operations. To say most are eager for action in the field is an understatement.   \\n\\n<i>C'est la vie.</i>",
   "def_index": "4752",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Aspirant | Gendarmerie Nationale",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nn-Cxf7uCjbbZkJc-FD3WZwOBitK8-HH22w0Ul42mAw4r_eSnBPQB0DZp0FOBY4RPsw4a2PrzhtgDdjt5D02yg2f2sw1lc",
@@ -668,24 +668,24 @@
  },
  {
   "id": "agent-4753",
-  "name": "Oficial Jacques Beltram | Gendarmerie Nationale",
-  "description": "Um Oficial altamente condecorado da Gendarmaria, Beltram recebeu a Legião de Honra por, em mais de uma ocasião, trocar de lugar com um refém e acabar com a atividade terrorista. Beltram é um herói, pai solteiro e viciado em croissant de chocolate. \\n\\n<i>Fazemos o que temos que fazer.</i>",
+  "name": "Officer Jacques Beltram | Gendarmerie Nationale",
+  "description": "A highly decorated Officer for the Gendarmerie, Beltram was awarded the Legion of Honor for swapping places with a hostage and thwarting terrorist activity on more than one occasion. Beltram is a hero, a single father, and a passionate consumer of pain au chocolate at all times of day.  \\n\\n<i>We do what we have to do.</i>",
   "def_index": "4753",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Officer Jacques Beltram | Gendarmerie Nationale",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nn-Cxf7uCjbbZkJc-FD3WZwOBita87GCuxzBwl5jjVyNyveXvCbgQhCsN3EOACsBOwktGyYrnn5FOI3okT02yg2Q7tnUpK",
@@ -697,24 +697,24 @@
  },
  {
   "id": "agent-4756",
-  "name": "Primeiro-Tenente \\\"Abraçador de Árvores\\\" Farlow | SWAT",
-  "description": "Ninguém sabe como curtir operações de combate que exigem proteção solar, repelente de mosquitos e rifles M4A4 como Farlow. \\n\\n<i>Sempre bom sair do frio um pouco, não acha?</i>",
+  "name": "Lieutenant 'Tree Hugger' Farlow | SWAT",
+  "description": "No one else knows how to enjoy combat ops that require sunscreen, mosquito repellant and M4A4 assault rifles quite like Farlow does. \\n\\n<i>Kinda nice to get out of the cold don't ya think?</i>",
   "def_index": "4756",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Lieutenant 'Tree Hugger' Farlow | SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6iNP0OSveq1sLuSYQDDAk75w4bU7FivkkBsj52vWz9f8cCqTbVN0W5R1ELJYukWxkdXmZOr8p1uJJ_LT_Tg",
@@ -726,24 +726,24 @@
  },
  {
   "id": "agent-4757",
-  "name": "Comandante Davida \\\"Óculos\\\" Fernandez | Mulher-Rã da SEAL",
-  "description": "Possuidora de um reflexo de mergulho sofisticado, a Comandante Fernandez é capaz de reduzir os seus batimentos cardíacos a níveis indetectáveis e navegar por entre escuridão, gelo e sistemas de defesa submarinos. Ela é primorosa nos seus potenciais aquáticos e nas suas habilidades como atiradora de elite e soldado. \\\"Óculos\\\" ganhou esse apelido quando uma bala atingiu o seu olho esquerdo — ou melhor, teria atingido se o \\\"Abelhudo\\\" não a tivesse lembrado \\\"pela última vez!\\\" de usar o seu equipamento. Apesar das suas ocasionais perdas de memória, a Comandante Fernandez é uma dos dois mergulhadores de elite da SEAL a serem reconhecidos com a Cruz da Marinha por operações submersas confidenciais.\\n\\n<i>Calma, coração.</i>",
+  "name": "Cmdr. Davida 'Goggles' Fernandez | SEAL Frogman",
+  "description": "Possessing an exquisite mammalian dive reflex, Cmdr. Fernandez is able to slow her heart rate to undetectable levels and navigate darkness, ice, and deep sea defense systems. She excels in her human aquatic potential and her skill as an elite marksman and soldier. 'Goggles' earned her nickname when a bullet struck her left eye—or would have—if it weren't for 'Wet Sox' reminding her to grab her full kit 'for the last time!' Despite her occasional forgetfulness, Cmdr. Fernandez is one of two elite combat diver SEALs to be awarded The Navy Cross for classified underwater operations. \\n\\n<i>Be still my beating heart.</i>",
   "def_index": "4757",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Cmdr. Davida 'Goggles' Fernandez | SEAL Frogman",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nk9DRe_c24abZkIf6HDymVwLhz4rJsHH6xzEQk5zyDydaudi6XZwJxDJUkRrIItULpw4W1Ybvk-UWA3FCleMc7",
@@ -755,24 +755,24 @@
  },
  {
   "id": "agent-4771",
-  "name": "Comandante Frank \\\"Abelhudo\\\" Baroud | Homem-Rã da SEAL",
-  "description": "O primeiro a subir no convés e o último a descer dele, o Comandante Frank Baroud faz parte da terceira geração da SEAL e foi o segundo mergulhador de combate a receber a Cruz da Marinha (\\\"Óculos\\\" foi a primeira). Conte com Baroud para resolver as situações de conflito mais complicadas, sejam elas subaquáticas ou terrestres, como aquela vez em que desarmou vários dispositivos explosivos improvisados (IEDs) que foram plantados em uma rede de cavernas submersas embaixo de uma embaixada americana. Baroud detém uma atenção impecável a detalhes — afinal, quando a sua vida depende do equipamento que está vestindo, um simples erro pode ser o seu último. Essa intransigente atenção aos detalhes rendeu-lhe o apelido de \\\"Abelhudo\\\".\\n\\n<i>Verifiquem duas vezes. Depois verifiquem três vezes. Por fim, verifiquem mais uma vez.</i>",
+  "name": "Cmdr. Frank 'Wet Sox' Baroud | SEAL Frogman",
+  "description": "First on deck and last off it, Cmdr. Frank Baroud is a third generation SEAL and second combat diver ever to receive The Navy Cross medal; 'Goggles' was the first. Count on Baroud to solve the most complicated underwater and ground based conflict situations, like the time he defused several IED's which were planted in a network of flooded caves beneath a US embassy. Baroud chalks it up to his impeccable attention to detail, because after all, when your life depends on the equipment you're wearing, a simple mistake may be the last one you make. His uncompromising attention to detail earned him the nickname 'Wet Sox'.\\n\\n<i>Double check it. Then triple check it. Then check it again.</i>",
   "def_index": "4771",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Cmdr. Frank 'Wet Sox' Baroud | SEAL Frogman",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nk9DRe_c24abZkIf6HDCmSkrh35uRvHXG1lkp_6zjUzY2gcimRP1N2XJJxTOYKuhDsxNC2YePi-UWA3IGWyCLX",
@@ -784,8 +784,8 @@
  },
  {
   "id": "agent-4772",
-  "name": "Tenente Rex Krikey | Homem-Rã da SEAL",
-  "description": "O Tenente Krikey é a pessoa a se escolher para qualquer operação de combate na selva e no pântano. A sua experiência com répteis selvagens grandes e pequenos salvou tanto a si quanto aos seus colegas em mais de uma ocasião.\\n\\n<i>Eu sou só um superpredador que adora encontrar outros superpredadores.</i>",
+  "name": "Lieutenant Rex Krikey | SEAL Frogman",
+  "description": "Lieutenant Krikey is a prime choice for all jungle and wetlands combat operations. His expertise in handling wild reptiles big and small has saved both him and his fellow frogmen on more than one occasion.\\n\\n<i>I'm just an apex predator that enjoys meeting other apex predators.</i>",
   "def_index": "4772",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -795,13 +795,13 @@
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Lieutenant Rex Krikey | SEAL Frogman",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nk9DRe_c24abZkIf6HDSmUxbd05bIxH3vqzRgj4GXTm4qtJXPGbg8oXpt2QeVYs0TpkdDmMuPq-UWA3P4QMOVd",
@@ -813,8 +813,8 @@
  },
  {
   "id": "agent-4773",
-  "name": "Caçador de Elite Solman | Guerrilheiros",
-  "description": "Era um dia quente de verão em uma ilha caribenha quando Solman, relaxando em uma curta (porém cara) viagem de férias, foi tomado como refém pelo infames Guerrilheiros. Ouvindo os seus captores conversarem sobre a divisão do dinheiro de resgate, Solman negociou a sua própria soltura em troca de fornecer outros três reféns em até 24 horas. E assim ele o fez, armado com nada além de dinheiro, charme e uma lábia digna dos mais terríveis líderes de culto. Incrédulos com a sua falta de empatia com os seus companheiros turistas e a sua habilidade de entregar um fornecimento constante de \\\"unidades de resgate\\\" (pessoas), os Guerrilheiros negociaram uma posição para Solman dentro da organização. Ficando com a maior porcentagem de resgate entre todos os membros dos Guerrilheiros, Solman ganhou a corrida antes mesmo da largada.\\n\\n<i>Bastam três coisas para resolver qualquer situação: dinheiro, charme e uma arma carregada.</i>",
+  "name": "Elite Trapper Solman | Guerrilla Warfare",
+  "description": "On a hot summer day on the outskirt islands of the Caribbean, Solman, relaxing on a small yet expensive vacation tour, was taken hostage by the infamous Guerrilla Warfare (GW). Overhearing his captors talk about the division of ransom money, Solman negotiated his own release if he delivered three additional hostages within 24 hours. And deliver he did, armed with only money, charm, and a way with words reserved for the world's most horrific cult leaders. Stunned by his lack of empathy for his fellow tourists and his ability to deliver a steady supply of 'ransom units' (people) the GW negotiated a position for Solman among them. Taking the highest percentage of hostage random money of any member of the GW, Solman had won the game before it even started.\\n\\n<i>You only need three things to fix a bad situation: money, charm, and a loaded weapon.</i>",
   "def_index": "4773",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -824,13 +824,13 @@
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Elite Trapper Solman | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOAnSSjqwkUi5W-ByYz4cnyVZlIgDJciQu8LsxXumta0Nrjh4gTf2NpGnzK-0H1TOhLF6Q",
@@ -842,24 +842,24 @@
  },
  {
   "id": "agent-4774",
-  "name": "Crasswater, o Esquecido | Guerrilheiros",
-  "description": "Ex-Capitão da SEAL, Crasswater foi tomado como prisioneiro pelos Guerrilheiros enquanto servia no Oriente Médio durante os anos 90. Após o fiasco da tentativa de resgate pela ST6 e o subsequente acobertamento militar, a Marinha dos Estados Unidos declarou Crasswater como morto. Durante anos do seu aprisionamento, o seu patriotismo e mantra de \\\"não deixamos nenhum homem para trás\\\" se transformaram em puro ódio por qualquer coisa norte-americana. Com um grave caso de síndrome de Estocolmo, Crasswater se juntou aos Caçadores, dentro do grupo dos Guerrilheiros. Após uma série de ataques \\\"construtores de confiança\\\" em embaixadas ocidentais, Crasswater tornou-se a ferramenta mais valiosa dos Guerrilheiros — trazendo disciplina e organização militar a uma outrora caótica gangue de lutadores rebeldes. Nos últimos anos, Crasswater implantou novas células dos Guerrilheiros em locais secretos por toda a América Central.\\n\\n<i>Tome esta lembrancinha.</i>",
+  "name": "Crasswater The Forgotten | Guerrilla Warfare",
+  "description": "Former Navy SEAL Capt. Crasswater was taken prisoner by the Guerrilla Warfare (GW) while serving in the Middle East during the 1990's. After a botched rescue attempt by ST6 and subsequent military cover-up, the US Navy declared Crasswater deceased. Over the years of his imprisonment, his patriotism and 'no man left behind' mantra eroded into bitter hatred for all things USA. Newly armed with a severe case of Stockholm Syndrome, Crasswater joined the Trappers of the GW. After a series of 'trust building' attacks on western embassies, Crasswater became GW's most valuable asset—bringing military discipline and organization to an otherwise chaotic gang of rebel fighters. In recent years Crasswater has grown new GW cells at undisclosed locations across Central America. \\n\\n<i>Just one more forget-me-not.</i>",
   "def_index": "4774",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Crasswater The Forgotten | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOMnTH-3kU8m5D6Gz4qodX2SbAdxCJUlROAD5kS7w4WyYuyz4QOMj94QmzK-0H2dcvV-Fg",
@@ -871,8 +871,8 @@
  },
  {
   "id": "agent-4775",
-  "name": "Arno, o Eremita | Guerrilheiros",
-  "description": "Desonrado campeão de boxe na categoria peso-pesado, Ano, o Eremita, foi encontrado pelos Caçadores dos Guerrilheiros vivendo em uma caverna. Ao longo dos anos, Arno tornou-se especialista em sobrevivência e um caçador de primeira — capaz de viver por tempo indefinido daquilo que terra dá, carregando somente material para fazer fogo e a sua afiada faca de caça. Eventualmente, rumores sobre Arno começaram a se espalhar entre os moradores locais, chamando a atenção dos Guerrilheiros. Ansiando recrutar as incríveis habilidades de caça e luta de Arno, o grupo falhou diversas vezes em persuadi-lo para longe do seu habitat. Mas bastou ameaçar encerrar as visitas mensais trazendo Tortas de Leite fresquinhas para fazê-lo mudar de ideia.\\n\\n<i>Não é a solidão que mata você — é a abstinência de Torta de Leite.</i>",
+  "name": "Arno The Overgrown | Guerrilla Warfare",
+  "description": "Disgraced heavyweight boxing champion, Arno The Overgrown was discovered by Guerrilla Warfare (GW) Trappers living out of a cave. Over the years Arno had become an expert survivalist and big-game hunter—able to live off the land for an indefinite amount of time carrying only his flint stick and sharpened hunting knife. Rumors of Arno eventually spread to nearby townships where he came to attention of Guerrilla Warfare (GW). Wanting to recruit Arno's flawless hunting and fighting skills, the GW failed to coax Arno from his habitat, that is, until they threatened to stop visiting him with hot fresh Milk Tarts every month. \\n\\n<i>It isn't the loneliness that kills you, it's the absence of Melk Tarts.</i>",
   "def_index": "4775",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -882,13 +882,13 @@
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Arno The Overgrown | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOInTSrkwRlx6z7Xwtn9In6eZwQnDsd5TOYDsxi9xNe2N7-0slHe2NlDmzK-0H38E8rQtQ",
@@ -900,24 +900,24 @@
  },
  {
   "id": "agent-4776",
-  "name": "Coronel Mangos Dabisi | Guerrilheiros",
-  "description": "Quando jovem, o Coronel Mangos Dabisi foi treinado e promovido dentro do exército de Uganda. Ele encerrou a sua carreira militar com uma rara dispensa desonrosa, após intimidar os seus subordinados a pagarem-no um \\\"suborno do sono\\\" — prometendo uma boa noite de sono àqueles que o pagassem. Uma boa noite de sono, descobriu-se, era simplesmente a ausência de ferimentos intencionais causados pelo próprio Dabisi. A sua estatura imponente e habilidades militares atraiu os olhos dos Guerrilheiros. Constantemente usando força desmedida e precisando ser contido, a reputação de Dabisi como um grande poder dentro os Guerrilheiros é merecida.\\n\\n<i>Eu fico com a sua carteira ou cabeça. Você escolhe.</i>",
+  "name": "Col. Mangos Dabisi | Guerrilla Warfare",
+  "description": "Early in his life Col. Mangos Dabisi was trained and promoted within Ugandan military. He ended his military career with a rare Dishonorable Discharge for intimidating his subordinates into paying him 'sleep well money'—promising a good night's sleep to those who paid him. Turns out, a good night's sleep was merely a lack of intentional injuries inflicted by Dabisi himself. Dabisi's imposing stature and military skill made him an attractive acquisition for the Guerrilla Warfare (GW). Constantly over-using force and needing to be reined in, Dabisi's reputation as a GW powerhouse is well deserved.\\n\\n<i>I chop your doller or your neck. You choose.</i>",
   "def_index": "4776",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Col. Mangos Dabisi | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOUnSXy3w0gjt2rVy42rcirFO1UgDpElTOYDtRexxtS1Ybmw4gzb3YlAyjK-0H0x0ZHEbw",
@@ -929,24 +929,24 @@
  },
  {
   "id": "agent-4777",
-  "name": "Vypa, Irmã da Revolução | Guerrilheiros",
-  "description": "Uma notória rebelde e mestre dos improvisos, Vypa é uma de doze irmãs nascidas na pobreza e largadas à própria sorte aos sete anos. Os ataques solitários de Vypa contra a ditadura militar no país foram tão prolíficos que o exército tratou o seu trabalho como resultado de um pequeno grupo. Em certo ponto, Vypa confundiu um campo de treino remoto dos Guerrilheiros como um posto avançado do governo. Logo após uma das suas famosas manobras de \\\"furar e sufocar\\\", ela percebeu o seu erro — mas não antes do amarrar o Capitão Crasswater em uma árvore, ameaçando-o com uma faca. Impressionado e levemente assustado, Crasswater recrutou Vypa e as suas irmãs para os Guerrilheiros. Agora, juntas, elas lideram todas as missões e investidas contra o governo que os Guerrilheiros travam na selva.\\n\\n<i>Não se preocupe. Sou apenas eu.</i>",
+  "name": "Vypa Sista of the Revolution | Guerrilla Warfare",
+  "description": "A notorious rebel and brilliant improviser, Vypa is one of twelve sisters born into poverty and left to fend for themselves at the age of seven. Vypa's solo attacks against her country's military dictatorship were so prolific the military assumed her work was the result of a small team of people. At one point, Vypa mistook a remote Guerrilla Warfare (GW) training ground for a government outpost. Shortly after invoking one of her infamous 'sting and choke' maneuvers on the camp she realized her mistake, but not before she had Capt. Crasswater tied up to a tree and threatened at knife point. Impressed and a little frightened, Crasswater recruited Vypa and her sisters into the GW. Together they now lead all jungle-based GW missions and 'government awareness' campaigns. \\n\\n<i>Don't worry, it's just me.</i>",
   "def_index": "4777",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Vypa Sista of the Revolution | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOQnGH3rzRt_4miDmNb8dinBPwF2ApJ2FuRe5hW4xNfjZbzk5gDajI8QzTK-0H0XsiWpag",
@@ -958,24 +958,24 @@
  },
  {
   "id": "agent-4778",
-  "name": "Caçador Agressivo | Guerrilheiros",
-  "description": "Experientes e ardilosos, os Caçadores Agressivos capturam turistas com uma eficiência implacável, mantendo-os como reféns. Especialistas em táticas de guerrilha em selvas e pântanos, qualquer missão de resgate que envolva os Caçadores Agressivos estará fadada ao fracasso. \\n\\n<i>Basta prometer ar-condicionado e chá gelado. Sempre funciona.</i>",
+  "name": "Trapper Aggressor | Guerrilla Warfare",
+  "description": "The experienced and cunning Trapper Aggressors utilize ruthless efficiency in capturing and securing tourists as hostages. As experts in wetland and jungle-based guerrilla tactics, any rescue missions involving Trapper Aggressors are doomed to fail. \\n\\n<i>The promise of air conditioning and iced tea. It works every time.</i>",
   "def_index": "4778",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Trapper Aggressor | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOcnS3u1xEp042mAz9n_IinBPQckCpAkR7UC40TtltKxMu3h4gWLjI9AzzK-0H3_4J31MA",
@@ -987,24 +987,24 @@
  },
  {
   "id": "agent-4780",
-  "name": "Crasswater \\\"Ao Ponto\\\" | Guerrilheiros",
-  "description": "Ex-Capitão da SEAL, Crasswater foi tomado como prisioneiro pelos Guerrilheiros enquanto servia no Oriente Médio durante os anos 90. Após o fiasco da tentativa de resgate pela ST6 e o subsequente acobertamento militar, a Marinha dos Estados Unidos declarou Crasswater como morto. Durante anos do seu aprisionamento, o seu patriotismo e mantra de \\\"não deixamos nenhum homem para trás\\\" se transformaram em puro ódio por qualquer coisa norte-americana. Com um grave caso de síndrome de Estocolmo, Crasswater se juntou aos Caçadores, dentro do grupo dos Guerrilheiros. Após uma série de ataques \\\"construtores de confiança\\\" em embaixadas ocidentais, Crasswater tornou-se a ferramenta mais valiosa dos Guerrilheiros — trazendo disciplina e organização militar a uma outrora caótica gangue de lutadores rebeldes. Nos últimos anos, Crasswater implantou novas células dos Guerrilheiros em locais secretos por toda a América Central.\\n\\n<i>Tome esta lembrancinha.</i>",
+  "name": "'Medium Rare' Crasswater | Guerrilla Warfare",
+  "description": "Former Navy SEAL Capt. Crasswater was taken prisoner by the Guerrilla Warfare (GW) while serving in the Middle East during the 1990's. After a botched rescue attempt by ST6 and subsequent military cover-up, the US Navy declared Crasswater deceased. Over the years of his imprisonment, his patriotism and 'no man left behind' mantra eroded into bitter hatred for all things USA. Newly armed with a severe case of Stockholm Syndrome, Crasswater joined the Trappers of the GW. After a series of 'trust building' attacks on western embassies, Crasswater became GW's most valuable asset—bringing military discipline and organization to an otherwise chaotic gang of rebel fighters. In recent years Crasswater has grown new GW cells at undisclosed locations across Central America. \\n\\n<i>Just one more forget-me-not.</i>",
   "def_index": "4780",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "'Medium Rare' Crasswater | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOM7AXGwwBxz5G2Gy9qqdy_GaARyDcF2FrUK50LuwICzM-3i4wzZj4NFyn_gznQeAuFLUp4",
@@ -1016,24 +1016,24 @@
  },
  {
   "id": "agent-4781",
-  "name": "Caçador | Guerrilheiros",
-  "description": "Afiados, furtivos e o terror de unidades militares organizadas, os Caçadores raramente são vistos antes do ataque.  \\n\\n<i>Caçamos você.</i>",
+  "name": "Trapper | Guerrilla Warfare",
+  "description": "Sharp, stealthy, and the bane of organised military units everywhere, the Trappers are rarely seen before they are felt.  \\n\\n<i>We hunt you.</i>",
   "def_index": "4781",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Trapper | Guerrilla Warfare",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZz18yVX6s28aa1pJeKsGGaCyO94pOc7ASi2zRwj5TuEz9yreHLBbAInW5YlEbQNsxCxkdXgNe-25gTaj9lNznngznQecRJv7X0",
@@ -1045,24 +1045,24 @@
  },
  {
   "id": "agent-5105",
-  "name": "Rebelde de Campo  | Equipe de Elite",
-  "description": "Especialistas de conhecimento local para as operações urbanas da Equipe de Elite, os Rebeldes de Campo são conhecidos por estarem sempre atentos.\\n\\n<i>Este é o sinal.</i>",
+  "name": "Ground Rebel  | Elite Crew",
+  "description": "An expert in local knowledge for Elite Crew's urban operations, Ground Rebels are known for keeping an ear to the ground.\\n\\n<i>That's the signal.</i>",
   "def_index": "5105",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Ground Rebel  | Elite Crew",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZrl-DZk-fO8YaVjNPfdVmHAxOgj4uNtGyqxxRki52jSyoqseHiRalRyWcdzE-APuxK8xNbmYvSiuVLQnSKAnQ",
@@ -1074,24 +1074,24 @@
  },
  {
   "id": "agent-5106",
-  "name": "Osíris | Equipe de Elite",
-  "description": "Osíris ganhou este apelido por julgar, muitas vezes rápido demais, as suas vítimas. Os motivos dele são simples: \\\"Quando o seu tempo é valioso como o meu, para que ficar de conversinha?\\\"\\n\\nConfiante, habilidoso e rápido no gatilho, Osíris se diverte em derrubar os alvos com uma eficiência sem igual.\\n\\n<i>Alguma objeção?</i>",
+  "name": "Osiris | Elite Crew",
+  "description": "Osiris earned his nickname from passing judgement, often too quickly, on his marks. His reasoning is simple: \\\"When your time is as valuable as mine, why make small talk?\\\" \\n\\nConfident, skilled, and quick to act, Osiris takes pleasure in dispatching targets with unrivaled efficiency.\\n\\n<i>Any objections?</i>",
   "def_index": "5106",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Osiris | Elite Crew",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZrl-DZk-fO8YaVjNPjdDDXEk7p35uAxTHDqxRh25DuDzI2sdC7BOwZ1W5BwRe4O4BfsktKxZPSiuVIisGC3vg",
@@ -1103,8 +1103,8 @@
  },
  {
   "id": "agent-5107",
-  "name": "Prof. Shahmat | Equipe de Elite",
-  "description": "Após se formar com honras, o Prof. Shahmat começou a ensinar para transmitir o seu conhecimento. A cada aula, Shahmat percebia que os seus alunos não tinham o mesmo fogo revolucionário que nele ardia. \\n\\nPercebendo que não estava estimulando a sua mente, ele decidiu buscar um novo desafio — dominar a arte da guerra.\\n\\n<i>Veja e aprenda.</i>",
+  "name": "Prof. Shahmat | Elite Crew",
+  "description": "After graduating Magna Cum Laude, Prof. Shahmat began teaching to impart knowledge. With every class Shahmat realized his pupils didn't have the same revolutionary desires that he did. \\n\\nRecognizing that his mind was beginning to dull, he decided to seek a new challenge—mastering the art of war.\\n\\n<i>Watch and learn.</i>",
   "def_index": "5107",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -1114,13 +1114,13 @@
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Prof. Shahmat | Elite Crew",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZrl-DZk-fO8YaVjNPndCDCTk74k4LA5GX_mxR4mtWSDmYz9cy6ROAQoCMB1E-AK5BG9wNziNPSiuVKTaodKjw",
@@ -1132,24 +1132,24 @@
  },
  {
   "id": "agent-5108",
-  "name": "Sr. Muhlik de Elite | Equipe de Elite",
-  "description": "Inicialmente operando como \\\"Consultor de Aquisições\\\" para magnatas da indústria, o Sr. Muhlik logo chegou à lista dos 10 Mais Procurados por várias agências governamentais ao redor do mundo. Boatos indicam que ele é o último herdeiro sobrevivente de um monarca do Oriente Médio recém-destituído.\\n\\nCom evidências de ter tido acesso a treinamento militar, estudos em uma escola internacional particular e diversas contas bancárias ao redor do mundo, suspeita-se que o Sr. Muhlik esteja arquitetando a restauração do poder soberano sobre as terras históricas de sua família.\\n\\n<i>Pressão e tempo.</i>",
+  "name": "The Elite Mr. Muhlik | Elite Crew",
+  "description": "First appeared operating as an 'Acquisitions Consultant' for arms industry magnates, Mr. Muhlik quickly worked his way on to many Most Wanted lists worldwide. Unconfirmed reports suggest he is the last surviving heir to a recently-deposed Middle Eastern monarch. \\n\\nWith evidence of elite military training, international private education, and numerous international bank accounts, it's suspected Mr. Muhlik is maneuvering to rebuild sovereign power over his family's historical lands.\\n\\n<i>Pressure and time.</i>",
   "def_index": "5108",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "The Elite Mr. Muhlik | Elite Crew",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZrl-DZk-fO8YaVjNPbdDTORmbsl5LQ-F3DlwE1y6jnWytqucnmfawMmWJEkFuQJskKwmoexM_SiuVLDZa0BGw",
@@ -1161,24 +1161,24 @@
  },
  {
   "id": "agent-5109",
-  "name": "Rebelde Florestal | Equipe de Elite",
-  "description": "Rebelde da Equipe de Elite para missões em pântanos e selvas. Mortífero nas sombras. \\n\\n<i>Está escuro e eu estou usando óculos de sol.</i>",
+  "name": "Jungle Rebel | Elite Crew",
+  "description": "Elite Crew's wetland and jungle based ground rebel. Deadly in the shade(s). \\n\\n<i>It's dark and I'm wearing sunglasses.</i>",
   "def_index": "5109",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Jungle Rebel | Elite Crew",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZrl-DZk-fO8YaVjNPrdWDWRlrch5LU6H3-wzEoj5Dncn9evcXuTOAZyW5p4QuJc50TqwdPlPvSiuVKlREwxsg",
@@ -1190,24 +1190,24 @@
  },
  {
   "id": "agent-5205",
-  "name": "Soldado | Fênix",
-  "description": "Um atirador competente recrutado pela Fênix para auxiliar em missões de domínio de território. Soldados são extremamente letais sozinhos, ainda mais em grupo.\\n\\n<i>Quando é que atiramos?</i>",
+  "name": "Soldier | Phoenix",
+  "description": "A capable shooter recruited by Phoenix to assist with Territory Reclamation Campaigns. Soldiers are extremely deadly alone, and even more so in numbers.\\n\\n<i>When do we shoot?</i>",
   "def_index": "5205",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Soldier | Phoenix",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYbo8idV5uqRfqV_KfGdGm_elrd05uUwSn-wxB5_52zRyd39cHuWOgEmW5R3QbQM5xi4mtayMunq5hue1dxmxRjA3w",
@@ -1219,24 +1219,24 @@
  },
  {
   "id": "agent-5206",
-  "name": "Executor | Fênix",
-  "description": "Um sicário multidisciplinar contratado pela Conexão Fênix. Executores não pegam todas as tarefas, apenas aquelas que acham interessantes.\\n\\n<i>Tempo é dinheiro.</i>",
+  "name": "Enforcer | Phoenix",
+  "description": "A multidisciplinary contract hitman for the Phoenix Connexion. Enforcers don't take all assignments, just the ones they find interesting.\\n\\n<i>Time is money.</i>",
   "def_index": "5206",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Enforcer | Phoenix",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYbo8idV5uqRfqV_KfGdGmHexbZ3tLM9G3jhzRt-5WqEydaqdS-QPAMjX8NxFLRY5hftx9XkNOm35xue1dyPr1iSWw",
@@ -1248,24 +1248,24 @@
  },
  {
   "id": "agent-5207",
-  "name": "Faquinha | Fênix",
-  "description": "Faquinha é um membro importante no domínio da Conexão Fênix no combate em curto alcance.\\n\\nSempre tenso e capaz de resultados devastadores com poucos recursos, Faquinha ganhou seu apelido após retomar o complexo da Fênix com uma simples Baioneta M9 e armas recuperadas.\\n\\n<i>Se eu posso passar a faca, eu passo a faca.</i>",
+  "name": "Slingshot | Phoenix",
+  "description": "Slingshot is a critical component of Phoenix Connexion's dominance in close-range combat.\\n\\nTightly wound and capable of devastating results with little resources, Slingshot earned his nickname after retaking the Phoenix compound with only an M9 Bayonet and recovered weapons.\\n\\n<i>If I can knife, I knife.</i>",
   "def_index": "5207",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Slingshot | Phoenix",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYbo8idV5uqRfqV_KfGdGmDelb8n4LAwHHqxxU8jtjndztf7dC_EOFQnCpV3QrUCshG4wYHjNeu25hue1dzy4v_RuA",
@@ -1277,24 +1277,24 @@
  },
  {
   "id": "agent-5208",
-  "name": "Soldado de Rua | Fênix",
-  "description": "Uma gangue de força terrestre da Fênix especializada em ambientes urbanos de alta densidade. O conhecimento desse pessoal sobre caminhos secundários e becos só é superado pelo dos taxistas locais, que, reza a lenda, compõem boa parte do grupo.\\n\\n<i>Eu conheço um atalho.</i>",
+  "name": "Street Soldier | Phoenix",
+  "description": "A Phoenix ground force gang with expertise in high density urban environments. Their knowledge of back roads and alleyways are only surpassed by local taxi drivers, which are rumored to make up a significant portion of their numbers.\\n\\n<i>I know a shortcut.</i>",
   "def_index": "5208",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Street Soldier | Phoenix",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oYbo8idV5uqRfqV_KfGdGm7ex78n4LU_GSrmzBxx4Dncntn_InmWPwcmCccjTO8L50awwdC2N-uwsxue1dwGHFtFrw",
@@ -1306,24 +1306,24 @@
  },
  {
   "id": "agent-5305",
-  "name": "Operador | FBI SWAT",
-  "description": "Membros da equipe da SWAT do FBI são colocados em situações de alto risco. Contraterrorismo, resgate de reféns e desarme de bombas são algumas das muitas ações nas quais os agentes da SWAT do FBI se especializam.\\n\\n<i>Fidelidade. Bravura. Integridade.</i>",
+  "name": "Operator | FBI SWAT",
+  "description": "Members of the FBI's SWAT team are deployed in high-risk situations. Counterterrorism, hostage rescue, and bomb defusals are a few of the many disciplines FBI SWAT agents specialize in.\\n\\n<i>Fidelity, Bravery, Integrity.</i>",
   "def_index": "5305",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Operator | FBI SWAT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nm_ytk-fO8YaVjNPbdCjfAkbcl5LM6S3jkxUsj42TQzdf7JH_Caw5zDMMlEOAIt0Hqk9bmY_SiuVKnm4HYYQ",
@@ -1336,23 +1336,23 @@
  {
   "id": "agent-5306",
   "name": "Markus Delrow | FBI HRT",
-  "description": "Não há detalhe pequeno demais para Markus Delrow. Equipamentos, planos de batalha, táticas de oposição — pode falar, ele já tem na ponta da língua. \\n\\nÓtimo em estar sempre dois passos à frente, Delrow se vangloria de ser o cérebro da operação.\\n\\n<i>Só falta pôr em ação.</i>",
+  "description": "There's no detail too small for Markus Delrow. Equipment, battle plans, oppositional tactics—you name it—and he's already thought of it twice. \\n\\nBeing two steps ahead is what he does best, and Delrow takes pride in being the brains of the operation.\\n\\n<i>All that's left is to execute.</i>",
   "def_index": "5306",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Markus Delrow | FBI HRT",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nm_ytk-fO8YaVjNPfdWT7Dx7dy5OJtGnDhkE5xtj6Hyd6veXjEbVUnW8YiRrVeuhTtk4fvY_SiuVKEkIDFLQ",
@@ -1364,8 +1364,8 @@
  },
  {
   "id": "agent-5307",
-  "name": "Michael Syfers  | Franco-atirador do FBI",
-  "description": "Ex-atleta da Divisão I, Syfers foi recrutado pelo FBI após uma lesão catastrófica no seu joelho, que deu um fim prematuro à sua carreira esportiva. Mesmo com a adversidade, ele continuou positivo. \\n\\nÉ raro encontrar alguém cujo desejo pelo sucesso é igual à vontade de fazer o bem, mas Syfers é um destes.\\n\\n<i>Naturalmente, eu fiz o que tinha que ser feito.</i>",
+  "name": "Michael Syfers  | FBI Sniper",
+  "description": "An ex-Division I athlete, Syfers was recruited by the FBI after a catastrophic knee injury ended his sports career early. Yet even in adversity he remained positive. \\n\\nIt's rare to find someone whose desire to succeed is matched by their desire to do good, but Syfers checks both boxes.\\n\\n<i>Naturally, I finished my reps.</i>",
   "def_index": "5307",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -1375,13 +1375,13 @@
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Michael Syfers  | FBI Sniper",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nm_ytk-fO8YaVjNPjdXjWRkegi57FoHyrglkh-62ndz4yrIimfOFRxCZQmQeQOsEK9wNfnYvSiuVJ9Bmql3Q",
@@ -1393,24 +1393,24 @@
  },
  {
   "id": "agent-5308",
-  "name": "Agente Especial Ava | FBI",
-  "description": "Antes subestimada, a agente especial Ava é considerada por sua equipe como uma arma secreta.\\n\\nApesar de ter recebido três das cinco medalhas de honra do FBI, Ava não demonstra se importar com as suas conquistas. Ao seu ver, isso não se compara a ter sido a caçula de quatro irmãos em Nova Jersey.\\n\\nA agente especial Ava gosta das coisas simples da vida — vitórias honestas, cerveja gelada e acabar com a bandidagem.\\n\\n<i>Eles me veem, ficam confusos e, então, morrem.</i>",
+  "name": "Special Agent Ava | FBI",
+  "description": "Initially underestimated, Special Agent Ava soon became her team's ultimate secret weapon. \\n\\nDespite receiving three out of five possible FBI Honorary Medals, Ava is surprisingly indifferent to her accomplishments. The way she sees it, it's nothing compared to growing up with four older brothers in urban New Jersey. \\n\\nSpecial Agent Ava takes pleasure from the simple things: clean wins, cold beer, and turning bad guys into thin crust pizza pie. \\n\\n<i>They see me. They're confused. And then they're dead.</i>",
   "def_index": "5308",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Special Agent Ava | FBI",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nm_ytk-fO8YaVjNPLdXz6TkLdw5LY4Hnmwl0wktj7dn4r9I3OWPFApC5F1QeAO5xi4lIDiM_SiuVKk3V4ZcQ",
@@ -1422,24 +1422,24 @@
  },
  {
   "id": "agent-5400",
-  "name": "Companhia do 3º Comando | KSK",
-  "description": "Um soldado de elite do Kommando Spezialkräfte da Alemanha, membros da Companhia do 3º Comando são selecionados a dedo para integrarem as forças operacionais da KSK.\\n\\n<i>Isto não é relevante para a nossa missão.</i>",
+  "name": "3rd Commando Company | KSK",
+  "description": "An elite soldier from Germany's Kommando Spezialkräfte, members of 3rd Commando Company are hand-picked to be part of KSK's Operational Forces.\\n\\n<i>This is not relevant to the task at hand.</i>",
   "def_index": "5400",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "3rd Commando Company | KSK",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPvdWTbJwOsm4rI4GnDjx0t3sWWHw934IH_BO1UnWZd1EO8K5kK4l4fgMvSiuVLu5GcAvQ",
@@ -1451,24 +1451,24 @@
  },
  {
   "id": "agent-5401",
-  "name": "Soldado da Equipe SEAL 6 | NSWC SEAL",
-  "description": "Prontos para o combate e famintos pela vitória, os soldados da Equipe SEAL 6 sabem como fazer o trabalho direito.\\n\\n<i>Estou feliz por estar aqui.</i>",
+  "name": "Seal Team 6 Soldier | NSWC SEAL",
+  "description": "Combat-ready and hungry for wins, SEAL Team 6 soldiers know how to get the job done.\\n\\n<i>I'm just happy to be here.</i>",
   "def_index": "5401",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Seal Team 6 Soldier | NSWC SEAL",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPXdXDHBxLZz4bI-Fn-yxhwhsjyDyNepcSjEbgQmApclFOMNthbslNKyPvSiuVLpMkmXWg",
@@ -1480,24 +1480,24 @@
  },
  {
   "id": "agent-5402",
-  "name": "Chumbinho | NSWC SEAL",
-  "description": "Conhecido como o \\\"sommelier de armas\\\" da Equipe SEAL 6, Chumbinho testou e analisou praticamente todas as armas militares disponíveis para uso. A ST6 depende dos conhecimentos dele sobre armas mais exóticas para se sobressair em operações terrestres — mas, para poupar tempo, eles evitam ao máximo qualquer tipo de conversa casual sobre o assunto.\\n\\n<i>Elas conversam comigo. As armas... Elas têm sentimentos.</i>",
+  "name": "Buckshot | NSWC SEAL",
+  "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations—but in the interest of time, they strenuously avoid casual conversation on the topic.\\n\\n<i>They talk to me. The guns. They have feelings.</i>",
   "def_index": "5402",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Buckshot | NSWC SEAL",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPfdCzfBx7gl5LQ-GnrkkR4l4DyDzIv8cnKXaQ4jXsQjEOcJ4RHuxNTuMPSiuVIYxifJkQ",
@@ -1509,8 +1509,8 @@
  },
  {
   "id": "agent-5403",
-  "name": "McCoy (\\\"Duas Vezes\\\") | USAF TACP",
-  "description": "McCoy foi apelidado de \\\"Duas Vezes\\\" por completar o treinamento de campo do TACP duas vezes. Registros oficiais justificam isso devido a uma confusão de agendamentos, mas os seus colegas relataram dificuldade em evitar uma terceira vez.\\n\\nCom uma resistência física e psicológica sobrenatural, McCoy costuma ser o último de pé ao final de qualquer conflito — seja ele físico ou verbal.\\n\\n<i>Sim. Ainda estou aqui.</i>",
+  "name": "'Two Times' McCoy | USAF TACP",
+  "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike. \\n\\n<i>Yep. Still here.</i>",
   "def_index": "5403",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -1520,13 +1520,13 @@
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "'Two Times' McCoy | USAF TACP",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNP3dDDLHl7kks7U4Gi2xkUoj42XXntypcHyQO1J0DsZzFuAJsBW4kNPlN_SiuVKK_o8s4A",
@@ -1538,24 +1538,24 @@
  },
  {
   "id": "agent-5404",
-  "name": "Tenente-Comandante Ricksaw | NSWC SEAL",
-  "description": "A abordagem engraçada e liberal do Tenente-Comandante Ricksaw em relação ao combate mantém a sua equipe da SEAL calma e mortal, mesmo nas situações mais perigosas. \\n\\nTendo liderado mais operações especiais do que qualquer outro membro da SEAL, Ricksaw sabe que a vida é curta e encoraja a sua equipe a dar o máximo que puder no tempo que tiver — incluindo servir de bom grado balas e granadas aos alvos mais perigosos, a todo e qualquer momento.\\n\\n<i>Comida, transporte e granadas. Irra!</i>",
+  "name": "Lt. Commander Ricksaw | NSWC SEAL",
+  "description": "Lt. Commander Ricksaw's comically laissez-faire attitude toward heavy combat keeps his SEAL team calm and deadly in the most dire situations. \\n\\nHaving lead more special ops than any other SEAL to date, Ricksaw knows life is short, and encourages his team to make the most of the time they have—including cheerfully serving up bullets and frag grenades to high- value targets at any and all occasions.\\n\\n<i>Hotdogs, hellcats and hand grenades. Hooya!</i>",
   "def_index": "5404",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Lt. Commander Ricksaw | NSWC SEAL",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNPndVz-Ul74hsbNoHi21kUly6mrQzNagcijBPQEnCsciTOdY4Rm6m4XvN_SiuVLIl2LQXw",
@@ -1567,24 +1567,24 @@
  },
  {
   "id": "agent-5405",
-  "name": "Primeiro-Tenente | 1º Batalhão Brasileiro",
-  "description": "Especialistas em sobrevivência e combate em operações na selva profunda, o 1º Batalhão Brasileiro afia os dentes às margens do grandioso Rio Amazonas.   \\n\\n<i>Surpresas são bem-vindas.</i>",
+  "name": "Primeiro Tenente | Brazilian 1st Battalion",
+  "description": "As a combat survival specialist in deep jungle operations, the Brazilian 1st Battalion sharpen their teeth alongside the banks of the mighty Amazon River.   \\n\\n<i>Surprises welcome.</i>",
   "def_index": "5405",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "Primeiro Tenente | Brazilian 1st Battalion",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz6XRk-fO8YaVjNP7dV2bFlesvtbM_Sn7gx010tTncmdn7ICqePQ4mWMB5EeALtRS7w4XuP_SiuVLSDPMGxQ",
@@ -1597,23 +1597,23 @@
  {
   "id": "agent-5500",
   "name": "Dragomir | Sabre",
-  "description": "Um homem de poucas palavras, Dragomir tem uma paciência sobrenatural. Conhecido por manter a sua posição por dias, alguns dizem que ele é um dos melhores atiradores da Sabre. Outros dizem que ele tira altos cochilos. Ninguém sabe o que realmente acontece. Ninguém escapa com vida.\\n\\n<i>... Eu espero.</i>",
+  "description": "A man of few words, Dragomir is disturbingly patient. Known for holding position for days at a time, some say he's one of Sabre's best marksman. Others say he's napping. No one really knows. No one left alive, anyway.\\n\\n<i>...I wait.</i>",
   "def_index": "5500",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Dragomir | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HCCnExbdz5uIxF3jiwUp1sD-Gyon6cniQb1dyWMQjTbQMs0G9w4KzZLi0-UWA3DCqT-14",
@@ -1626,23 +1626,23 @@
  {
   "id": "agent-5501",
   "name": "Maximus | Sabre",
-  "description": "Motivado por um fervor interno e uma eterna obsessão por vingança contra qualquer tipo de transgressões, Maximus é a primeira escolha da Sabre para missões em ambientes confinados. Nenhum rancor é pequeno demais para não ser descontado em sangue.\\n\\n<i>Não, VOCÊ exagerou.</i>",
+  "description": "Motivated by a simmering inner rage and a lifelong obsession with vengeance for transgressions large, small, and seemingly insignificant, Maximus is Sabre's first choice for close quarter mission support. No grudge is too small to be repaid in blood.\\n\\n<i>No, YOU overreacted.</i>",
   "def_index": "5501",
   "rarity": {
    "id": "rarity_mythical_character",
-   "name": "Excepcional",
+   "name": "Exceptional",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Maximus | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HBynEl7wg5bc4Tnm1k0V34GSGntupdCnCbwEiW8ElTOMCsUTtm4XmNOng-UWA3F74ACBx",
@@ -1654,8 +1654,8 @@
  },
  {
   "id": "agent-5502",
-  "name": "Rezan, o Preparado | Sabre",
-  "description": "Um granadeiro experiente e celebrado autor de \\\"A Alegria da Preparação\\\", Rezan, o Preparado, é o chefe de operações autointitulado da Sabre.\\n\\nO seu temperamento explosivo quando as coisas saem do controle lhe rendeu o apelido alternativo de Rezan, o Despreparado — mas somente pelas costas.\\n\\n<i>Eu tenho orgulho do meu trabalho.</i>",
+  "name": "Rezan The Ready | Sabre",
+  "description": "An expert grenadier and the once-celebrated author of The Joy of Preparedness, Rezan The Ready is Sabre's self-appointed Head of Operations.\\n\\nHis fiery temper when things get out of hand has earned him the alternative nickname Rezan the Red—but never to his face.\\n\\n<i>I take great pride in my work.</i>",
   "def_index": "5502",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -1665,13 +1665,13 @@
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Rezan The Ready | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HCSnCk79w47BqGSvjxEt3tjuDmYyocy2UbgRzXJIiEeULsRXqmtCxYrm2-UWA3FAo97Sl",
@@ -1683,8 +1683,8 @@
  },
  {
   "id": "agent-5503",
-  "name": "Lobo Negro | Sabre",
-  "description": "O Lobo Negro persegue os inimigos da Sabre com determinação e foco sobrenaturais. Criado nos confins das florestas do Leste Europeu, ele é capaz de sentir a presença humana com precisão excepcional e sabe bem o que fazer. \\n\\n<i>Não preciso vê-los para matá-los.</i>",
+  "name": "Blackwolf | Sabre",
+  "description": "Blackwolf stalks Sabre's enemies with preternatural determination and focus. Raised deep within the bitter forests of Eastern Europe, he can sense human presence with exceptional accuracy—and he knows what to do when he's sensed it. \\n\\n<i>I don't need to see them to kill them.</i>",
   "def_index": "5503",
   "rarity": {
    "id": "rarity_legendary_character",
@@ -1694,13 +1694,13 @@
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Blackwolf | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HBCnIxLxw5uI9HXHklh4m4TjXw4qsIHPFOFByCMAmTbQJ4Ua4kdfhN7u3-UWA3G22ywJ7",
@@ -1712,24 +1712,24 @@
  },
  {
   "id": "agent-5504",
-  "name": "\\\"Doutor\\\" Romanov | Sabre",
-  "description": "Após contrabandear produtos farmacêuticos com sucesso em torno de fronteiras disputadas há mais de 30 anos, agora o \\\"doutor\\\" coordena as Operações Disruptivas Utilitárias da Sabre. Supostamente responsável pela destruição sincronizada de diversas instalações de energia da ONU, Romanov é conhecido pelos seus inimigos como calculista, deliberativo e assustadoramente preciso. A sua mãe, é claro, diz que ele só se misturou com o pessoal errado.\\n\\n<i>É simples: fazemos um plano, e o plano é vencer.</i>",
+  "name": "'The Doctor' Romanov | Sabre",
+  "description": "After expertly smuggling pharmaceuticals across disputed borders for over 30 years, the 'doctor' now leads Sabre's Utility Disruption Operations. Rumoured to be responsible for the synchronized destruction of several UN power facilities, Romanov is known by his enemies to be calculating, deliberate, and frighteningly precise. Of course, his mother says he's just mixed up with the wrong crowd.\\n\\n<i>It's simple. We make a plan and the plan is to win.</i>",
   "def_index": "5504",
   "rarity": {
    "id": "rarity_ancient_character",
-   "name": "Mestre",
+   "name": "Master",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "'The Doctor' Romanov | Sabre",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HBinGlu0k4bU7Givnk01352yByd_6IHLGZgElDpchEbNZtxewx9zhNr_m-UWA3HK9C48i",
@@ -1741,24 +1741,24 @@
  },
  {
   "id": "agent-5505",
-  "name": "Dragomir | Soldado da Sabre",
-  "description": "A Sabre percebeu que inimigos morrem frequentemente quando perto de Dragomir, embora nunca tenha o visto disparar um tiro. De qualquer forma, todos preferem mantê-lo por perto... por ora.\\n\\n<i>... Eu espero.</i>",
+  "name": "Dragomir | Sabre Footsoldier",
+  "description": "Sabre has noticed that enemies seem to die quite frequently around Dragomir, even though they've never actually seen him shoot his gun. They're happy to keep him around... for now. \\n\\n<i>...I wait.</i>",
   "def_index": "5505",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op10-characters",
-    "name": "Agentes da Presa Quebrada",
+    "name": "Broken Fang Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op10_characters_png.png"
    }
   ],
   "team": {
    "id": "terrorists",
-   "name": "Terroristas"
+   "name": "Terrorist"
   },
   "market_hash_name": "Dragomir | Sabre Footsoldier",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fgn8oZTh8Sla4c24abZkIf6HAimWlb9w57hoGHrmlB9_4j-Gm439d3rCPAEiDZNwQrUD40K9m9GzNu-0-UWA3CLCQ0Kd",
@@ -1770,24 +1770,24 @@
  },
  {
   "id": "agent-5601",
-  "name": "Sargento do Esquadrão B | SAS",
-  "description": "Altamente confidenciais e incrivelmente letais, os sargentos das SAS passam anos aprimorando as suas habilidades de infiltração, resgate de reféns e missões de [REMOVIDO] inadequadas para o público em geral.\\n\\n<i>Quem desafia, vence.</i>",
+  "name": "B Squadron Officer | SAS",
+  "description": "Highly classified and incredibly lethal, Officers in the SAS spend years sharpening their skills through infiltration, hostage rescue, and —REDACTED— missions not fit for the public eye.\\n\\n<i>Who dares, wins.</i>",
   "def_index": "5601",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op9-characters",
-    "name": "Agentes da Teia Fragmentada",
+    "name": "Shattered Web Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op9_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "B Squadron Officer | SAS",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz_DFk-fO8YaVjNPbdXmTGk-hw4rlvGSzjx0tz6jnWwo2odHnDblIjCcZwFu4NsBexkYexMvSiuVIb0S_y2g",
@@ -1799,24 +1799,24 @@
  },
  {
   "id": "agent-5602",
-  "name": "Sargento do Esquadrão D | NZSAS",
-  "description": "Altamente confidenciais e incrivelmente letais, os sargentos das SAS passam anos aprimorando as suas habilidades de infiltração, resgate de reféns e missões de [REMOVIDO] inadequadas para o público em geral.\\n\\n<i>Quem desafia, vence.</i>",
+  "name": "D Squadron Officer | NZSAS",
+  "description": "Highly classified and incredibly lethal, Officers in the SAS spend years sharpening their skills through infiltration, hostage rescue, and —REDACTED— missions not fit for the public eye.\\n\\n<i>Who dares, wins.</i>",
   "def_index": "5602",
   "rarity": {
    "id": "rarity_rare_character",
-   "name": "Distinto",
+   "name": "Distinguished",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-op11-characters",
-    "name": "Agentes da Operação Correnteza",
+    "name": "Operation Riptide Agents",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
    }
   ],
   "team": {
    "id": "counter-terrorists",
-   "name": "Contraterroristas"
+   "name": "Counter-Terrorist"
   },
   "market_hash_name": "D Squadron Officer | NZSAS",
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIa-2lmxU-LR0dnuNm6E8Vl45Iv181z1fh7lk6nz_DFk-fO8YaVjNPfdWDDDxeokseNoTX-1k0R-smSDz4qqcHieZlUhA5QkRuIMu0KwwdDmYfSiuVJoTILK3g",

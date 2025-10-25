@@ -1,18 +1,18 @@
 [
  {
   "id": "keychain-1",
-  "name": "Chaveiro | Pequena Ava",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Ava",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "1",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -25,18 +25,18 @@
  },
  {
   "id": "keychain-2",
-  "name": "Chaveiro | Bananão",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | That's Bananas",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "2",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -49,18 +49,18 @@
  },
  {
   "id": "keychain-3",
-  "name": "Chaveiro | Gatinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Whiskers",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "3",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -73,18 +73,18 @@
  },
  {
   "id": "keychain-4",
-  "name": "Chaveiro | Gatinho Praieiro",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Sandy",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "4",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -97,18 +97,18 @@
  },
  {
   "id": "keychain-5",
-  "name": "Chaveiro | Galinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Chicken Lil'",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "5",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -121,18 +121,18 @@
  },
  {
   "id": "keychain-6",
-  "name": "Chaveiro | Guerrilheirinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Crass",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "6",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -145,18 +145,18 @@
  },
  {
   "id": "keychain-7",
-  "name": "Chaveiro | Uivo Ardente",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hot Howl",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "7",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -169,18 +169,18 @@
  },
  {
   "id": "keychain-8",
-  "name": "Chaveiro | Kevão",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Big Kev",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "8",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -193,18 +193,18 @@
  },
  {
   "id": "keychain-9",
-  "name": "Chaveiro | Monstrinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Monster",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "9",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -217,18 +217,18 @@
  },
  {
   "id": "keychain-10",
-  "name": "Chaveiro | Molho Apimentado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hot Sauce",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "10",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -241,18 +241,18 @@
  },
  {
   "id": "keychain-11",
-  "name": "Chaveiro | Dogão Diamantado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Diamond Dog",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "11",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -265,18 +265,18 @@
  },
  {
   "id": "keychain-12",
-  "name": "Chaveiro | Pitada de Sal",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Pinch O' Salt",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "12",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -289,18 +289,18 @@
  },
  {
   "id": "keychain-13",
-  "name": "Chaveiro | Dogão da Lanchonete",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Diner Dog",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "13",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -313,18 +313,18 @@
  },
  {
   "id": "keychain-14",
-  "name": "Chaveiro | Xicarazinha de Chá",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Teacup",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "14",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -337,18 +337,18 @@
  },
  {
   "id": "keychain-15",
-  "name": "Chaveiro | SASinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' SAS",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "15",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -361,18 +361,18 @@
  },
  {
   "id": "keychain-16",
-  "name": "Chaveiro | Salsichamuscado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hot Wurst",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "16",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -385,18 +385,18 @@
  },
  {
   "id": "keychain-17",
-  "name": "Chaveiro | Gu-Gu AK",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Baby's AK",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "17",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -409,18 +409,18 @@
  },
  {
   "id": "keychain-18",
-  "name": "Chaveiro | AK Injetada",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Die-cast AK",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "18",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -433,18 +433,18 @@
  },
  {
   "id": "keychain-19",
-  "name": "Chaveiro | AWP de Bolso",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Pocket AWP",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "19",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -457,18 +457,18 @@
  },
  {
   "id": "keychain-20",
-  "name": "Chaveiro | AWPzinha de Titânio",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Titeenium AWP",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "20",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -481,18 +481,18 @@
  },
  {
   "id": "keychain-21",
-  "name": "Chaveiro | Faquinha de Bebê (CT)",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Baby Karat CT",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "21",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -505,18 +505,18 @@
  },
  {
   "id": "keychain-22",
-  "name": "Chaveiro | Faca Talhada",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Whittle Knife",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "22",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -529,18 +529,18 @@
  },
  {
   "id": "keychain-23",
-  "name": "Chaveiro | Arte Pop",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | POP Art",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "23",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -553,18 +553,18 @@
  },
  {
   "id": "keychain-24",
-  "name": "Chaveiro | Arma d'Água",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Squirt",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "24",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -577,18 +577,18 @@
  },
  {
   "id": "keychain-25",
-  "name": "Chaveiro | MAC-10coteca",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Disco MAC",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "25",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -601,18 +601,18 @@
  },
  {
   "id": "keychain-26",
-  "name": "Chaveiro | Azulejo",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Backsplash",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "26",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -625,18 +625,18 @@
  },
  {
   "id": "keychain-27",
-  "name": "Chaveiro | Arminha Espoleta",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Cap Gun",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "27",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -649,18 +649,18 @@
  },
  {
   "id": "keychain-28",
-  "name": "Chaveiro | Mãos Quentes",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hot Hands",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "28",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -673,18 +673,18 @@
  },
  {
   "id": "keychain-29",
-  "name": "Chaveiro | Semipreciosa",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Semi-Precious",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "29",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -697,18 +697,18 @@
  },
  {
   "id": "keychain-30",
-  "name": "Chaveiro | Faquinha de Bebê (T)",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Baby Karat T",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "30",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -721,18 +721,18 @@
  },
  {
   "id": "keychain-31",
-  "name": "Chaveiro | Tiro de Elite",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Glamour Shot",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "31",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -745,18 +745,18 @@
  },
  {
   "id": "keychain-32",
-  "name": "Chaveiro | Tricô Silencioso",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Stitch-Loaded",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "32",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-weapon-01",
-    "name": "Coleção dos Chaveiros de Arminhas",
+    "name": "Small Arms Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
    }
   ],
@@ -769,18 +769,18 @@
  },
  {
   "id": "keychain-33",
-  "name": "Chaveiro | Pezinho Grande",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Squatch",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "33",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-missinglink",
-    "name": "Coleção dos Salsichaveiros",
+    "name": "Missing Link Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
    }
   ],
@@ -793,18 +793,18 @@
  },
  {
   "id": "keychain-38",
-  "name": "Chaveiro | Zicadinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Curse",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "38",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -817,18 +817,18 @@
  },
  {
   "id": "keychain-39",
-  "name": "Chaveiro | Serpentinha",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Serpent",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "39",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -841,18 +841,18 @@
  },
  {
   "id": "keychain-40",
-  "name": "Chaveiro | Basquetinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Baller",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "40",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -865,18 +865,18 @@
  },
  {
   "id": "keychain-41",
-  "name": "Chaveiro | Peso Morto",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Dead Weight",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "41",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -889,18 +889,18 @@
  },
  {
   "id": "keychain-42",
-  "name": "Chaveiro | Alfinetadinha",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Prick",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "42",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -913,18 +913,18 @@
  },
  {
   "id": "keychain-43",
-  "name": "Chaveiro | Burguinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Buns",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "43",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -937,18 +937,18 @@
  },
  {
   "id": "keychain-44",
-  "name": "Chaveiro | Fumacinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Smokey",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "44",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -961,18 +961,18 @@
  },
  {
   "id": "keychain-45",
-  "name": "Chaveiro | Ancestralzinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Eldritch",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "45",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -985,18 +985,18 @@
  },
  {
   "id": "keychain-46",
-  "name": "Chaveiro | Felizinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Happy",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "46",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1009,18 +1009,18 @@
  },
  {
   "id": "keychain-47",
-  "name": "Chaveiro | Magnânimo",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Magmatude",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "47",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1033,18 +1033,18 @@
  },
  {
   "id": "keychain-48",
-  "name": "Chaveiro | Risonhinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Cackle",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "48",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1057,18 +1057,18 @@
  },
  {
   "id": "keychain-49",
-  "name": "Chaveiro | Mercúrio",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Quick Silver",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "49",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1081,18 +1081,18 @@
  },
  {
   "id": "keychain-50",
-  "name": "Chaveiro | Lapisinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' No. 2",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "50",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1105,18 +1105,18 @@
  },
  {
   "id": "keychain-51",
-  "name": "Chaveiro | Pinhatita",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Piñatita",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "51",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1129,18 +1129,18 @@
  },
  {
   "id": "keychain-52",
-  "name": "Chaveiro | Picolino",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Pocket Pop",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "52",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1153,18 +1153,18 @@
  },
  {
   "id": "keychain-53",
-  "name": "Chaveiro | Heroizinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Hero",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "53",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1177,18 +1177,18 @@
  },
  {
   "id": "keychain-54",
-  "name": "Chaveiro | Presinha",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Tusk",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "54",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1201,18 +1201,18 @@
  },
  {
   "id": "keychain-55",
-  "name": "Chaveiro | Gosminha",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Goop",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "55",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1225,18 +1225,18 @@
  },
  {
   "id": "keychain-56",
-  "name": "Chaveiro | Hang Loose",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hang Loose",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "56",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1249,18 +1249,18 @@
  },
  {
   "id": "keychain-57",
-  "name": "Chaveiro | Vinhozinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Vino",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "57",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1273,18 +1273,18 @@
  },
  {
   "id": "keychain-58",
-  "name": "Chaveiro | Momentinhos",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Moments",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "58",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1297,18 +1297,18 @@
  },
  {
   "id": "keychain-59",
-  "name": "Chaveiro | Fantasminha",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Boo",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "59",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1321,18 +1321,18 @@
  },
  {
   "id": "keychain-60",
-  "name": "Chaveiro | Guchinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Chirp",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "60",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-ml-community-01",
-    "name": "Coleção dos Salsichaveiros da Comunidade",
+    "name": "Missing Link Community Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_ml_community_01_png.png"
    }
   ],
@@ -1345,18 +1345,18 @@
  },
  {
   "id": "keychain-61",
-  "name": "Chaveiro | Cerebrão",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Big Brain",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "61",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1369,18 +1369,18 @@
  },
  {
   "id": "keychain-62",
-  "name": "Chaveiro | Biomeca",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Biomech",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "62",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1393,18 +1393,18 @@
  },
  {
   "id": "keychain-63",
-  "name": "Chaveiro | Gato Salpicado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Splatter Cat",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "63",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1417,18 +1417,18 @@
  },
  {
   "id": "keychain-64",
-  "name": "Chaveiro | Ousado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Gritty",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "64",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1441,18 +1441,18 @@
  },
  {
   "id": "keychain-65",
-  "name": "Chaveiro | Bichano",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Fluffy",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "65",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1465,18 +1465,18 @@
  },
  {
   "id": "keychain-66",
-  "name": "Chaveiro | Entalhado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Whittle Guy",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "66",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1489,18 +1489,18 @@
  },
  {
   "id": "keychain-67",
-  "name": "Chaveiro | Zenzinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Zen",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "67",
   "rarity": {
    "id": "rarity_rare",
-   "name": "Alta Qualidade",
+   "name": "High Grade",
    "color": "#4b69ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1513,18 +1513,18 @@
  },
  {
   "id": "keychain-68",
-  "name": "Chaveiro | Plastificado",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Facelift",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "68",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1537,18 +1537,18 @@
  },
  {
   "id": "keychain-69",
-  "name": "Chaveiro | Mordedorzinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Chomper",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "69",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1561,18 +1561,18 @@
  },
  {
   "id": "keychain-70",
-  "name": "Chaveiro | Sangrentinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Bloody",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "70",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1585,18 +1585,18 @@
  },
  {
   "id": "keychain-71",
-  "name": "Chaveiro | Bolinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Dumplin'",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "71",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1609,18 +1609,18 @@
  },
  {
   "id": "keychain-72",
-  "name": "Chaveiro | Etiqueta Explosiva",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Bomb Tag",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "72",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1633,18 +1633,18 @@
  },
  {
   "id": "keychain-73",
-  "name": "Chaveiro | Bomba Purpurinada",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Glitter Bomb",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "73",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1657,18 +1657,18 @@
  },
  {
   "id": "keychain-74",
-  "name": "Chaveiro | Equinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Eco",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "74",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1681,18 +1681,18 @@
  },
  {
   "id": "keychain-75",
-  "name": "Chaveiro | Olhos Famintos",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Hungry Eyes",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "75",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1705,18 +1705,18 @@
  },
  {
   "id": "keychain-76",
-  "name": "Chaveiro | Globo Ocular",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Eye of Ball",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "76",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1729,18 +1729,18 @@
  },
  {
   "id": "keychain-77",
-  "name": "Chaveiro | Ietinho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Yeti",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "77",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1753,18 +1753,18 @@
  },
  {
   "id": "keychain-78",
-  "name": "Chaveiro | Bola 8 Mestre",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | 8 Ball IGL",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "78",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1777,18 +1777,18 @@
  },
  {
   "id": "keychain-79",
-  "name": "Chaveiro | Bomba de Luz",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Flash Bomb",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "79",
   "rarity": {
    "id": "rarity_legendary",
-   "name": "Exótico",
+   "name": "Exotic",
    "color": "#d32ce6"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1801,18 +1801,18 @@
  },
  {
   "id": "keychain-80",
-  "name": "Chaveiro | Ferninho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Lil' Ferno",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "80",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1825,18 +1825,18 @@
  },
  {
   "id": "keychain-81",
-  "name": "Chaveiro | Butaninho",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Butane Buddy",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "81",
   "rarity": {
    "id": "rarity_ancient",
-   "name": "Extraordinário",
+   "name": "Extraordinary",
    "color": "#eb4b4b"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
@@ -1849,18 +1849,18 @@
  },
  {
   "id": "keychain-82",
-  "name": "Chaveiro | Dr. Brian",
-  "description": "Este chaveiro pode ser preso a qualquer uma de suas armas. É possível remover um chaveiro usando um Removedor de Chaveiro, devolvendo-o ao seu inventário.",
+  "name": "Charm | Dr. Brian",
+  "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
   "def_index": "82",
   "rarity": {
    "id": "rarity_mythical",
-   "name": "Notável",
+   "name": "Remarkable",
    "color": "#8847ff"
   },
   "collections": [
    {
     "id": "collection-set-kc-drboom",
-    "name": "Coleção dos Chaveiros do Dr. Buum",
+    "name": "Dr Boom Charm Collection",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_drboom_png.png"
    }
   ],
