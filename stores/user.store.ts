@@ -49,7 +49,7 @@ export const useUserStore = defineStore("useUserStore", {
     },
     async fetchSkins(): Promise<DBSkin[] | undefined> {
       const api = useApi()
-      const res: any = await api.get("http://localhost:3004/skin/skin")
+      const res: any = await api.get("/skin/skin")
 
       this.dbSkins = res.data
       return res.data
